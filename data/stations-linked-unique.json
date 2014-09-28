@@ -1,0 +1,7759 @@
+[
+    {
+        "atcocode": "9400ZZLUHAW", 
+        "location": {
+            "easting": "515408", 
+            "northing": "189478"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Harrow & Wealdstone Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKEN", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKEN", 
+        "location": {
+            "easting": "516727", 
+            "northing": "188309"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Kenton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHAW", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUSKT", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSKT", 
+        "location": {
+            "easting": "517322", 
+            "northing": "187076"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "South Kenton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKEN", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUNWY", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNWY", 
+        "location": {
+            "easting": "517680", 
+            "northing": "186190"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "North Wembley", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSKT", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUWYC", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWYC", 
+        "location": {
+            "easting": "518220", 
+            "northing": "185024"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Wembley Central", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNWY", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUSGP", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSGP", 
+        "location": {
+            "easting": "519649", 
+            "northing": "184200"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Stonebridge Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWYC", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUHSN", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHSN", 
+        "location": {
+            "easting": "520937", 
+            "northing": "183375"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Harlesden", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSGP", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUWJN", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWJN", 
+        "location": {
+            "easting": "521883", 
+            "northing": "182957"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Willesden Junction", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHSN", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUKSL", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKSL", 
+        "location": {
+            "easting": "523221", 
+            "northing": "182782"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Kensal Green", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWJN", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUQPS", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUQPS", 
+        "location": {
+            "easting": "524582", 
+            "northing": "183222"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Queen's Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKPK", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUKSL", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKPK", 
+        "location": {
+            "easting": "525326", 
+            "northing": "183348"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Kilburn Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUQPS", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUMVL", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMVL", 
+        "location": {
+            "easting": "525960", 
+            "northing": "182745"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Maida Vale", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKPK", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUWKA", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWKA", 
+        "location": {
+            "easting": "526147", 
+            "northing": "182014"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Warwick Avenue", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMVL", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUPAC", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPAC", 
+        "location": {
+            "easting": "526694", 
+            "northing": "181287"
+        }, 
+        "lines": [
+            "bakerloo", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Paddington", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUERB", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUWKA", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUBWT", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBWT", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUERC", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUERC", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUERB", 
+        "location": {
+            "easting": "527051", 
+            "northing": "181761"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Edgware Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMYB", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUPAC", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMYB", 
+        "location": {
+            "easting": "527519", 
+            "northing": "181957"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Marylebone", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBST", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUERB", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBST", 
+        "location": {
+            "easting": "527923", 
+            "northing": "182086"
+        }, 
+        "lines": [
+            "bakerloo", 
+            "metropolitan", 
+            "hammersmith", 
+            "circle", 
+            "jubilee"
+        ], 
+        "name": "Baker Street", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLURGP", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUMYB", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUFYR", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUGPS", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUERC", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUERC", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUGPS", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUGPS", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUSJW", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUBND", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURGP", 
+        "location": {
+            "easting": "528704", 
+            "northing": "182093"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Regent's Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUOXC", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUBST", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUOXC", 
+        "location": {
+            "easting": "529013", 
+            "northing": "181281"
+        }, 
+        "lines": [
+            "bakerloo", 
+            "victoria", 
+            "central"
+        ], 
+        "name": "Oxford Circus", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPCC", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLURGP", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUGPK", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUWRR", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUBND", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUTCR", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPCC", 
+        "location": {
+            "easting": "529508", 
+            "northing": "180668"
+        }, 
+        "lines": [
+            "bakerloo", 
+            "piccadilly"
+        ], 
+        "name": "Piccadilly Circus", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCHX", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUOXC", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUGPK", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLULSQ", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCHX", 
+        "location": {
+            "easting": "530010", 
+            "northing": "180385"
+        }, 
+        "lines": [
+            "bakerloo", 
+            "northern"
+        ], 
+        "name": "Charing Cross", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPCC", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUEMB", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUEMB", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLULSQ", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEMB", 
+        "location": {
+            "easting": "530383", 
+            "northing": "180306"
+        }, 
+        "lines": [
+            "bakerloo", 
+            "northern", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Embankment", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWLO", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUCHX", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUWLO", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCHX", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUWSM", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWSM", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUTMP", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUTMP", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWLO", 
+        "location": {
+            "easting": "530923", 
+            "northing": "179919"
+        }, 
+        "lines": [
+            "bakerloo", 
+            "waterlooandcity", 
+            "jubilee", 
+            "northern"
+        ], 
+        "name": "Waterloo", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULBN", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUEMB", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUBNK", 
+                "line": "waterlooandcity"
+            }, 
+            {
+                "to": "9400ZZLUSWK", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUWSM", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUEMB", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUKNG", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULBN", 
+        "location": {
+            "easting": "531209", 
+            "northing": "179422"
+        }, 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Lambeth North", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWLO", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUEAC", 
+                "line": "bakerloo"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEAC", 
+        "location": {
+            "easting": "531917", 
+            "northing": "179145"
+        }, 
+        "lines": [
+            "bakerloo", 
+            "northern"
+        ], 
+        "name": "Elephant & Castle", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULBN", 
+                "line": "bakerloo"
+            }, 
+            {
+                "to": "9400ZZLUKNG", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUBOR", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUALD", 
+        "location": {
+            "easting": "533644", 
+            "northing": "181214"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "circle", 
+            "hammersmith"
+        ], 
+        "name": "Aldgate", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULVT", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLULVT", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUTWH", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULVT", 
+        "location": {
+            "easting": "533159", 
+            "northing": "181556"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "hammersmith", 
+            "circle", 
+            "central"
+        ], 
+        "name": "Liverpool Street", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMGT", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUMGT", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUMGT", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUALD", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUADE", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUALD", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUADE", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBNK", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUBLG", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMGT", 
+        "location": {
+            "easting": "532654", 
+            "northing": "181681"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "hammersmith", 
+            "circle", 
+            "northern"
+        ], 
+        "name": "Moorgate", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBBN", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUBBN", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUBBN", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLULVT", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLULVT", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLULVT", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBNK", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUODS", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBBN", 
+        "location": {
+            "easting": "532055", 
+            "northing": "181866"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Barbican", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUFCN", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUFCN", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUFCN", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUMGT", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUMGT", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUMGT", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUFCN", 
+        "location": {
+            "easting": "531585", 
+            "northing": "181867"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Farringdon", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBBN", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUBBN", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUBBN", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKSX", 
+        "location": {
+            "easting": "530229", 
+            "northing": "182889"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "hammersmith", 
+            "circle", 
+            "piccadilly", 
+            "victoria", 
+            "northern"
+        ], 
+        "name": "King's Cross St.Pancras", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUFCN", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUESQ", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUFCN", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUESQ", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUESQ", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUFCN", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLURSQ", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUCAR", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUEUS", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUHAI", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUAGL", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUEUS", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUESQ", 
+        "location": {
+            "easting": "529452", 
+            "northing": "182392"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Euston Square", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGPS", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUGPS", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUGPS", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGPS", 
+        "location": {
+            "easting": "528857", 
+            "northing": "182179"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Great Portland Street", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBST", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUBST", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUBST", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUESQ", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUESQ", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUESQ", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUFYR", 
+        "location": {
+            "easting": "526260", 
+            "northing": "184723"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "jubilee"
+        ], 
+        "name": "Finchley Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWYP", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUBST", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUWHP", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUSWC", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWIG", 
+        "location": {
+            "easting": "523389", 
+            "northing": "184882"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "jubilee"
+        ], 
+        "name": "Willesden Green", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKBN", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUDOH", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWYP", 
+        "location": {
+            "easting": "519325", 
+            "northing": "186367"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "jubilee"
+        ], 
+        "name": "Wembley Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPRD", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUFYR", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUKBY", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUNDN", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPRD", 
+        "location": {
+            "easting": "518218", 
+            "northing": "187282"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Preston Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWYP", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUNKP", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNKP", 
+        "location": {
+            "easting": "516679", 
+            "northing": "187955"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northwick Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPRD", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUHOH", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHOH", 
+        "location": {
+            "easting": "515370", 
+            "northing": "188007"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Harrow-on-the-Hill", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNHA", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUWHW", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUNKP", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWHW", 
+        "location": {
+            "easting": "514181", 
+            "northing": "188049"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "West Harrow", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLURYL", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUHOH", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURYL", 
+        "location": {
+            "easting": "512953", 
+            "northing": "187513"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Rayners Lane", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEAE", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUEAE", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUWHW", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUSHH", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEAE", 
+        "location": {
+            "easting": "511208", 
+            "northing": "187632"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastcote", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLURSM", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLURSM", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLURYL", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLURYL", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURSM", 
+        "location": {
+            "easting": "510095", 
+            "northing": "187242"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Ruislip Manor", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLURSP", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLURSP", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUEAE", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUEAE", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURSP", 
+        "location": {
+            "easting": "509496", 
+            "northing": "187015"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Ruislip", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUICK", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUICK", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLURSM", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLURSM", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUICK", 
+        "location": {
+            "easting": "508077", 
+            "northing": "185908"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Ickenham", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHGD", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUHGD", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLURSP", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLURSP", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHGD", 
+        "location": {
+            "easting": "507534", 
+            "northing": "184994"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Hillingdon", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUUXB", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUUXB", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUICK", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUICK", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUUXB", 
+        "location": {
+            "easting": "505616", 
+            "northing": "184156"
+        }, 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Uxbridge", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHGD", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUHGD", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNHA", 
+        "location": {
+            "easting": "513529", 
+            "northing": "188626"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "North Harrow", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPNR", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUHOH", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPNR", 
+        "location": {
+            "easting": "512229", 
+            "northing": "189451"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Pinner", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNWH", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUNHA", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNWH", 
+        "location": {
+            "easting": "510288", 
+            "northing": "190255"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northwood Hills", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNOW", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUPNR", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNOW", 
+        "location": {
+            "easting": "509229", 
+            "northing": "191412"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northwood", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMPK", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUMPK", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUNWH", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMPK", 
+        "location": {
+            "easting": "508640", 
+            "northing": "193503"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Moor Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNOW", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUCXY", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLURKW", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCXY", 
+        "location": {
+            "easting": "507964", 
+            "northing": "195428"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Croxley", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWAF", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUMPK", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLURKW", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWAF", 
+        "location": {
+            "easting": "509487", 
+            "northing": "196577"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Watford Underground Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCXY", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURKW", 
+        "location": {
+            "easting": "505725", 
+            "northing": "194589"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Rickmansworth", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCYD", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUMPK", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUCXY", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCYD", 
+        "location": {
+            "easting": "502604", 
+            "northing": "196040"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Chorleywood", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCAL", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLURKW", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCAL", 
+        "location": {
+            "easting": "499639", 
+            "northing": "197557"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Chalfont & Latimer", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUAMS", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUCSM", 
+                "line": "metropolitan"
+            }, 
+            {
+                "to": "9400ZZLUCYD", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCSM", 
+        "location": {
+            "easting": "496053", 
+            "northing": "201635"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Chesham", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCAL", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUAMS", 
+        "location": {
+            "easting": "496387", 
+            "northing": "198157"
+        }, 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Amersham", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCAL", 
+                "line": "metropolitan"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCKS", 
+        "location": {
+            "easting": "528148", 
+            "northing": "196368"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Cockfosters", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUOAK", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUOAK", 
+        "location": {
+            "easting": "529379", 
+            "northing": "195934"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Oakwood", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCKS", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUSGT", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSGT", 
+        "location": {
+            "easting": "529678", 
+            "northing": "194257"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Southgate", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUOAK", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUASG", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUASG", 
+        "location": {
+            "easting": "529353", 
+            "northing": "192480"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Arnos Grove", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSGT", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUBDS", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBDS", 
+        "location": {
+            "easting": "529974", 
+            "northing": "191452"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Bounds Green", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUASG", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUWOG", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWOG", 
+        "location": {
+            "easting": "530999", 
+            "northing": "190423"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Wood Green Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBDS", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUTPN", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTPN", 
+        "location": {
+            "easting": "531520", 
+            "northing": "189615"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Turnpike Lane", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWOG", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUMRH", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMRH", 
+        "location": {
+            "easting": "532023", 
+            "northing": "187427"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Manor House", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUTPN", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUFPK", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUFPK", 
+        "location": {
+            "easting": "531395", 
+            "northing": "186754"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "victoria"
+        ], 
+        "name": "Finsbury Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUASL", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUMRH", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHAI", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUSVS", 
+                "line": "victoria"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUASL", 
+        "location": {
+            "easting": "531262", 
+            "northing": "186117"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Arsenal", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUFPK", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHWY", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHWY", 
+        "location": {
+            "easting": "530901", 
+            "northing": "185465"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Holloway Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUASL", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUCAR", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCAR", 
+        "location": {
+            "easting": "530548", 
+            "northing": "184993"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Caledonian Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHWY", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURSQ", 
+        "location": {
+            "easting": "530220", 
+            "northing": "182165"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Russell Square", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHBN", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHBN", 
+        "location": {
+            "easting": "530526", 
+            "northing": "181519"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "central"
+        ], 
+        "name": "Holborn", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCGN", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLURSQ", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUTCR", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUCHL", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCGN", 
+        "location": {
+            "easting": "530249", 
+            "northing": "181013"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Covent Garden", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHBN", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLULSQ", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULSQ", 
+        "location": {
+            "easting": "530025", 
+            "northing": "180844"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "northern"
+        ], 
+        "name": "Leicester Square", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCGN", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUPCC", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUCHX", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUTCR", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGPK", 
+        "location": {
+            "easting": "529050", 
+            "northing": "180324"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "victoria", 
+            "jubilee"
+        ], 
+        "name": "Green Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPCC", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHPC", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUVIC", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUOXC", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUBND", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUWSM", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHPC", 
+        "location": {
+            "easting": "528297", 
+            "northing": "179825"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Hyde Park Corner", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGPK", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUKNB", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKNB", 
+        "location": {
+            "easting": "527730", 
+            "northing": "179663"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Knightsbridge", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHPC", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUSKS", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSKS", 
+        "location": {
+            "easting": "526911", 
+            "northing": "178812"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district", 
+            "circle"
+        ], 
+        "name": "South Kensington", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGTR", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUKNB", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUSSQ", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUGTR", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUSSQ", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUGTR", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGTR", 
+        "location": {
+            "easting": "526228", 
+            "northing": "178819"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Gloucester Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUECT", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUSKS", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUECT", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUSKS", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUSKS", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUHSK", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUECT", 
+        "location": {
+            "easting": "525499", 
+            "northing": "178526"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Earl's Court", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBSC", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUGTR", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUWKN", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWBN", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUKOY", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUGTR", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUHSK", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUHSK", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBSC", 
+        "location": {
+            "easting": "524101", 
+            "northing": "178341"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district"
+        ], 
+        "name": "Barons Court", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHSD", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUECT", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHSD", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWKN", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHSD", 
+        "location": {
+            "easting": "523395", 
+            "northing": "178548"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district"
+        ], 
+        "name": "Hammersmith", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUTNG", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUBSC", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLURVP", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBSC", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURVP", 
+        "location": {
+            "easting": "522566", 
+            "northing": "178719"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district"
+        ], 
+        "name": "Ravenscourt Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSFB", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUHSD", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHSD", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSFB", 
+        "location": {
+            "easting": "521876", 
+            "northing": "178804"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district"
+        ], 
+        "name": "Stamford Brook", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUTNG", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLURVP", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLURVP", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTNG", 
+        "location": {
+            "easting": "521265", 
+            "northing": "178813"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district"
+        ], 
+        "name": "Turnham Green", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUACT", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUCWP", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUGBY", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUHSD", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUSFB", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUSFB", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCWP", 
+        "location": {
+            "easting": "520329", 
+            "northing": "178728"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district"
+        ], 
+        "name": "Chiswick Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUACT", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUTNG", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUTNG", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUACT", 
+        "location": {
+            "easting": "519484", 
+            "northing": "179611"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district"
+        ], 
+        "name": "Acton Town", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSEA", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUECM", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUTNG", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUCWP", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUECM", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUCWP", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUECM", 
+        "location": {
+            "easting": "518891", 
+            "northing": "180390"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district"
+        ], 
+        "name": "Ealing Common", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNEN", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUEBY", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUACT", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUACT", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEBY", 
+        "location": {
+            "easting": "517984", 
+            "northing": "180954"
+        }, 
+        "lines": [
+            "piccadilly", 
+            "district", 
+            "central"
+        ], 
+        "name": "Ealing Broadway", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUECM", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWTA", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNEN", 
+        "location": {
+            "easting": "518852", 
+            "northing": "181260"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "North Ealing", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPKR", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUECM", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPKR", 
+        "location": {
+            "easting": "519136", 
+            "northing": "182241"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Park Royal", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUALP", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUNEN", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUALP", 
+        "location": {
+            "easting": "518010", 
+            "northing": "183789"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Alperton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSUT", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUPKR", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSUT", 
+        "location": {
+            "easting": "516874", 
+            "northing": "184889"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Sudbury Town", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSUH", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUALP", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSUH", 
+        "location": {
+            "easting": "515398", 
+            "northing": "185546"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Sudbury Hill", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSHH", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUSUT", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSHH", 
+        "location": {
+            "easting": "514307", 
+            "northing": "186354"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "South Harrow", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLURYL", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUSUH", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSEA", 
+        "location": {
+            "easting": "517582", 
+            "northing": "179375"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "South Ealing", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUACT", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUNFD", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNFD", 
+        "location": {
+            "easting": "517169", 
+            "northing": "179207"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Northfields", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBOS", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUSEA", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBOS", 
+        "location": {
+            "easting": "516394", 
+            "northing": "178736"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Boston Manor", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUOSY", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUNFD", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUOSY", 
+        "location": {
+            "easting": "514545", 
+            "northing": "177120"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Osterley", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHWE", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUBOS", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHWE", 
+        "location": {
+            "easting": "514272", 
+            "northing": "176240"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Hounslow East", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHWC", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUOSY", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHWC", 
+        "location": {
+            "easting": "513574", 
+            "northing": "175974"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Hounslow Central", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHWE", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHWT", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHWT", 
+        "location": {
+            "easting": "512212", 
+            "northing": "176176"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Hounslow West", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHWC", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHNX", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHNX", 
+        "location": {
+            "easting": "509599", 
+            "northing": "175336"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Hatton Cross", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHWT", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHR4", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHRC", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHR4", 
+        "location": {
+            "easting": "508072", 
+            "northing": "174411"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Heathrow Terminal 4", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHRC", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHRC", 
+        "location": {
+            "easting": "507591", 
+            "northing": "175843"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Heathrow Terminals 1-3", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHNX", 
+                "line": "piccadilly"
+            }, 
+            {
+                "to": "9400ZZLUHR5", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHR5", 
+        "location": {
+            "easting": "505238", 
+            "northing": "175917"
+        }, 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Heathrow Terminal 5", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHRC", 
+                "line": "piccadilly"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWWL", 
+        "location": {
+            "easting": "537316", 
+            "northing": "188991"
+        }, 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Walthamstow Central", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBLR", 
+                "line": "victoria"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBLR", 
+        "location": {
+            "easting": "535799", 
+            "northing": "189373"
+        }, 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Blackhorse Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWWL", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUTMH", 
+                "line": "victoria"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTMH", 
+        "location": {
+            "easting": "534391", 
+            "northing": "189498"
+        }, 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Tottenham Hale", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBLR", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUSVS", 
+                "line": "victoria"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSVS", 
+        "location": {
+            "easting": "533545", 
+            "northing": "188815"
+        }, 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Seven Sisters", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUFPK", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUTMH", 
+                "line": "victoria"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHAI", 
+        "location": {
+            "easting": "531619", 
+            "northing": "184803"
+        }, 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Highbury & Islington", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUFPK", 
+                "line": "victoria"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEUS", 
+        "location": {
+            "easting": "529673", 
+            "northing": "182675"
+        }, 
+        "lines": [
+            "victoria", 
+            "northern"
+        ], 
+        "name": "Euston", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWRR", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUWRR", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCTN", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUMTC", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWRR", 
+        "location": {
+            "easting": "529224", 
+            "northing": "182208"
+        }, 
+        "lines": [
+            "victoria", 
+            "northern"
+        ], 
+        "name": "Warren Street", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUOXC", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUEUS", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUGDG", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUEUS", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUVIC", 
+        "location": {
+            "easting": "528967", 
+            "northing": "179201"
+        }, 
+        "lines": [
+            "victoria", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Victoria", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPCO", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUGPK", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUSJP", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUSSQ", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUSJP", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUSSQ", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPCO", 
+        "location": {
+            "easting": "529647", 
+            "northing": "178347"
+        }, 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Pimlico", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUVIC", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUVXL", 
+                "line": "victoria"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUVXL", 
+        "location": {
+            "easting": "530317", 
+            "northing": "178030"
+        }, 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Vauxhall", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPCO", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUSKW", 
+                "line": "victoria"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSKW", 
+        "location": {
+            "easting": "530474", 
+            "northing": "176439"
+        }, 
+        "lines": [
+            "victoria", 
+            "northern"
+        ], 
+        "name": "Stockwell", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBXN", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUVXL", 
+                "line": "victoria"
+            }, 
+            {
+                "to": "9400ZZLUCPN", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUOVL", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBXN", 
+        "location": {
+            "easting": "531115", 
+            "northing": "175410"
+        }, 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Brixton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSKW", 
+                "line": "victoria"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBNK", 
+        "location": {
+            "easting": "532630", 
+            "northing": "181084"
+        }, 
+        "lines": [
+            "waterlooandcity", 
+            "central", 
+            "northern"
+        ], 
+        "name": "Bank", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWLO", 
+                "line": "waterlooandcity"
+            }, 
+            {
+                "to": "9400ZZLUSPU", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLULVT", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLULNB", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUMGT", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBKG", 
+        "location": {
+            "easting": "544323", 
+            "northing": "184426"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Barking", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEHM", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUUPY", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUEHM", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUEHM", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEHM", 
+        "location": {
+            "easting": "542426", 
+            "northing": "184269"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle"
+        ], 
+        "name": "East Ham", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUUPK", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUUPK", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUUPK", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBKG", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUBKG", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBKG", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUUPK", 
+        "location": {
+            "easting": "541174", 
+            "northing": "183765"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Upton Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPLW", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUPLW", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUPLW", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUEHM", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUEHM", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUEHM", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPLW", 
+        "location": {
+            "easting": "539994", 
+            "northing": "183293"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Plaistow", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWHM", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUWHM", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWHM", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUUPK", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUUPK", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUUPK", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWHM", 
+        "location": {
+            "easting": "539210", 
+            "northing": "182979"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle", 
+            "jubilee"
+        ], 
+        "name": "West Ham", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPLW", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUBBB", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUPLW", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBBB", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUPLW", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBBB", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUSTD", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUCGT", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBBB", 
+        "location": {
+            "easting": "538019", 
+            "northing": "182506"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Bromley-By-Bow", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBWR", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUBWR", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBWR", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUWHM", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUWHM", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWHM", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBWR", 
+        "location": {
+            "easting": "537108", 
+            "northing": "182740"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Bow Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMED", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUMED", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUMED", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBBB", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUBBB", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBBB", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMED", 
+        "location": {
+            "easting": "536528", 
+            "northing": "182550"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle", 
+            "central"
+        ], 
+        "name": "Mile End", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSGN", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUSGN", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUSGN", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBWR", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUBWR", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBWR", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBLG", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUSTD", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSGN", 
+        "location": {
+            "easting": "535607", 
+            "northing": "182125"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Stepney Green", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWPL", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUWPL", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWPL", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUMED", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUMED", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUMED", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWPL", 
+        "location": {
+            "easting": "534643", 
+            "northing": "181837"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Whitechapel", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUADE", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUADE", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUADE", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUSGN", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUSGN", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUSGN", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUADE", 
+        "location": {
+            "easting": "533928", 
+            "northing": "181380"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Aldgate East", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULVT", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUTWH", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUTWH", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUWPL", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUWPL", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWPL", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUERC", 
+        "location": {
+            "easting": "527232", 
+            "northing": "181700"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle", 
+            "district"
+        ], 
+        "name": "Edgware Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPAH", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUPAH", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBST", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUBST", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUPAC", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUPAC", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUERC", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPAH", 
+        "location": {
+            "easting": "526474", 
+            "northing": "181492"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Paddington (H&C Line)", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUERC", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLURYO", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLURYO", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUERC", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURYO", 
+        "location": {
+            "easting": "525803", 
+            "northing": "181573"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Royal Oak", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPAH", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUWSP", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUWSP", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUPAH", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWSP", 
+        "location": {
+            "easting": "524874", 
+            "northing": "181761"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Westbourne Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULAD", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLULAD", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLURYO", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLURYO", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULAD", 
+        "location": {
+            "easting": "524251", 
+            "northing": "181346"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Ladbroke Grove", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULRD", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLULRD", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUWSP", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUWSP", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULRD", 
+        "location": {
+            "easting": "523764", 
+            "northing": "180899"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Latimer Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWLA", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUWLA", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLULAD", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLULAD", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWLA", 
+        "location": {
+            "easting": "523329", 
+            "northing": "180464"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Wood Lane", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSBM", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUSBM", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLULRD", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLULRD", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSBM", 
+        "location": {
+            "easting": "523195", 
+            "northing": "180053"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Shepherd's Bush Market", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGHK", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUGHK", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUWLA", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUWLA", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGHK", 
+        "location": {
+            "easting": "523179", 
+            "northing": "179582"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Goldhawk Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHSC", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUHSC", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUSBM", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUSBM", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHSC", 
+        "location": {
+            "easting": "523311", 
+            "northing": "178701"
+        }, 
+        "lines": [
+            "hammersmith", 
+            "circle"
+        ], 
+        "name": "Hammersmith (Ham & City Line)", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGHK", 
+                "line": "hammersmith"
+            }, 
+            {
+                "to": "9400ZZLUGHK", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSTD", 
+        "location": {
+            "easting": "538577", 
+            "northing": "184339"
+        }, 
+        "lines": [
+            "jubilee", 
+            "central"
+        ], 
+        "name": "Stratford", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWHM", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUMED", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLULYN", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCGT", 
+        "location": {
+            "easting": "539406", 
+            "northing": "181414"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Canning Town", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWHM", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUNGW", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNGW", 
+        "location": {
+            "easting": "539286", 
+            "northing": "179849"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "North Greenwich", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCYF", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUCGT", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCYF", 
+        "location": {
+            "easting": "537613", 
+            "northing": "180163"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Canary Wharf", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNGW", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUNGW", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUCWR", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCWR", 
+        "location": {
+            "easting": "535456", 
+            "northing": "179507"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Canada Water", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCYF", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUBMY", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBMY", 
+        "location": {
+            "easting": "534479", 
+            "northing": "179437"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Bermondsey", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCWR", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLULNB", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULNB", 
+        "location": {
+            "easting": "532805", 
+            "northing": "180278"
+        }, 
+        "lines": [
+            "jubilee", 
+            "northern"
+        ], 
+        "name": "London Bridge Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBMY", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUSWK", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUBNK", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUBOR", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSWK", 
+        "location": {
+            "easting": "531625", 
+            "northing": "180073"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southwark", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULNB", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUWLO", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWSM", 
+        "location": {
+            "easting": "530246", 
+            "northing": "179674"
+        }, 
+        "lines": [
+            "jubilee", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Westminster", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGPK", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUWLO", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUSJP", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUSJP", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUEMB", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUEMB", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBND", 
+        "location": {
+            "easting": "528526", 
+            "northing": "181158"
+        }, 
+        "lines": [
+            "jubilee", 
+            "central"
+        ], 
+        "name": "Bond Street", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBST", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUGPK", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUOXC", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUMBA", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSJW", 
+        "location": {
+            "easting": "526687", 
+            "northing": "183342"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "St.John's Wood", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBST", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUSWC", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSWC", 
+        "location": {
+            "easting": "526636", 
+            "northing": "184322"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Swiss Cottage", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSJW", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUFYR", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWHP", 
+        "location": {
+            "easting": "525571", 
+            "northing": "184653"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "West Hampstead", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUFYR", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUKBN", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKBN", 
+        "location": {
+            "easting": "524599", 
+            "northing": "184649"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Kilburn", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWHP", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUWIG", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUDOH", 
+        "location": {
+            "easting": "522216", 
+            "northing": "185152"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Dollis Hill", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWIG", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUNDN", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNDN", 
+        "location": {
+            "easting": "521403", 
+            "northing": "185383"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Neasden", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUDOH", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUWYP", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKBY", 
+        "location": {
+            "easting": "519381", 
+            "northing": "188697"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Kingsbury", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUQBY", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUWYP", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUQBY", 
+        "location": {
+            "easting": "518828", 
+            "northing": "189756"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Queensbury", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCPK", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUKBY", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCPK", 
+        "location": {
+            "easting": "518176", 
+            "northing": "191288"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Canons Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSTM", 
+                "line": "jubilee"
+            }, 
+            {
+                "to": "9400ZZLUQBY", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSTM", 
+        "location": {
+            "easting": "517600", 
+            "northing": "192513"
+        }, 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Stanmore", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCPK", 
+                "line": "jubilee"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEPG", 
+        "location": {
+            "easting": "546194", 
+            "northing": "201532"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Epping", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUTHB", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTHB", 
+        "location": {
+            "easting": "545563", 
+            "northing": "199056"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Theydon Bois", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUDBN", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUEPG", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUDBN", 
+        "location": {
+            "easting": "544292", 
+            "northing": "196092"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Debden", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULGN", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUTHB", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULGN", 
+        "location": {
+            "easting": "542333", 
+            "northing": "195598"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Loughton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBKH", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUDBN", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBKH", 
+        "location": {
+            "easting": "541785", 
+            "northing": "193951"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Buckhurst Hill", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWOF", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLULGN", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHLT", 
+        "location": {
+            "easting": "545067", 
+            "northing": "191491"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Hainault", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGGH", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUFLP", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGGH", 
+        "location": {
+            "easting": "544965", 
+            "northing": "192562"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Grange Hill", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCWL", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUHLT", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCWL", 
+        "location": {
+            "easting": "543777", 
+            "northing": "193015"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Chigwell", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLURVY", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUGGH", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURVY", 
+        "location": {
+            "easting": "541610", 
+            "northing": "192914"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Roding Valley", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWOF", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUCWL", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWOF", 
+        "location": {
+            "easting": "540932", 
+            "northing": "191769"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Woodford", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSWF", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUBKH", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLURVY", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSWF", 
+        "location": {
+            "easting": "540534", 
+            "northing": "190040"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "South Woodford", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSNB", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUWOF", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSNB", 
+        "location": {
+            "easting": "540158", 
+            "northing": "188801"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Snaresbrook", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULYS", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUSWF", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUFLP", 
+        "location": {
+            "easting": "544945", 
+            "northing": "190638"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Fairlop", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBKE", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUHLT", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBKE", 
+        "location": {
+            "easting": "544801", 
+            "northing": "189499"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Barkingside", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNBP", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUFLP", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNBP", 
+        "location": {
+            "easting": "544930", 
+            "northing": "188370"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Newbury Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGTH", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUBKE", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGTH", 
+        "location": {
+            "easting": "543192", 
+            "northing": "188430"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Gants Hill", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNBP", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLURBG", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURBG", 
+        "location": {
+            "easting": "541907", 
+            "northing": "188353"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Redbridge", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGTH", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUWSD", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWSD", 
+        "location": {
+            "easting": "540704", 
+            "northing": "188262"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Wanstead", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLURBG", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLULYS", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULYS", 
+        "location": {
+            "easting": "539290", 
+            "northing": "187402"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Leytonstone", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULYN", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUSNB", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUWSD", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULYN", 
+        "location": {
+            "easting": "538402", 
+            "northing": "186119"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Leyton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSTD", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLULYS", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBLG", 
+        "location": {
+            "easting": "535051", 
+            "northing": "182699"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Bethnal Green", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMED", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLULVT", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSPU", 
+        "location": {
+            "easting": "532047", 
+            "northing": "181299"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "St. Paul's", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCHL", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUBNK", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCHL", 
+        "location": {
+            "easting": "531091", 
+            "northing": "181619"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Chancery Lane", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHBN", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUSPU", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTCR", 
+        "location": {
+            "easting": "529744", 
+            "northing": "181375"
+        }, 
+        "lines": [
+            "central", 
+            "northern"
+        ], 
+        "name": "Tottenham Court Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHBN", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUOXC", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLULSQ", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUGDG", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMBA", 
+        "location": {
+            "easting": "527944", 
+            "northing": "181017"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Marble Arch", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBND", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLULGT", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLULGT", 
+        "location": {
+            "easting": "526763", 
+            "northing": "180785"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Lancaster Gate", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMBA", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUQWY", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUQWY", 
+        "location": {
+            "easting": "525898", 
+            "northing": "180601"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Queensway", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLULGT", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUNHG", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNHG", 
+        "location": {
+            "easting": "525224", 
+            "northing": "180436"
+        }, 
+        "lines": [
+            "central", 
+            "district", 
+            "circle"
+        ], 
+        "name": "Notting Hill Gate", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHPK", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUQWY", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUHSK", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUHSK", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBWT", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBWT", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHPK", 
+        "location": {
+            "easting": "524620", 
+            "northing": "180216"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Holland Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNHG", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUSBC", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSBC", 
+        "location": {
+            "easting": "523770", 
+            "northing": "179909"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Shepherd's Bush (Central Line)", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHPK", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUWCY", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWCY", 
+        "location": {
+            "easting": "523331", 
+            "northing": "180726"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "White City", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEAN", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUSBC", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEAN", 
+        "location": {
+            "easting": "521669", 
+            "northing": "181257"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "East Acton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNAN", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUWCY", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNAN", 
+        "location": {
+            "easting": "520836", 
+            "northing": "181950"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "North Acton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHGR", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUWTA", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUEAN", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWTA", 
+        "location": {
+            "easting": "519391", 
+            "northing": "181315"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "West Acton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEBY", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUNAN", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHGR", 
+        "location": {
+            "easting": "518479", 
+            "northing": "182649"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Hanger Lane", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNAN", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUPVL", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPVL", 
+        "location": {
+            "easting": "516423", 
+            "northing": "183306"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Perivale", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHGR", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUGFD", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGFD", 
+        "location": {
+            "easting": "514834", 
+            "northing": "183891"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Greenford", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNHT", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUPVL", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUNHT", 
+        "location": {
+            "easting": "513180", 
+            "northing": "184545"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Northolt", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGFD", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUSRP", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSRP", 
+        "location": {
+            "easting": "511062", 
+            "northing": "185444"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "South Ruislip", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNHT", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLURSG", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURSG", 
+        "location": {
+            "easting": "510258", 
+            "northing": "185847"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "Ruislip Gardens", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSRP", 
+                "line": "central"
+            }, 
+            {
+                "to": "9400ZZLUWRP", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWRP", 
+        "location": {
+            "easting": "508401", 
+            "northing": "186783"
+        }, 
+        "lines": [
+            "central"
+        ], 
+        "name": "West Ruislip", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLURSG", 
+                "line": "central"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHBT", 
+        "location": {
+            "easting": "525029", 
+            "northing": "196190"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "High Barnet", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUTAW", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTAW", 
+        "location": {
+            "easting": "526119", 
+            "northing": "193980"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Totteridge & Whetstone", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWOP", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUHBT", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWOP", 
+        "location": {
+            "easting": "525711", 
+            "northing": "192547"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Woodside Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWFN", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUTAW", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWFN", 
+        "location": {
+            "easting": "525538", 
+            "northing": "191612"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "West Finchley", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUFYC", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUWOP", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMHL", 
+        "location": {
+            "easting": "524061", 
+            "northing": "191446"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Mill Hill East", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUFYC", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUFYC", 
+        "location": {
+            "easting": "525270", 
+            "northing": "190669"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Finchley Central", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEFY", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUWFN", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUMHL", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEFY", 
+        "location": {
+            "easting": "527223", 
+            "northing": "189199"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "East Finchley", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHGT", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUFYC", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHGT", 
+        "location": {
+            "easting": "528581", 
+            "northing": "188172"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Highgate", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEFY", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUACY", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUACY", 
+        "location": {
+            "easting": "529374", 
+            "northing": "186731"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Archway", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHGT", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUTFP", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTFP", 
+        "location": {
+            "easting": "529152", 
+            "northing": "185850"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Tufnell Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKSH", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUACY", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKSH", 
+        "location": {
+            "easting": "528999", 
+            "northing": "185129"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Kentish Town", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCTN", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUTFP", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCTN", 
+        "location": {
+            "easting": "528921", 
+            "northing": "183906"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Camden Town", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEUS", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUMTC", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCFM", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUKSH", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEGW", 
+        "location": {
+            "easting": "519534", 
+            "northing": "191933"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Edgware", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBTK", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBTK", 
+        "location": {
+            "easting": "520316", 
+            "northing": "190762"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Burnt Oak", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEGW", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCND", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCND", 
+        "location": {
+            "easting": "521308", 
+            "northing": "189968"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Colindale", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBTK", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUHCL", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHCL", 
+        "location": {
+            "easting": "522978", 
+            "northing": "188645"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Hendon Central", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCND", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUBTX", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBTX", 
+        "location": {
+            "easting": "523887", 
+            "northing": "187935"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Brent Cross Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHCL", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUGGN", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGGN", 
+        "location": {
+            "easting": "525252", 
+            "northing": "187497"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Golders Green", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBTX", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUHTD", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHTD", 
+        "location": {
+            "easting": "526378", 
+            "northing": "185745"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Hampstead Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUGGN", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUBZP", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBZP", 
+        "location": {
+            "easting": "527344", 
+            "northing": "185078"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Belsize Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHTD", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCFM", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCFM", 
+        "location": {
+            "easting": "528140", 
+            "northing": "184429"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Chalk Farm", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBZP", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCTN", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMTC", 
+        "location": {
+            "easting": "529203", 
+            "northing": "183360"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Mornington Crescent", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCTN", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCTN", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUEUS", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGDG", 
+        "location": {
+            "easting": "529527", 
+            "northing": "181842"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Goodge Street", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWRR", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUTCR", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUAGL", 
+        "location": {
+            "easting": "531475", 
+            "northing": "183140"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Angel", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKSX", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUODS", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUODS", 
+        "location": {
+            "easting": "532771", 
+            "northing": "182407"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Old Street", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUAGL", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUMGT", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBOR", 
+        "location": {
+            "easting": "532419", 
+            "northing": "179721"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Borough Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEAC", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLULNB", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKNG", 
+        "location": {
+            "easting": "531614", 
+            "northing": "178306"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Kennington Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUOVL", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUEAC", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUWLO", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUOVL", 
+        "location": {
+            "easting": "531171", 
+            "northing": "177559"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Oval", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSKW", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUKNG", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCPN", 
+        "location": {
+            "easting": "530040", 
+            "northing": "175742"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Clapham North", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSKW", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCPC", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCPC", 
+        "location": {
+            "easting": "529529", 
+            "northing": "175347"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Clapham Common", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCPN", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCPS", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCPS", 
+        "location": {
+            "easting": "528849", 
+            "northing": "174327"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Clapham South", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCPC", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUBLM", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBLM", 
+        "location": {
+            "easting": "528509", 
+            "northing": "173285"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Balham", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCPS", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUTBC", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTBC", 
+        "location": {
+            "easting": "528063", 
+            "northing": "172368"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Tooting Bec Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBLM", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUTBY", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTBY", 
+        "location": {
+            "easting": "527449", 
+            "northing": "171460"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Tooting Broadway", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUTBC", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUCSD", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCSD", 
+        "location": {
+            "easting": "526820", 
+            "northing": "170426"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Colliers Wood", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUTBY", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUSWN", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSWN", 
+        "location": {
+            "easting": "525767", 
+            "northing": "170019"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "South Wimbledon", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCSD", 
+                "line": "northern"
+            }, 
+            {
+                "to": "9400ZZLUMDN", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMDN", 
+        "location": {
+            "easting": "525665", 
+            "northing": "168587"
+        }, 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Morden", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSWN", 
+                "line": "northern"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUUPM", 
+        "location": {
+            "easting": "556165", 
+            "northing": "186871"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Upminster", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUUPB", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUUPB", 
+        "location": {
+            "easting": "555023", 
+            "northing": "186742"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Upminster Bridge", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUUPM", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUHCH", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHCH", 
+        "location": {
+            "easting": "553901", 
+            "northing": "186225"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Hornchurch", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEPK", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUUPB", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEPK", 
+        "location": {
+            "easting": "552467", 
+            "northing": "185705"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Elm Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUHCH", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUDGE", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUDGE", 
+        "location": {
+            "easting": "550260", 
+            "northing": "185028"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Dagenham East", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUDGY", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUEPK", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUDGY", 
+        "location": {
+            "easting": "548928", 
+            "northing": "184708"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Dagenham Heathway", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUDGE", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBEC", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBEC", 
+        "location": {
+            "easting": "547611", 
+            "northing": "184529"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Becontree", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUUPY", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUDGY", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUUPY", 
+        "location": {
+            "easting": "545740", 
+            "northing": "184253"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Upney", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBEC", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBKG", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTWH", 
+        "location": {
+            "easting": "533540", 
+            "northing": "180719"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "Tower Hill", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMMT", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUMMT", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUADE", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUADE", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUALD", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMMT", 
+        "location": {
+            "easting": "532913", 
+            "northing": "180825"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "Monument", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUCST", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUCST", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUTWH", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUTWH", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUCST", 
+        "location": {
+            "easting": "532617", 
+            "northing": "180886"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "Cannon Street", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMSH", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUMSH", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUMMT", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUMMT", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUMSH", 
+        "location": {
+            "easting": "532289", 
+            "northing": "180916"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "Mansion House", 
+        "outboundLinks": [
+            {
+                "to": "9100BLF", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBKF", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUCST", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUCST", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9100BLF", 
+        "location": {
+            "easting": "531721", 
+            "northing": "180894"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Blackfriars", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUTMP", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUTMP", 
+        "location": {
+            "easting": "530930", 
+            "northing": "180792"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "Temple", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEMB", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUEMB", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUBKF", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUBKF", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSJP", 
+        "location": {
+            "easting": "529585", 
+            "northing": "179472"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "St James's Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUVIC", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUVIC", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUWSM", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWSM", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSSQ", 
+        "location": {
+            "easting": "528111", 
+            "northing": "178652"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "Sloane Square", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSKS", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUSKS", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUVIC", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUVIC", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBWT", 
+        "location": {
+            "easting": "525823", 
+            "northing": "180824"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "Bayswater", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUNHG", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUNHG", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUPAC", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUPAC", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUHSK", 
+        "location": {
+            "easting": "525581", 
+            "northing": "179486"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "High Street Kensington", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUECT", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUGTR", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUECT", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUNHG", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUNHG", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKOY", 
+        "location": {
+            "easting": "524329", 
+            "northing": "179175"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Kensington (Olympia)", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUECT", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWBN", 
+        "location": {
+            "easting": "525428", 
+            "northing": "177985"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "West Brompton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUFBY", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUECT", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUFBY", 
+        "location": {
+            "easting": "525438", 
+            "northing": "177262"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Fulham Broadway", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPSG", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWBN", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPSG", 
+        "location": {
+            "easting": "525000", 
+            "northing": "176664"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Parsons Green", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUPYB", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUFBY", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUPYB", 
+        "location": {
+            "easting": "524506", 
+            "northing": "175887"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Putney Bridge", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEPY", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUPSG", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUEPY", 
+        "location": {
+            "easting": "524369", 
+            "northing": "174816"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "East Putney", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSFS", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUPYB", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUSFS", 
+        "location": {
+            "easting": "524715", 
+            "northing": "173348"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Southfields", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUEPY", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWIP", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWIP", 
+        "location": {
+            "easting": "525266", 
+            "northing": "172129"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Wimbledon Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUSFS", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUWIM", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWIM", 
+        "location": {
+            "easting": "524793", 
+            "northing": "170673"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Wimbledon", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUWIP", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUWKN", 
+        "location": {
+            "easting": "524641", 
+            "northing": "178403"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "West Kensington", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUBSC", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUECT", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUGBY", 
+        "location": {
+            "easting": "519819", 
+            "northing": "178356"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Gunnersbury", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUTNG", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUKWG", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUKWG", 
+        "location": {
+            "easting": "519212", 
+            "northing": "176764"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Kew Gardens", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLURMD", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUGBY", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLURMD", 
+        "location": {
+            "easting": "518095", 
+            "northing": "175176"
+        }, 
+        "lines": [
+            "district"
+        ], 
+        "name": "Richmond (London)", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUKWG", 
+                "line": "district"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZLUBKF", 
+        "location": {
+            "easting": "531732", 
+            "northing": "180900"
+        }, 
+        "lines": [
+            "district", 
+            "circle"
+        ], 
+        "name": "Blackfriars", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZLUMSH", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUMSH", 
+                "line": "district"
+            }, 
+            {
+                "to": "9400ZZLUMSH", 
+                "line": "circle"
+            }, 
+            {
+                "to": "9400ZZLUTMP", 
+                "line": "circle"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLLEW", 
+        "location": {
+            "easting": "538123", 
+            "northing": "175861"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Lewisham", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLELV", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLELV", 
+        "location": {
+            "easting": "537856", 
+            "northing": "176282"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Elverson Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLLEW", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLDEP", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLDEP", 
+        "location": {
+            "easting": "537437", 
+            "northing": "176874"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Deptford Bridge", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLELV", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLGRE", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLGRE", 
+        "location": {
+            "easting": "537890", 
+            "northing": "177317"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Greenwich Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLDEP", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLCUT", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLCUT", 
+        "location": {
+            "easting": "538235", 
+            "northing": "177728"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Cutty Sark", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLGRE", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLISL", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLISL", 
+        "location": {
+            "easting": "538250", 
+            "northing": "178375"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Island Gardens", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLCUT", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLMUD", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLMUD", 
+        "location": {
+            "easting": "537932", 
+            "northing": "178702"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Mudchute", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLISL", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLCLA", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLCLA", 
+        "location": {
+            "easting": "537937", 
+            "northing": "179292"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Crossharbour", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLMUD", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLSOQ", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLSOQ", 
+        "location": {
+            "easting": "537784", 
+            "northing": "179768"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "South Quay", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLCLA", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLHEQ", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLHEQ", 
+        "location": {
+            "easting": "537420", 
+            "northing": "180115"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Heron Quays", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLSOQ", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLCAN", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLCAN", 
+        "location": {
+            "easting": "537460", 
+            "northing": "180315"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Canary Wharf DLR Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLHEQ", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLWIQ", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLWIQ", 
+        "location": {
+            "easting": "537491", 
+            "northing": "180543"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "West India Quay", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLCAN", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLWFE", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLPOP", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLPOP", 
+        "location": {
+            "easting": "537680", 
+            "northing": "180614"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Poplar", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLBLA", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLWIQ", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLWFE", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLALL", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLBLA", 
+        "location": {
+            "easting": "538409", 
+            "northing": "180664"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Blackwall", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLEIN", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLPOP", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLEIN", 
+        "location": {
+            "easting": "538780", 
+            "northing": "180864"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "East India", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLCGT", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLBLA", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLSTD", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLCGT", 
+        "location": {
+            "easting": "539403", 
+            "northing": "181393"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Canning Town", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLRVC", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLWSV", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLEIN", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLSTL", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLWSV", 
+        "location": {
+            "easting": "540471", 
+            "northing": "180144"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "West Silvertown DLR Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLPDK", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLCGT", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLPDK", 
+        "location": {
+            "easting": "541229", 
+            "northing": "180106"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Pontoon Dock", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLLCA", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLWSV", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLLCA", 
+        "location": {
+            "easting": "542292", 
+            "northing": "180259"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "London City Airport", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLKGV", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLPDK", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLKGV", 
+        "location": {
+            "easting": "543217", 
+            "northing": "180123"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "King George V.", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLWLA", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLLCA", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLWLA", 
+        "location": {
+            "easting": "543766", 
+            "northing": "178848"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Woolwich Arsenal DLR", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLKGV", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLBEC", 
+        "location": {
+            "easting": "543117", 
+            "northing": "181510"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Beckton", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLGAL", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLGAL", 
+        "location": {
+            "easting": "543880", 
+            "northing": "180954"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Gallions Reach", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLBEC", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLCYP", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLCYP", 
+        "location": {
+            "easting": "543296", 
+            "northing": "180858"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Cyprus", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLGAL", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLBPK", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLBPK", 
+        "location": {
+            "easting": "542746", 
+            "northing": "180874"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Beckton Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLCYP", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLRAL", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLRAL", 
+        "location": {
+            "easting": "542136", 
+            "northing": "180827"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Royal Albert", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLBPK", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLPRE", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLPRE", 
+        "location": {
+            "easting": "541235", 
+            "northing": "180882"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Prince Regent", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLRAL", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLCUS", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLCUS", 
+        "location": {
+            "easting": "540741", 
+            "northing": "180901"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Custom House", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLPRE", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLRVC", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLRVC", 
+        "location": {
+            "easting": "540184", 
+            "northing": "180851"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Royal Victoria", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLCUS", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLCGT", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLSTL", 
+        "location": {
+            "easting": "539151", 
+            "northing": "182086"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Star Lane", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLCGT", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLWHM", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLWHM", 
+        "location": {
+            "easting": "539157", 
+            "northing": "182911"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "West Ham", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLSTL", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLABR", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLABR", 
+        "location": {
+            "easting": "539077", 
+            "northing": "183371"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Abbey Road DLR Station", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLSHS", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLWHM", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLSHS", 
+        "location": {
+            "easting": "538751", 
+            "northing": "184027"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Stratford High Street", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLSTD", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLABR", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLSTD", 
+        "location": {
+            "easting": "538579", 
+            "northing": "184360"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Stratford", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLSIT", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLPUD", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLSHS", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLPUD", 
+        "location": {
+            "easting": "537909", 
+            "northing": "183563"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Pudding Mill Lane", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLBOW", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLSTD", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLBLA", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLBOW", 
+        "location": {
+            "easting": "537389", 
+            "northing": "182829"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Bow Church DLR", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLDEV", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLPUD", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLDEV", 
+        "location": {
+            "easting": "537652", 
+            "northing": "182263"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Devons Road", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLLD", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLBOW", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLLD", 
+        "location": {
+            "easting": "537887", 
+            "northing": "181456"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Langdon Park", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLALL", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLDEV", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLALL", 
+        "location": {
+            "easting": "537993", 
+            "northing": "180982"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "All Saints", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLPOP", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLLD", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLSIT", 
+        "location": {
+            "easting": "538139", 
+            "northing": "184830"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Stratford International DLR", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLSTD", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLWFE", 
+        "location": {
+            "easting": "537022", 
+            "northing": "180794"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Westferry", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLPOP", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLWIQ", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLLIM", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLCAN", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLLIM", 
+        "location": {
+            "easting": "536083", 
+            "northing": "181081"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Limehouse", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLWFE", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLSHA", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLSHA", 
+        "location": {
+            "easting": "534975", 
+            "northing": "180986"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Shadwell DLR", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLLIM", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLTWG", 
+                "line": "dlr"
+            }, 
+            {
+                "to": "9400ZZDLBNK", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLTWG", 
+        "location": {
+            "easting": "533706", 
+            "northing": "180838"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Tower Gateway", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLSHA", 
+                "line": "dlr"
+            }
+        ]
+    }, 
+    {
+        "atcocode": "9400ZZDLBNK", 
+        "location": {
+            "easting": "532784", 
+            "northing": "180982"
+        }, 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Bank", 
+        "outboundLinks": [
+            {
+                "to": "9400ZZDLSHA", 
+                "line": "dlr"
+            }
+        ]
+    }
+]
