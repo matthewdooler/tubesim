@@ -87,6 +87,7 @@ GameObject:
   - 20: {fileID: 143554899}
   - 114: {fileID: 143554900}
   - 114: {fileID: 143554901}
+  - 81: {fileID: 143554902}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -199,10 +200,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e5cc562a0b445c6a2c040f81388a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 50
+  walkSpeed: 10
   runSpeed: 11
   limitDiagonalSpeed: 1
-  jumpSpeed: 20
+  jumpSpeed: 10
   gravity: 10
   fallingDamageThreshold: 10
   slideWhenOverSlopeLimit: 0
@@ -211,6 +212,13 @@ MonoBehaviour:
   airControl: 0
   antiBumpFactor: 0
   antiBunnyHopFactor: 1
+--- !u!81 &143554902
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 143554895}
+  m_Enabled: 1
 --- !u!1 &703079115
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,6 +328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19b6f562f90c4d2f85fd60d855adabc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  trainObject: {fileID: 0}
 --- !u!114 &1356457374
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,17 +1,35 @@
 ﻿import SimpleJSON;
 import System.IO;
 
+var character : GameObject;
+var trainObject : GameObject;
+
 function Start () {
-    var plane : GameObject = GameObject.CreatePrimitive(PrimitiveType.Plane);
-    var cube : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
-    cube.transform.position = Vector3(0, 0.5, 0);
-    cube.renderer.material.color = Color.green;
-    
+
+	character = GameObject.Find("Character");
+
     var sr = new StreamReader(Application.dataPath + "/stations-linked-unique.json");
     var fileContents = sr.ReadToEnd();
     sr.Close();
     var stations : SimpleJSON.JSONNode = JSON.Parse(fileContents);
+
+    trainObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
+    trainObject.transform.position = Vector3(0, 2, 0);
+    trainObject.transform.localScale = Vector3(3, 0.5, 17);
+    trainObject.renderer.material.color = Color32(50,50,50,0);
     
+    var material = new PhysicMaterial();
+	material.dynamicFriction = 1;
+	material.staticFriction = 1;
+	trainObject.collider.material = material;
+    
+    var train : Train = trainObject.AddComponent(Train);
+    train.fromStation = getStation(stations, "9400ZZLUTCR"); // Tottenham Court Road
+    train.toStation = getStation(stations, "9400ZZLUHBN"); // Holborn
+    train.ultimateDestination = getStation(stations, "9400ZZLULVT"); // Liverpool Street
+    train.line = "central";
+    
+    // Add stations
     for(var station : Object in stations) {
     	var stationName : String = station["name"].Value;
     	var stationPos : Vector3 = getStationPos(station);
@@ -21,20 +39,23 @@ function Start () {
     	stationObject.transform.localScale = Vector3(2, 2, 2);
     	stationObject.renderer.material.color = Color.gray;
     	
+    	// Add links to destination stations
     	for(var link : Object in station["outboundLinks"]) {
     		
     		var dstStation : Object = getStation(stations, link["to"].Value);
     		if(dstStation != null) {
-	    		var dstStationPos : Vector3 = getStationPos(dstStation);
-	    		var distance = Vector3.Distance(stationPos, dstStationPos);
+
+                var dstStationPos : Vector3 = getStationPos(dstStation);
+                var distance = Vector3.Distance(stationPos, dstStationPos);
                 var line : String = link["line"].Value;
-                var size : Vector2 = getLineCrossSectionSize(line);
+	            var size : Vector2 = getLineCrossSectionSize(line);
 	    		
 	    	    var linkObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
 	    	    linkObject.transform.position = Vector3.Lerp(stationPos, dstStationPos, 0.5);
 	    	    linkObject.transform.localScale = Vector3(size.x, size.y, distance);
 	    		linkObject.transform.LookAt(dstStationPos);
 	    		linkObject.renderer.material.color = getLineColor(line);
+
 	    	} else {
 	    		print ("WARNING: Could not find station with ATCO code "+link["to"].Value);
 	    	}
@@ -42,11 +63,51 @@ function Start () {
 
     }
     
+    // Make the train talk
+    // This is -
+    var asrc : AudioSource = trainObject.AddComponent("AudioSource") as AudioSource;
+    var aclip : AudioClip = Resources.Load("Sound/announcements/misc/this_is") as AudioClip;
+    asrc.clip = aclip;
+	asrc.Play();
+	yield WaitForSeconds(aclip.length);
+	
+	aclip = Resources.Load("Sound/announcements/stations/"+train.fromStation["atcocode"].Value) as AudioClip;
+    asrc.clip = aclip;
+	asrc.Play();
+	yield WaitForSeconds(aclip.length);
+	yield WaitForSeconds(aclip.length);
+	
+	// This is a {line} line train to -
+	aclip = Resources.Load("Sound/announcements/lines/"+train.line) as AudioClip;
+    asrc.clip = aclip;
+	asrc.Play();
+	yield WaitForSeconds(aclip.length);
+	
+	aclip = Resources.Load("Sound/announcements/stations/"+train.ultimateDestination["atcocode"].Value) as AudioClip;
+    asrc.clip = aclip;
+	asrc.Play();
+	yield WaitForSeconds(aclip.length);
+	yield WaitForSeconds(aclip.length);
+	
+	// The next station is -
+    aclip = Resources.Load("Sound/announcements/misc/the_next_station_is") as AudioClip;
+    asrc.clip = aclip;
+	asrc.Play();
+	yield WaitForSeconds(aclip.length);
+	
+	aclip = Resources.Load("Sound/announcements/stations/"+train.toStation["atcocode"].Value) as AudioClip;
+    asrc.clip = aclip;
+	asrc.Play();
+	yield WaitForSeconds(aclip.length);
+    
+    
 }
 
-
 function Update () {
-
+	var x = trainObject.transform.position.x;
+	var y = trainObject.transform.position.y;
+	var z = trainObject.transform.position.z;
+	trainObject.transform.position = Vector3(x+0.02, y, z);
 }
 
 function getStation(stations : SimpleJSON.JSONNode, atcoCode : String) : Object {
@@ -142,4 +203,9 @@ function signedAngleBetween(a : Vector3,  b : Vector3, n : Vector3) : float {
     var angle360 : float =  (signed_angle + 180) % 360;
 
     return angle360;
+}
+
+function getTrackBetween(fromStation : Object, toStation : Object, line : String) : Object {
+	var track : Object = Object();
+	return track;
 }
