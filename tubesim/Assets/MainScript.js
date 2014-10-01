@@ -8,7 +8,7 @@ function Start () {
 
 	character = GameObject.Find("Character");
 
-    var sr = new StreamReader(Application.dataPath + "/stations-linked-unique.json");
+    var sr = new StreamReader(Application.dataPath + "/Resources/Data/stations-linked-unique.json");
     var fileContents = sr.ReadToEnd();
     sr.Close();
     var stations : SimpleJSON.JSONNode = JSON.Parse(fileContents);
@@ -34,28 +34,20 @@ function Start () {
     	var stationName : String = station["name"].Value;
     	var stationPos : Vector3 = getStationPos(station);
 
-    	var stationObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+    	var stationObject : GameObject = GameObject.CreatePrimitive( PrimitiveType.Cylinder);
+    	stationObject.name = "Station ("+stationName+")";
     	stationObject.transform.position = stationPos;
     	stationObject.transform.localScale = Vector3(2, 2, 2);
     	stationObject.renderer.material.color = Color.gray;
     	
     	// Add links to destination stations
+    	// TODO: only lay a single rail per destination (afaik the tube generally doesn't run parallel lines to the next station)
     	for(var link : Object in station["outboundLinks"]) {
     		
     		var dstStation : Object = getStation(stations, link["to"].Value);
     		if(dstStation != null) {
-
                 var dstStationPos : Vector3 = getStationPos(dstStation);
-                var distance = Vector3.Distance(stationPos, dstStationPos);
-                var line : String = link["line"].Value;
-	            var size : Vector2 = getLineCrossSectionSize(line);
-	    		
-	    	    var linkObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
-	    	    linkObject.transform.position = Vector3.Lerp(stationPos, dstStationPos, 0.5);
-	    	    linkObject.transform.localScale = Vector3(size.x, size.y, distance);
-	    		linkObject.transform.LookAt(dstStationPos);
-	    		linkObject.renderer.material.color = getLineColor(line);
-
+                layRail(stationPos, dstStationPos, link["line"].Value); // TODO: pass in lines[], as this rail will be able to handle multiple lines when the above TODO is resolved
 	    	} else {
 	    		print ("WARNING: Could not find station with ATCO code "+link["to"].Value);
 	    	}
@@ -63,6 +55,153 @@ function Start () {
 
     }
     
+	//talk(trainObject);
+}
+
+function Update () {
+	var x = trainObject.transform.position.x;
+	var y = trainObject.transform.position.y;
+	var z = trainObject.transform.position.z;
+	trainObject.transform.position = Vector3(x+0.02, y, z);
+}
+
+function layRail(srcStationPos : Vector3, dstStationPos : Vector3, line : String) {
+	var distance = Vector3.Distance(srcStationPos, dstStationPos);
+    var size : Vector2 = getLineCrossSectionSize(line);
+	
+    //var linkObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
+    //linkObject.transform.position = Vector3.Lerp(srcStationPos, dstStationPos, 0.5);
+    //linkObject.transform.localScale = Vector3(size.x, size.y, distance);
+	//linkObject.transform.LookAt(dstStationPos);
+	//linkObject.renderer.material.color = getLineColor(line);
+	
+	var rail : GameObject = new GameObject("Rail ("+line+" line)");
+
+	var mesh : Mesh = new Mesh();
+	var filter = rail.AddComponent("MeshFilter");
+	var renderer = rail.AddComponent("MeshRenderer");
+	mesh = createRailMesh(12);
+	filter.mesh = mesh;
+	
+	rail.transform.position = Vector3.Lerp(srcStationPos, dstStationPos, 0.5); // TODO: just start from src
+	rail.renderer.material.color = getLineColor(line); // TODO: wont have a single colour but could add colours some other way
+	
+}
+
+function createRailMesh(num : int) {
+	
+	var guidePoints = new Array();
+	guidePoints.Push(Vector2(0,0));
+	guidePoints.Push(Vector2(3,7));
+	guidePoints.Push(Vector2(10,10));
+	var multiplier : float = 1.0;
+	var meshPoints : Array = guidePointsToMeshPoints(guidePoints, multiplier);
+
+	var d : float = 0.2;
+	var height : float = 0;
+	var nodePositions = new Array();
+	
+	for(var point : Vector2 in meshPoints) {
+		// TODO: align the endpoint Y faces with the direction of the segment (not that important as we never see endpoints)
+		// TODO: align the corner Y faces correctly (might not be a problem if we have a large number of meshpoints)
+		// TODO: this becomes a much more important problem when the rail runs along the y axis, as the rail gets thinner lolz
+		nodePositions.Push(Vector3(point.x,   height,   point.y));
+		nodePositions.Push(Vector3(point.x+d, height,   point.y));
+		nodePositions.Push(Vector3(point.x+d, height+d, point.y));
+		nodePositions.Push(Vector3(point.x,   height+d, point.y));
+	}
+	
+    var x : int; 
+    var mesh : Mesh = new Mesh();
+    var vertex = new Vector3[nodePositions.length];
+   
+    for(x = 0; x < nodePositions.length; x++) {
+        vertex[x] = nodePositions[x];
+    }
+
+    var uvs = new Vector2[vertex.length];
+    for(x = 0; x < vertex.length; x++) {
+        if((x%2) == 0) {
+            uvs[x] = Vector2(0,0);
+        } else {
+            uvs[x] = Vector2(1,1);
+        }
+    }
+    
+    var tris = new int[(meshPoints.length-1)*18];
+    // Front face
+    //tris[0] = 2;
+    //tris[1] = 1;
+    //tris[2] = 0;
+    //tris[3] = 0;
+    //tris[4] = 3;
+    //tris[5] = 2;
+    
+    // Opposite face (add 4 to use opposite vertices, and switch ordering to allow view from opposite direction)
+    //tris[6] = tris[2] + 4;
+    //tris[7] = tris[1] + 4;
+    //tris[8] = tris[0] + 4;
+    //tris[9] = tris[5] + 4;
+    //tris[10] = tris[4] + 4;
+    //tris[11] = tris[3] + 4;
+    
+    // Add triangles to the mesh
+    // Each iteration of the loop adds faces between two meshpoints (so there are length-1 iterations)
+    var tidx : int = 0;
+    var startx : int = 6;
+    var starty : int = 0;
+    for(x = 1; x < meshPoints.length; x++) {
+
+	    // Side L
+	    tris[tidx] = startx;
+	    tris[tidx+1] = tris[tidx] - 1;
+	    tris[tidx+2] = tris[tidx+1] - 4;
+	    tris[tidx+3] = tris[tidx+2];
+	    tris[tidx+4] = tris[tidx+3] + 1;
+	    tris[tidx+5] = tris[tidx];
+
+	    // Side R
+	    tris[tidx+6] = starty;
+	    tris[tidx+7] = tris[tidx+6] + 4;
+	    tris[tidx+8] = tris[tidx+7] + 3;
+	    tris[tidx+9] = tris[tidx+8];
+	    tris[tidx+10] = tris[tidx+9] - 4;
+	    tris[tidx+11] = tris[tidx+6];
+	    
+	    // Top
+	    tris[tidx+12] = tris[tidx+8];
+	    tris[tidx+13] = tris[tidx+12] - 1;
+	    tris[tidx+14] = tris[tidx+13] - 4;
+	    tris[tidx+15] = tris[tidx+14];
+	    tris[tidx+16] = tris[tidx+15] + 1;
+	    tris[tidx+17] = tris[tidx+12];
+	    
+	    startx += 4;
+	    starty += 4;
+	    tidx += 18; // added 18 triangles
+	}
+	
+    mesh.vertices = vertex;
+    mesh.uv = uvs;
+    mesh.triangles = tris;
+    mesh.RecalculateNormals();
+    mesh.RecalculateBounds();  
+    mesh.Optimize();
+    mesh.name = "RailMesh";
+    return mesh;
+}
+
+// Translate a list of guidepoints to a larger fine-grained list of mesh points that can be used to render a curved line
+// The guidepoints express the general shape of the line, while the meshpoints represent the individual straight edges
+// Increasing the number of meshpoints produces a smoother line at the cost of high polycount
+function guidePointsToMeshPoints(guidePoints : Array, multiplier : float) : Array {
+  // TODO: implement
+  return guidePoints;
+}
+
+function talk(trainObject : GameObject) {
+	var train : Train = trainObject.GetComponent(Train);
+
     // Make the train talk
     // This is -
     var asrc : AudioSource = trainObject.AddComponent("AudioSource") as AudioSource;
@@ -99,15 +238,6 @@ function Start () {
     asrc.clip = aclip;
 	asrc.Play();
 	yield WaitForSeconds(aclip.length);
-    
-    
-}
-
-function Update () {
-	var x = trainObject.transform.position.x;
-	var y = trainObject.transform.position.y;
-	var z = trainObject.transform.position.z;
-	trainObject.transform.position = Vector3(x+0.02, y, z);
 }
 
 function getStation(stations : SimpleJSON.JSONNode, atcoCode : String) : Object {
