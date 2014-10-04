@@ -47,8 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\FPSWalkerEnhanced.js" />
+     <Compile Include="Assets\Link.js" />
      <Compile Include="Assets\MainScript.js" />
      <Compile Include="Assets\MouseLook.js" />
+     <Compile Include="Assets\Station.js" />
+     <Compile Include="Assets\Track.js" />
      <Compile Include="Assets\Train.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>

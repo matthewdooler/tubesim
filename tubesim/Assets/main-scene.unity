@@ -200,10 +200,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e5cc562a0b445c6a2c040f81388a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 10
+  walkSpeed: 20
   runSpeed: 11
   limitDiagonalSpeed: 1
-  jumpSpeed: 10
+  jumpSpeed: 30
   gravity: 10
   fallingDamageThreshold: 10
   slideWhenOverSlopeLimit: 0
