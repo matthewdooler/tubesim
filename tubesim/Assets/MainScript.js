@@ -2,7 +2,6 @@
 import System.IO;
 
 var character : GameObject;
-var trainObject : GameObject;
 
 function Start () {
 
@@ -12,21 +11,25 @@ function Start () {
     var stationsJson : SimpleJSON.JSONNode = readJSONFile(Application.dataPath + "/Resources/Data/stations-linked-unique.json");
     var stations : Hashtable = parseStationsJSON(stationsJson);
 
-    trainObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
-    trainObject.transform.position = Vector3(0, 2, 0);
-    trainObject.transform.localScale = Vector3(3, 0.5, 17);
-    trainObject.renderer.material.color = Color32(50,50,50,0);
-    
-    var material = new PhysicMaterial();
-    material.dynamicFriction = 1;
-    material.staticFriction = 1;
-    trainObject.collider.material = material;
-    
-    var train : Train = trainObject.AddComponent(Train);
-    train.fromStation = stations["9400ZZLUTCR"]; // Tottenham Court Road
-    train.toStation = stations["9400ZZLUHBN"]; // Holborn
-    train.ultimateDestination = stations["9400ZZLULVT"]; // Liverpool Street
-    train.line = "central";
+    for(var k = 0; k < 500; k++) {
+        var trainObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        
+        var material = new PhysicMaterial();
+        material.dynamicFriction = 1;
+        material.staticFriction = 1;
+        trainObject.collider.material = material;
+        //var trainCollider = trainObject.AddComponent(BoxCollider);
+        //trainCollider.isTrigger = true;
+        //trainObject.AddComponent(JKeepCharOnPlatform);
+
+        var train : Train = trainObject.AddComponent(Train);
+        train.stations = stations;
+        train.fromStation = stations["9400ZZLUTCR"]; // Tottenham Court Road
+        train.toStation = stations["9400ZZLUHBN"]; // Holborn
+        train.track = getTrack(train.fromStation, train.toStation);
+        train.ultimateDestination = stations["9400ZZLULVT"]; // Liverpool Street
+        train.line = "central";
+    }
 
     // DLR and underground routes aren't connected so we have to do two separate traversals
     var lugStationRoutes : Array = getStationRoutes(stations, stations["9400ZZLUTCR"]); // Tottenham Court Road (LUL)
@@ -36,7 +39,7 @@ function Start () {
         stationRoutes.Push(route);
     }
     print ("Routes = "+stationRoutes.length);
-    // TODO: a better algorithm will reduce the number of routes (currently 83)
+    // TODO: a better algorithm will reduce the number of routes (was originally 83, now 72 with loop detection)
     
     for(var route : Array in stationRoutes) {
         var routePositions : Array = new Array();
@@ -44,10 +47,9 @@ function Start () {
             routePositions.Push(stations[track.from].pos);
         }
         routePositions.Push(stations[route[route.length-1].to].pos); // add position of final station on route
-        //print ("Route positions (i.e., stations) = "+routePositions.length);
 
         var routeGuidePoints : Array = guidePointsToMeshPoints(routePositions, 0.2);
-        //print ("Route guide points = "+routeGuidePoints.length);
+        //print ("Route (stations="+routePositions.length+",guidepoints="+routeGuidePoints.length+")");
 
         // Add guidepoints to track metadata
         var j : int = 0;
@@ -69,11 +71,15 @@ function Start () {
             j--; // allow the last point to be plotted again for the next station
         }
     }
-    
-    //print ("Outbound tracks from "+stations["9400ZZLUNHG"].stationName+":");
-    //for(var track : Track in stations["9400ZZLUNHG"].outboundTracks) {
-    //    print ("  |----> " + stations[track.to].stationName + " ("+track.guidepoints.length+" guidepoints)");
-    //}
+
+    // Generate and set track meshpoints (slow!!)
+    var granularity : float = 0.2; // value between 0.0-1.0, where a smaller value increases granularity
+    for(var route : Array in stationRoutes) {
+        for(var track : Track in route) {
+            var meshpoints : Array = guidePointsToMeshPoints(track.guidepoints, granularity);
+            track.meshpoints = meshpoints;
+        }
+    }
     
     // Add stations
     for(var station : Station in stations.Values) {
@@ -90,10 +96,10 @@ function Start () {
             // TODO - should still be able to lay track without guidepoints.. they just need to be set to station src/dst
             if(track.guidepoints.length > 1) {
                 var commonLines : Array = getCommonLines(station.lines, dstStation.lines);
-                layRail(station.pos, dstStation.pos, track.guidepoints, commonLines); // TODO: pass in lines[], as this rail will be able to handle multiple lines when the above TODO is resolved
+                layRail(station.pos, dstStation.pos, track.meshpoints, commonLines); // TODO: pass in lines[], as this rail will be able to handle multiple lines when the above TODO is resolved
                 //print ("Laid rail from " + station.stationName + " to " + dstStation.stationName);
             } else {
-                print ("WARNING: Track has no guidepoints");
+                print ("WARNING: Track has no guidepoints (" + station.stationName + " to " + dstStation.stationName + ")");
             }
         }
 
@@ -103,10 +109,16 @@ function Start () {
 }
 
 function Update() {
-    var x = trainObject.transform.position.x;
-    var y = trainObject.transform.position.y;
-    var z = trainObject.transform.position.z;
-    trainObject.transform.position = Vector3(x+0.02, y, z);
+
+}
+
+function getTrack(fromStation : Station, toStation : Station) {
+    for(var track : Track in fromStation.outboundTracks) {
+        if(track.to == toStation.atcocode) {
+            return track;
+        }
+    }
+    return null;
 }
 
 function getCommonLines(lines, otherLines) : Array {
@@ -184,7 +196,7 @@ function getStationRoutes(stations : Hashtable, startStation : Station) : Array 
     var previousStation : Station = startStation;
     var station : Station = stations[previousStation.outboundTracks[0].to];
 
-    print ("Start station is " + station.stationName + " (from "+previousStation.stationName+")");
+    //print ("Start station is " + station.stationName + " (from "+previousStation.stationName+")");
 
     var backloggedTracks : Array = new Array();
     backloggedTracks.Push(previousStation.outboundTracks[0]);
@@ -218,6 +230,9 @@ function getStationRoutes(stations : Hashtable, startStation : Station) : Array 
                     // TODO: actually.. if the track belongs to another route then just don't take it. this might then end up being end of the line, or there could be a different valid track.
                     //skipRouteTraversal = true;
                     //break;
+                } else if(containsTrack(route, track)) {
+                    // Route already contains this track, so don't add it again
+                    // This prevents infinite loops when the tracks cycle
                 } else if(tracksTaken == 0 && track.to != previousStation.atcocode) {
                     var dstStation : Station = stations[track.to];
                     previousStation = station;
@@ -250,8 +265,7 @@ function getStationRoutes(stations : Hashtable, startStation : Station) : Array 
             }
 
             if(j >= 199) {
-                // TODO: this is expected behaviour, but we need to detect it properly and use the minimal route (not a route 200 stops long)
-                print (i+","+j+". Probably got caught in an infinite loop (never found end of route)"); // TODO
+                print ("WARNING: Undetected infinitely looping track (route has been limited to 200 stations)");
                 break;
             }
         }
@@ -315,7 +329,7 @@ function removeTrackIfFound(tracks : Array, track : Track) {
     return false;
 }
 
-function layRail(srcStationPos : Vector3, dstStationPos : Vector3, guidePoints : Array, lines : Array) {
+function layRail(srcStationPos : Vector3, dstStationPos : Vector3, meshPoints : Array, lines : Array) {
     var distance = Vector3.Distance(srcStationPos, dstStationPos);
     var size : Vector2 = getLineCrossSectionSize(lines[0]);
     
@@ -330,7 +344,7 @@ function layRail(srcStationPos : Vector3, dstStationPos : Vector3, guidePoints :
     var mesh : Mesh = new Mesh();
     var filter = rail.AddComponent("MeshFilter");
     var renderer = rail.AddComponent("MeshRenderer");
-    mesh = createRailMesh(guidePoints);
+    mesh = createRailMesh(meshPoints);
     filter.mesh = mesh;
     
     //rail.transform.position = Vector3.Lerp(srcStationPos, dstStationPos, 0.5); // TODO: just start from src
@@ -345,14 +359,7 @@ function layRail(srcStationPos : Vector3, dstStationPos : Vector3, guidePoints :
 }
 
 // TODO: may be possible to cache some of these meshes (rendering is fine, but generation is a big bottleneck)
-function createRailMesh(guidePoints : Array) {
-    
-    //print ("Interpolating rail with "+guidePoints.length+" guide points");
-
-    var granularity : float = 0.2; // value between 0.0-1.0, where a smaller value increases granularity
-    var meshPoints : Array = guidePointsToMeshPoints(guidePoints, granularity);
-    //print ("Creating rail mesh with "+meshPoints.length+" mesh points");
-
+function createRailMesh(meshPoints : Array) {
     var d : float = 1.0;
     var height : float = 0;
     var nodePositions = new Array();
@@ -453,7 +460,7 @@ function createRailMesh(guidePoints : Array) {
 function guidePointsToMeshPoints(guidePoints : Array, granularity : float) : Array {
   var meshPoints : Array = new Array();
     var length = guidePoints.length;
-    for(var i = 0; i < length-1; i++) {
+    for(var i = 0; i < length; i++) {
         var ui = 0;
         for (var u = 0.0; u < 1.0; u += granularity) {
             var vec = new Vector3();
@@ -489,7 +496,7 @@ function talk(trainObject : GameObject) {
     asrc.Play();
     yield WaitForSeconds(aclip.length);
     
-    aclip = Resources.Load("Sound/announcements/stations/"+train.fromStation["atcocode"].Value) as AudioClip;
+    aclip = Resources.Load("Sound/announcements/stations/"+train.fromStation.atcocode) as AudioClip;
     asrc.clip = aclip;
     asrc.Play();
     yield WaitForSeconds(aclip.length);
@@ -501,7 +508,7 @@ function talk(trainObject : GameObject) {
     asrc.Play();
     yield WaitForSeconds(aclip.length);
     
-    aclip = Resources.Load("Sound/announcements/stations/"+train.ultimateDestination["atcocode"].Value) as AudioClip;
+    aclip = Resources.Load("Sound/announcements/stations/"+train.ultimateDestination.atcocode) as AudioClip;
     asrc.clip = aclip;
     asrc.Play();
     yield WaitForSeconds(aclip.length);
@@ -513,15 +520,15 @@ function talk(trainObject : GameObject) {
     asrc.Play();
     yield WaitForSeconds(aclip.length);
     
-    aclip = Resources.Load("Sound/announcements/stations/"+train.toStation["atcocode"].Value) as AudioClip;
+    aclip = Resources.Load("Sound/announcements/stations/"+train.toStation.atcocode) as AudioClip;
     asrc.clip = aclip;
     asrc.Play();
     yield WaitForSeconds(aclip.length);
 }
 
 function getStationPos(station : Object) : Vector3 {
-    var x : int = (station["location"]["easting"].AsInt - 529744)/20;
-    var z : int = (station["location"]["northing"].AsInt - 181375)/20;
+    var x : int = (station["location"]["easting"].AsInt - 529744)/5;
+    var z : int = (station["location"]["northing"].AsInt - 181375)/5;
     return Vector3(x, 0, z);
 }
 
