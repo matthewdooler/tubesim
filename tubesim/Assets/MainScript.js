@@ -11,13 +11,14 @@ function Start () {
     var stationsJson : SimpleJSON.JSONNode = readJSONFile(Application.dataPath + "/Resources/Data/stations-linked-unique.json");
     var stations : Hashtable = parseStationsJSON(stationsJson);
 
-    for(var k = 0; k < 500; k++) {
+    for(var k = 0; k < 100; k++) {
         var trainObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
         
-        var material = new PhysicMaterial();
-        material.dynamicFriction = 1;
-        material.staticFriction = 1;
-        trainObject.collider.material = material;
+        //var material = new PhysicMaterial();
+        //material.dynamicFriction = 1;
+        //material.staticFriction = 1;
+        //trainObject.collider.material = material;
+
         //var trainCollider = trainObject.AddComponent(BoxCollider);
         //trainCollider.isTrigger = true;
         //trainObject.AddComponent(JKeepCharOnPlatform);
@@ -87,7 +88,7 @@ function Start () {
         var stationObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
         stationObject.name = "Station ("+station.stationName+")";
         stationObject.transform.position = station.pos;
-        stationObject.transform.localScale = Vector3(2, 2, 2);
+        stationObject.transform.localScale = Vector3(8, 6, 8);
         stationObject.renderer.material.color = Color.gray;
         
         // Add links to destination stations
@@ -105,7 +106,6 @@ function Start () {
 
     }
     
-    //talk(trainObject);
 }
 
 function Update() {
@@ -295,7 +295,7 @@ function getStationRoutes(stations : Hashtable, startStation : Station) : Array 
         }
         i++;
     }
-    print ("Reached end of backlog");
+    //print ("Reached end of backlog");
 
     return routes;
 }
@@ -331,7 +331,7 @@ function removeTrackIfFound(tracks : Array, track : Track) {
 
 function layRail(srcStationPos : Vector3, dstStationPos : Vector3, meshPoints : Array, lines : Array) {
     var distance = Vector3.Distance(srcStationPos, dstStationPos);
-    var size : Vector2 = getLineCrossSectionSize(lines[0]);
+    //var size : Vector2 = getLineCrossSectionSize(lines[0]);
     
     //var linkObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
     //linkObject.transform.position = Vector3.Lerp(srcStationPos, dstStationPos, 0.5);
@@ -339,39 +339,98 @@ function layRail(srcStationPos : Vector3, dstStationPos : Vector3, meshPoints : 
     //linkObject.transform.LookAt(dstStationPos);
     //linkObject.renderer.material.color = getLineColor(line);
     
-    var rail : GameObject = new GameObject("Rail ("+lines+" lines)");
-
+    var powerRail : GameObject = new GameObject("Power rail ("+lines+" lines)");
     var mesh : Mesh = new Mesh();
-    var filter = rail.AddComponent("MeshFilter");
-    var renderer = rail.AddComponent("MeshRenderer");
-    mesh = createRailMesh(meshPoints);
+    var filter = powerRail.AddComponent("MeshFilter");
+    var renderer = powerRail.AddComponent("MeshRenderer");
+    mesh = createRailMesh(meshPoints, 0.4, 0.3);
     filter.mesh = mesh;
     
-    //rail.transform.position = Vector3.Lerp(srcStationPos, dstStationPos, 0.5); // TODO: just start from src
+    //powerRail.transform.position = Vector3.Lerp(srcStationPos, dstStationPos, 0.5); // TODO: just start from src
     if(lines.length == 0) {
         print ("WARNING: No lines passed to layRail, so cannot perform colouring");
     } else if(lines.length == 1) {
-        rail.renderer.material.color = getLineColor(lines[0]);
+        powerRail.renderer.material.color = getLineColor(lines[0]);
     } else {
         // TODO: render multiple colours
-        rail.renderer.material.color = getLineColor(lines[0]);
+        powerRail.renderer.material.color = getLineColor(lines[0]);
     }
+
+
+    var trackSpacing : float = 1.435;
+    var trackWidth : float = 0.5;
+    var trackHeight : float = 0.5;
+    var railColor : Color32 = Color32(100,100,100,0);
+
+    var meshPointsL : Array = getParallelLine(meshPoints, (trackSpacing/2.0));
+    //meshPointsL = changeLineHeight(meshPointsL, 0.25);
+    var railL : GameObject = new GameObject("Rail L");
+    var meshL : Mesh = new Mesh();
+    var filterL = railL.AddComponent("MeshFilter");
+    var rendererL = railL.AddComponent("MeshRenderer");
+    meshL = createRailMesh(meshPointsL, trackWidth, trackHeight);
+    filterL.mesh = meshL;
+    railL.renderer.material.color = railColor;
+
+    var meshPointsR : Array = getParallelLine(meshPoints, -(trackSpacing/2.0));
+    //meshPointsR = changeLineHeight(meshPointsR, 0.25);
+    var railR : GameObject = new GameObject("Rail R");
+    var meshR : Mesh = new Mesh();
+    var filterR = railR.AddComponent("MeshFilter");
+    var rendererR = railR.AddComponent("MeshRenderer");
+    meshR = createRailMesh(meshPointsR, trackWidth, trackHeight);
+    filterR.mesh = meshR;
+    railR.renderer.material.color = railColor;
+}
+
+// Generate a parallel list of points by pushing out each point by a certain distance
+function getParallelLine(points : Array, distance : float) : Array {
+    var pointsOut : Array = new Array();
+
+    // Copy the input so we can modify it
+    for(var p : Vector3 in points) {
+        pointsOut.Push(new Vector3(p.x, p.y-0.25, p.z));
+    }
+
+    for(var i = 0; i < pointsOut.length-1; i++) {
+        var p : Vector3 = pointsOut[i];
+
+        // Calculate angle between adjacent points (preventing overflow)
+        var fromIdx : int = i-1;
+        var toIdx : int = i+1;
+        if(i == 0) fromIdx = i;
+        else if(i == pointsOut.length-1) toIdx = i;
+        // TODO: need to use a signed radiansBetween method
+        var a : float = radiansBetween(pointsOut[fromIdx], pointsOut[toIdx]) - (Mathf.PI/2.0);
+
+        var transX : float = Mathf.Cos(a) * distance;
+        var transZ : float = Mathf.Sin(a) * distance;
+        pointsOut[i] = new Vector3(p.x+transX, p.y, p.z+transZ);
+    }
+    return pointsOut;
+}
+
+function changeLineHeight(points : Array, heightDelta : float) : Array {
+    for(var i = 0; i < points.length-1; i++) {
+        points[i] = new Vector3(points[i].x, points[i].y+heightDelta, points[i].z);
+    }
+    return points;
 }
 
 // TODO: may be possible to cache some of these meshes (rendering is fine, but generation is a big bottleneck)
-function createRailMesh(meshPoints : Array) {
-    var d : float = 1.0;
-    var height : float = 0;
+function createRailMesh(meshPoints : Array, width : float, height : float) {
     var nodePositions = new Array();
     
+    var baseHeight : float = -(height/4.0);
     for(var point : Vector3 in meshPoints) {
         // TODO: align the endpoint Y faces with the direction of the segment (not that important as we never see endpoints)
         // TODO: align the corner Y faces correctly (might not be a problem if we have a large number of meshpoints)
         // TODO: this becomes a much more important problem when the rail runs along the y axis, as the rail gets thinner lolz
-        nodePositions.Push(Vector3(point.x,   height,   point.z));
-        nodePositions.Push(Vector3(point.x+d, height,   point.z));
-        nodePositions.Push(Vector3(point.x+d, height+d, point.z));
-        nodePositions.Push(Vector3(point.x,   height+d, point.z));
+        nodePositions.Push(Vector3(point.x,         baseHeight + point.y,        point.z));
+        nodePositions.Push(Vector3(point.x+width,   baseHeight + point.y,        point.z));
+        nodePositions.Push(Vector3(point.x+width,   baseHeight + point.y+height, point.z));
+        nodePositions.Push(Vector3(point.x,         baseHeight + point.y+height, point.z));
+        // TODO: this needs to run along the centre of the point (only noticeable with a wide rail, but still good to get it right)
     }
     
     var x : int; 
@@ -485,50 +544,9 @@ function interpolatedPosition(P0, P1, P2, P3, u) {
     return (new Vector3(x, 0.0, z));
 }
 
-function talk(trainObject : GameObject) {
-    var train : Train = trainObject.GetComponent(Train);
-
-    // Make the train talk
-    // This is -
-    var asrc : AudioSource = trainObject.AddComponent("AudioSource") as AudioSource;
-    var aclip : AudioClip = Resources.Load("Sound/announcements/misc/this_is") as AudioClip;
-    asrc.clip = aclip;
-    asrc.Play();
-    yield WaitForSeconds(aclip.length);
-    
-    aclip = Resources.Load("Sound/announcements/stations/"+train.fromStation.atcocode) as AudioClip;
-    asrc.clip = aclip;
-    asrc.Play();
-    yield WaitForSeconds(aclip.length);
-    yield WaitForSeconds(aclip.length);
-    
-    // This is a {line} line train to -
-    aclip = Resources.Load("Sound/announcements/lines/"+train.line) as AudioClip;
-    asrc.clip = aclip;
-    asrc.Play();
-    yield WaitForSeconds(aclip.length);
-    
-    aclip = Resources.Load("Sound/announcements/stations/"+train.ultimateDestination.atcocode) as AudioClip;
-    asrc.clip = aclip;
-    asrc.Play();
-    yield WaitForSeconds(aclip.length);
-    yield WaitForSeconds(aclip.length);
-    
-    // The next station is -
-    aclip = Resources.Load("Sound/announcements/misc/the_next_station_is") as AudioClip;
-    asrc.clip = aclip;
-    asrc.Play();
-    yield WaitForSeconds(aclip.length);
-    
-    aclip = Resources.Load("Sound/announcements/stations/"+train.toStation.atcocode) as AudioClip;
-    asrc.clip = aclip;
-    asrc.Play();
-    yield WaitForSeconds(aclip.length);
-}
-
 function getStationPos(station : Object) : Vector3 {
-    var x : int = (station["location"]["easting"].AsInt - 529744)/5;
-    var z : int = (station["location"]["northing"].AsInt - 181375)/5;
+    var x : int = (station["location"]["easting"].AsInt - 529744)/2;
+    var z : int = (station["location"]["northing"].AsInt - 181375)/2;
     return Vector3(x, 0, z);
 }
 
@@ -609,6 +627,11 @@ function signedAngleBetween(a : Vector3,  b : Vector3, n : Vector3) : float {
     var angle360 : float =  (signed_angle + 180) % 360;
 
     return angle360;
+}
+
+function radiansBetween(a : Vector3, b : Vector3) : float {
+    var dot : float = Vector3.Dot(a, b) / (a.magnitude * b.magnitude);
+    return Mathf.Acos(dot);
 }
 
 function getTrackBetween(fromStation : Object, toStation : Object, line : String) : Object {
