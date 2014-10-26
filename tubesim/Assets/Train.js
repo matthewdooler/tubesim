@@ -51,7 +51,7 @@ class Train extends MonoBehaviour {
             // TODO: this can sometimes take input from the player
             fromStation = toStation;
             track = getNextTrack();
-            toStation = stations[track.to];
+            toStation = stations[track.to] as Station;
             currentTrackGuidepoint = 0;
             //talk();
             return getNextTrackGuidepoint();
@@ -65,7 +65,7 @@ class Train extends MonoBehaviour {
 
     function getNextTrack() : Track {
         // TODO: take better guesses - maybe read the route lists so we don't repeat all that horrible route traversal logic
-        return fromStation.outboundTracks[Random.Range(0, fromStation.outboundTracks.length)];
+        return fromStation.outboundTracks[Random.Range(0, fromStation.outboundTracks.length)] as Track;
     }
 
     function tryAdvanceToNextTrackGuidepoint() {

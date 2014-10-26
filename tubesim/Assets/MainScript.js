@@ -11,7 +11,7 @@ function Start () {
     var stationsJson : SimpleJSON.JSONNode = readJSONFile(Application.dataPath + "/Resources/Data/stations-linked-unique.json");
     var stations : Hashtable = parseStationsJSON(stationsJson);
 
-    for(var k = 0; k < 100; k++) {
+    for(var k = 0; k < 4; k++) {
         var trainObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
         
         //var material = new PhysicMaterial();
@@ -43,62 +43,82 @@ function Start () {
     // TODO: a better algorithm will reduce the number of routes (was originally 83, now 72 with loop detection)
     
     for(var route : Array in stationRoutes) {
+        
+        // Create list of station positions on this route
         var routePositions : Array = new Array();
         for(var track : Track in route) {
             routePositions.Push(stations[track.from].pos);
         }
         routePositions.Push(stations[route[route.length-1].to].pos); // add position of final station on route
 
-        var routeGuidePoints : Array = guidePointsToMeshPoints(routePositions, 0.2);
+        // TODO: add coordinates of platforms (and get rid of station positions, as they're not very useful)
+
+        // Convert list of station positions to a list of guidepoints for the tracks on this route
+        // Each track will have same number of guidepoints, allowing us to easily match them back to tracks
+        var numTrackGuidePoints : int = 6; // default: 6
+        var routeGuidePoints : Array = guidePointsToMeshPoints(routePositions, 1.0/(numTrackGuidePoints-1));
         //print ("Route (stations="+routePositions.length+",guidepoints="+routeGuidePoints.length+")");
 
         // Add guidepoints to track metadata
         var j : int = 0;
-
         for(var track : Track in route) {
             // Add all of the guidepoints to this track
-            //print ("Adding guidepoints for "+station.stationName);
-            for(i = 0; i < 6; i++) { // TODO: 165/33 - the distribution of guidepoints is even
+            for(i = 0; i < numTrackGuidePoints; i++) {
                 if(j < routeGuidePoints.length) {
                     var point : Vector3 = routeGuidePoints[j];
                     track.guidepoints.Push(point);
                     j++;
                 } else {
-                    //print ("No guidepoints left for track from "+station.stationName+" to "+stations[track.to].stationName);
-                    // TODO: we're always missing the extra guidepoint on the last track in the route
-                    print ("No guidepoints left for track");
+                    print ("WARNING: No guidepoints left for track");
                 }
             }
             j--; // allow the last point to be plotted again for the next station
         }
     }
 
+    // TODO: Find parallel tracks and adjust their guidepoints so that they next to each other
+    // TODO: do this by choosing a track and copying its guidepoints to the others
+
+    // Adjust height of track guidepoints to avoid track intersection
+    for(var route : Array in stationRoutes) {
+        for(var track : Track in route) {
+            resolveTrackIntersections(stationRoutes, track);
+        }
+    }
+
     // Generate and set track meshpoints (slow!!)
-    var granularity : float = 0.2; // value between 0.0-1.0, where a smaller value increases granularity
+    var numTrackMeshPoints : int = 6; // default: 6
+    var granularity : float = 1.0/(numTrackMeshPoints-1);
     for(var route : Array in stationRoutes) {
         for(var track : Track in route) {
             var meshpoints : Array = guidePointsToMeshPoints(track.guidepoints, granularity);
             track.meshpoints = meshpoints;
         }
     }
+
+    /*var dx : int = 85;
+    // TODO: bacon
+    layTrack([new Vector3(dx,0,0), new Vector3(dx+50,0,0)], ["circle"]);
+    layTrack([new Vector3(dx-50,0,0), new Vector3(dx,0,0)], ["hammersmith"]);
+
+    layTrack([new Vector3(dx,0,0), new Vector3(dx,0,50)], ["district"]);
+    layTrack([new Vector3(dx,0,-50), new Vector3(dx,0,0)], ["piccadilly"]);*/
     
-    // Add stations
+    // Construct stations and their tracks
     for(var station : Station in stations.Values) {
 
         var stationObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
         stationObject.name = "Station ("+station.stationName+")";
         stationObject.transform.position = station.pos;
-        stationObject.transform.localScale = Vector3(8, 6, 8);
+        stationObject.transform.localScale = Vector3(50, 6, 50);
         stationObject.renderer.material.color = Color.gray;
         
-        // Add links to destination stations
+        // Lay tracks to destination stations
         for(var track : Track in station.outboundTracks) {
             var dstStation : Station = stations[track.to];
-            // TODO - should still be able to lay track without guidepoints.. they just need to be set to station src/dst
             if(track.guidepoints.length > 1) {
                 var commonLines : Array = getCommonLines(station.lines, dstStation.lines);
-                layRail(station.pos, dstStation.pos, track.meshpoints, commonLines); // TODO: pass in lines[], as this rail will be able to handle multiple lines when the above TODO is resolved
-                //print ("Laid rail from " + station.stationName + " to " + dstStation.stationName);
+                layTrack(track.meshpoints, commonLines);
             } else {
                 print ("WARNING: Track has no guidepoints (" + station.stationName + " to " + dstStation.stationName + ")");
             }
@@ -111,6 +131,53 @@ function Start () {
 function Update() {
 
 }
+
+// Adjust the height of parts of this track to ensure it does not intersect with any other tracks
+function resolveTrackIntersections(stationRoutes : Array, track : Track) {
+    for(var route : Array in stationRoutes) {
+        for(var otherTrack : Track in route) {
+            for(var i = 0; i < otherTrack.guidepoints.length-1; i++) {
+                var src : Vector3 = otherTrack.guidepoints[i];
+                var dst : Vector3 = otherTrack.guidepoints[i+1];
+                resolveTrackIntersection(track, src, dst);
+            }
+        }
+    }
+}
+
+// Adjust the height of part of this track if it intersects with the segment defined by the coordinates
+function resolveTrackIntersection(track : Track, src : Vector3, dst : Vector3) {
+    
+    // TODO: this is a hacky optimisation and might not always work
+    //if(linesIntersect(src, dst, track.guidepoints[0], track.guidepoints[track.guidepoints.length-1])) {
+
+        for(var i = 0; i < track.guidepoints.length-1; i++) {
+            var guidepointSrc : Vector3 = track.guidepoints[i];
+            var guidepointDst : Vector3 = track.guidepoints[i+1];
+            if(linesIntersect(src, dst, guidepointSrc, guidepointDst)) {
+                //track.guidepoints[i].y += 5;
+                //track.guidepoints[i+1].y += 5;
+                var raise : float = 5;
+                var smoothing : int = 6;
+                for(var j = -(smoothing/2); j < smoothing/2; j++) {
+                    var idx : int = j + i;
+                    if(idx >= 0 && idx < track.guidepoints.length) {
+                        track.guidepoints[idx].y += raise;
+                    }
+                }
+                // TODO: create a smooth gradient by increasing height of nearby guidepoints (if available)
+            }
+        }
+    //}
+}
+
+function linesIntersect(src1, dst1, src2, dst2) : boolean {
+    // TODO: x,z intersect initially, and then x,y,z to make sure we don't catch it again (just check that y != y, can do bounds later)
+    // TODO: make sure they count as intersecting if they start/end at the exact same coordinate
+    return Math3d.AreLineSegmentsCrossing(src1, dst1, src2, dst2);
+}
+
+
 
 function getTrack(fromStation : Station, toStation : Station) {
     for(var track : Track in fromStation.outboundTracks) {
@@ -329,8 +396,8 @@ function removeTrackIfFound(tracks : Array, track : Track) {
     return false;
 }
 
-function layRail(srcStationPos : Vector3, dstStationPos : Vector3, meshPoints : Array, lines : Array) {
-    var distance = Vector3.Distance(srcStationPos, dstStationPos);
+function layTrack(meshPoints : Array, lines : Array) {
+    //var distance = Vector3.Distance(srcStationPos, dstStationPos);
     //var size : Vector2 = getLineCrossSectionSize(lines[0]);
     
     //var linkObject : GameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -343,12 +410,12 @@ function layRail(srcStationPos : Vector3, dstStationPos : Vector3, meshPoints : 
     var mesh : Mesh = new Mesh();
     var filter = powerRail.AddComponent("MeshFilter");
     var renderer = powerRail.AddComponent("MeshRenderer");
-    mesh = createRailMesh(meshPoints, 0.4, 0.3);
+    mesh = createRailMesh(meshPoints, 0.4, 0.3);// TODO:0.4,0.3
     filter.mesh = mesh;
     
     //powerRail.transform.position = Vector3.Lerp(srcStationPos, dstStationPos, 0.5); // TODO: just start from src
     if(lines.length == 0) {
-        print ("WARNING: No lines passed to layRail, so cannot perform colouring");
+        print ("WARNING: No lines passed to layTrack, so cannot perform colouring");
     } else if(lines.length == 1) {
         powerRail.renderer.material.color = getLineColor(lines[0]);
     } else {
@@ -357,8 +424,8 @@ function layRail(srcStationPos : Vector3, dstStationPos : Vector3, meshPoints : 
     }
 
 
-    var trackSpacing : float = 1.435;
-    var trackWidth : float = 0.5;
+    var trackSpacing : float = 5; // TODO use 1.435 
+    var trackWidth : float = 0.15;
     var trackHeight : float = 0.5;
     var railColor : Color32 = Color32(100,100,100,0);
 
@@ -392,20 +459,32 @@ function getParallelLine(points : Array, distance : float) : Array {
         pointsOut.Push(new Vector3(p.x, p.y-0.25, p.z));
     }
 
-    for(var i = 0; i < pointsOut.length-1; i++) {
-        var p : Vector3 = pointsOut[i];
+    var i : int = 0;
+    for(var p : Vector3 in pointsOut) {
+    //for(var i = 0; i < pointsOut.length-1; i++) {
+        //var p : Vector3 = pointsOut[i];
 
         // Calculate angle between adjacent points (preventing overflow)
-        var fromIdx : int = i-1;
+        // TODO: select good indices (bacon)
+        /*var fromIdx : int = i-1;
         var toIdx : int = i+1;
         if(i == 0) fromIdx = i;
-        else if(i == pointsOut.length-1) toIdx = i;
-        // TODO: need to use a signed radiansBetween method
-        var a : float = radiansBetween(pointsOut[fromIdx], pointsOut[toIdx]) - (Mathf.PI/2.0);
+        else if(i == pointsOut.length-1) toIdx = i;*/
+        var fromIdx : int = i;
+        var toIdx : int = i+1;
+        if(i == pointsOut.length-1) {
+            fromIdx = i-1;
+            toIdx = i;
+        }
 
-        var transX : float = Mathf.Cos(a) * distance;
-        var transZ : float = Mathf.Sin(a) * distance;
-        pointsOut[i] = new Vector3(p.x+transX, p.y, p.z+transZ);
+        var from : Vector3 = pointsOut[fromIdx];
+        var to : Vector3 = pointsOut[toIdx];
+
+        var translation : Vector3 = getPerpendiularTranslation(from, to, distance);
+        p.x += translation.x;
+        p.z += translation.z;
+
+        i++;
     }
     return pointsOut;
 }
@@ -422,15 +501,28 @@ function createRailMesh(meshPoints : Array, width : float, height : float) {
     var nodePositions = new Array();
     
     var baseHeight : float = -(height/4.0);
+
+    var i : int = 0;
     for(var point : Vector3 in meshPoints) {
-        // TODO: align the endpoint Y faces with the direction of the segment (not that important as we never see endpoints)
-        // TODO: align the corner Y faces correctly (might not be a problem if we have a large number of meshpoints)
-        // TODO: this becomes a much more important problem when the rail runs along the y axis, as the rail gets thinner lolz
-        nodePositions.Push(Vector3(point.x,         baseHeight + point.y,        point.z));
-        nodePositions.Push(Vector3(point.x+width,   baseHeight + point.y,        point.z));
-        nodePositions.Push(Vector3(point.x+width,   baseHeight + point.y+height, point.z));
-        nodePositions.Push(Vector3(point.x,         baseHeight + point.y+height, point.z));
+
+        // Find the perpendicular angle to the direction of the rail, and push out in that direction
+        // This ensures that the faces always point in the correct direction such that the width of the overall mesh is always maintained
+        // TODO: select good indices (bacon)
+        var fromIdx : int = i-1;
+        var toIdx : int = i+1;
+        if(i == 0) fromIdx = i;
+        else if(i == meshPoints.length-1) toIdx = i;
+
+        var translation : Vector3 = getPerpendiularTranslation(meshPoints[fromIdx], meshPoints[toIdx], width);
+        var transX : float = translation.x;
+        var transZ : float = translation.z;
+
+        nodePositions.Push(Vector3(point.x,        baseHeight + point.y,        point.z));
+        nodePositions.Push(Vector3(point.x+transX, baseHeight + point.y,        point.z+transZ));
+        nodePositions.Push(Vector3(point.x+transX, baseHeight + point.y+height, point.z+transZ));
+        nodePositions.Push(Vector3(point.x,        baseHeight + point.y+height, point.z));
         // TODO: this needs to run along the centre of the point (only noticeable with a wide rail, but still good to get it right)
+        i++;
     }
     
     var x : int; 
@@ -540,8 +632,9 @@ function interpolatedPosition(P0, P1, P2, P3, u) {
     var f3 = -1.5 * u3 + 2.0 * u2 + 0.5 * u;
     var f4 =  0.5 * u3 - 0.5 * u2;
     var x = P0.x * f1 + P1.x * f2 + P2.x * f3 + P3.x * f4;
+    var y = P0.y * f1 + P1.y * f2 + P2.y * f3 + P3.y * f4;  // TODO: y was hardcoded to 0.0, so this algorithm never supported Y-axis interpolation
     var z = P0.z * f1 + P1.z * f2 + P2.z * f3 + P3.z * f4;
-    return (new Vector3(x, 0.0, z));
+    return (new Vector3(x, y, z));
 }
 
 function getStationPos(station : Object) : Vector3 {
@@ -615,23 +708,90 @@ function getLineCrossSectionSize(line : String) : Vector2 {
     return size;
 }
 
-function signedAngleBetween(a : Vector3,  b : Vector3, n : Vector3) : float {
-    // angle in [0,180]
-    var angle : float = Vector3.Angle(a,b);
-    var sign : float = Mathf.Sign(Vector3.Dot(n,Vector3.Cross(a,b)));
-
-    // angle in [-179,180]
-    var signed_angle : float = angle * sign;
-
-    // angle in [0,360] (not used but included here for completeness)
-    var angle360 : float =  (signed_angle + 180) % 360;
-
-    return angle360;
-}
-
 function radiansBetween(a : Vector3, b : Vector3) : float {
     var dot : float = Vector3.Dot(a, b) / (a.magnitude * b.magnitude);
     return Mathf.Acos(dot);
+}
+
+var iii : int = 0;
+function signedRadiansBetween(a : Vector3, b : Vector3) : float {
+
+    var dx : float = b.x - a.x;
+    var dz : float = b.z - a.z;
+
+    // Handle cases where acute angle would be zero
+    // TODO: handling this manually is a bit weird.. can't the signing code be modified to do it?
+    if(dx == 0 && dz == 0) {
+        print ("WARNING: Attempt made to calculate angle between two vectors at the same position");
+        return 0;
+    } else if(dx == 0) {
+        if(dz < 0) {
+            return 0; // zero case E
+        } else if(dz > 0) {
+            return Mathf.PI; // zero case G
+        }
+    } else if(dz == 0) {
+        if(dx < 0) {
+            return 1.5 * Mathf.PI; // zero case H
+        } else if(dx > 0) {
+            return Mathf.PI / 2.0; // zero case F
+        }
+    }
+
+    // Get acute angle between vectors
+    var angle : float = radiansBetween(a, b);
+
+    // Sign the angle
+    if(dx > 0 && dz < 0) {
+        angle = (Mathf.PI / 2.0) - angle; // case A
+    } else if (dx > 0 && dz > 0) {
+        angle = (Mathf.PI / 2.0) + angle; // case B
+    } else if (dx < 0 && dz < 0) {
+        angle = (1.5 * Mathf.PI) + angle; // case C
+    } else if (dx < 0 && dz > 0) {
+        angle = Mathf.PI + ((Mathf.PI / 2.0) - angle); // case D
+    } else {
+        print ("WARNING: dx or dz is zero (should have been caught by the explicit dx/dz check)");
+        return 0;
+    }
+    return angle;
+
+}
+
+function getPerpendiularTranslation(a : Vector3, b : Vector3, distance : float) : Vector3 {
+    var angle : float = signedRadiansBetween(a, b);
+
+    var transX : float = 0;
+    var transZ : float = 0;
+
+    var dx : float = b.x - a.x;
+    var dz : float = b.z - a.z;
+
+    if(dx == 0) {
+        transX = distance;
+    } else if(dz == 0) {
+        transZ = distance;
+    } else if(dx > 0 && dz < 0) {
+        // case A
+        transX = Mathf.Cos(angle) * distance;
+        transZ = Mathf.Sin(angle) * distance;
+    } else if (dx > 0 && dz > 0) {
+        // case B
+        angle = angle - (Mathf.PI / 2.0);
+        transX = Mathf.Sin(angle) * distance;
+        transZ = Mathf.Cos(angle) * distance;
+    } else if (dx < 0 && dz < 0) {
+        // case C
+        angle = angle - (1.5 * Mathf.PI);
+        transX = Mathf.Sin(angle) * distance;
+        transZ = Mathf.Cos(angle) * distance;
+    } else if (dx < 0 && dz > 0) {
+        // case D
+        angle = angle - Mathf.PI;
+        transX = Mathf.Cos(angle) * distance;
+        transZ = Mathf.Sin(angle) * distance;
+    }
+    return new Vector3(transX, 0, transZ);
 }
 
 function getTrackBetween(fromStation : Object, toStation : Object, line : String) : Object {
