@@ -1,0 +1,3420 @@
+[
+    {
+        "name": "All Saints DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "als", 
+        "longitude": -0.01292, 
+        "mode": "tube", 
+        "latitude": 51.51104, 
+        "atcocode": "9400ZZDLALL"
+    }, 
+    {
+        "name": "Bank DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "ban", 
+        "longitude": -0.08879, 
+        "mode": "tube", 
+        "latitude": 51.51316, 
+        "atcocode": "9400ZZDLBNK"
+    }, 
+    {
+        "name": "Beckton DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "bec", 
+        "longitude": 0.06071, 
+        "mode": "tube", 
+        "latitude": 51.51433, 
+        "atcocode": "9400ZZDLBEC"
+    }, 
+    {
+        "name": "Beckton Park DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "bep", 
+        "longitude": 0.05494, 
+        "mode": "tube", 
+        "latitude": 51.5088, 
+        "atcocode": "9400ZZDLBPK"
+    }, 
+    {
+        "name": "Blackwall DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "bla", 
+        "longitude": -0.00723, 
+        "mode": "tube", 
+        "latitude": 51.50803, 
+        "atcocode": "9400ZZDLBLA"
+    }, 
+    {
+        "name": "Bow Church DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "boc", 
+        "longitude": -0.02093, 
+        "mode": "tube", 
+        "latitude": 51.52786, 
+        "atcocode": "9400ZZDLBOW"
+    }, 
+    {
+        "name": "Canning Town DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "cat", 
+        "longitude": 0.00825, 
+        "mode": "tube", 
+        "latitude": 51.51383, 
+        "atcocode": "9400ZZDLCGT"
+    }, 
+    {
+        "name": "Canary Wharf DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "caw", 
+        "longitude": -0.02099, 
+        "mode": "tube", 
+        "latitude": 51.50484, 
+        "atcocode": "9400ZZDLCAN"
+    }, 
+    {
+        "name": "Crossharbour & London Arena DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "cro", 
+        "longitude": -0.0146, 
+        "mode": "tube", 
+        "latitude": 51.49573, 
+        "atcocode": "9400ZZDLCLA"
+    }, 
+    {
+        "name": "Custom House for ExCeL DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "cuh", 
+        "longitude": 0.02671, 
+        "mode": "tube", 
+        "latitude": 51.50972, 
+        "atcocode": "9400ZZDLCUS"
+    }, 
+    {
+        "name": "Cutty Sark for Maritime Greenwich DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "cus", 
+        "longitude": -0.0108, 
+        "mode": "tube", 
+        "latitude": 51.48167, 
+        "atcocode": "9400ZZDLCUT"
+    }, 
+    {
+        "name": "Cyprus DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "cyp", 
+        "longitude": 0.06393, 
+        "mode": "tube", 
+        "latitude": 51.50848, 
+        "atcocode": "9400ZZDLCYP"
+    }, 
+    {
+        "name": "Deptford Bridge DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "deb", 
+        "longitude": -0.02245, 
+        "mode": "tube", 
+        "latitude": 51.47455, 
+        "atcocode": "9400ZZDLDEP"
+    }, 
+    {
+        "name": "Devons Road DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "der", 
+        "longitude": -0.01761, 
+        "mode": "tube", 
+        "latitude": 51.52267, 
+        "atcocode": "9400ZZDLDEV"
+    }, 
+    {
+        "name": "East India DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "eai", 
+        "longitude": -0.0025, 
+        "mode": "tube", 
+        "latitude": 51.50938, 
+        "atcocode": "9400ZZDLEIN"
+    }, 
+    {
+        "name": "Elverson Road DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "elr", 
+        "longitude": -0.01695, 
+        "mode": "tube", 
+        "latitude": 51.46901, 
+        "atcocode": "9400ZZDLELV"
+    }, 
+    {
+        "name": "Gallions Reach DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "gar", 
+        "longitude": 0.07156, 
+        "mode": "tube", 
+        "latitude": 51.50894, 
+        "atcocode": "9400ZZDLGAL"
+    }, 
+    {
+        "name": "Greenwich DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "gre", 
+        "longitude": -0.01517, 
+        "mode": "tube", 
+        "latitude": 51.47785, 
+        "atcocode": "9400ZZDLGRE"
+    }, 
+    {
+        "name": "Heron Quays DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "heq", 
+        "longitude": -0.02141, 
+        "mode": "tube", 
+        "latitude": 51.50338, 
+        "atcocode": "9400ZZDLHEQ"
+    }, 
+    {
+        "name": "Island Gardens DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "isg", 
+        "longitude": -0.01013, 
+        "mode": "tube", 
+        "latitude": 51.48781, 
+        "atcocode": "9400ZZDLISL"
+    }, 
+    {
+        "name": "King George V DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "kgv", 
+        "longitude": 0.06192, 
+        "mode": "tube", 
+        "latitude": 51.50183, 
+        "atcocode": "9400ZZDLKGV"
+    }, 
+    {
+        "name": "Langdon Park DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "lap", 
+        "longitude": -0.01414, 
+        "mode": "tube", 
+        "latitude": 51.51518, 
+        "atcocode": "9400ZZDLLDP"
+    }, 
+    {
+        "name": "London City Airport DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "lca", 
+        "longitude": 0.04875, 
+        "mode": "tube", 
+        "latitude": 51.50342, 
+        "atcocode": "9400ZZDLLCA"
+    }, 
+    {
+        "name": "Lewisham DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "lew", 
+        "longitude": -0.01287, 
+        "mode": "tube", 
+        "latitude": 51.46467, 
+        "atcocode": "9400ZZDLLEW"
+    }, 
+    {
+        "name": "Limehouse DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "lim", 
+        "longitude": -0.03948, 
+        "mode": "tube", 
+        "latitude": 51.51275, 
+        "atcocode": "9400ZZDLLIM"
+    }, 
+    {
+        "name": "Mudchute DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "mud", 
+        "longitude": -0.01486, 
+        "mode": "tube", 
+        "latitude": 51.49137, 
+        "atcocode": "9400ZZDLMUD"
+    }, 
+    {
+        "name": "Pontoon Dock DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "pdk", 
+        "longitude": 0.03212, 
+        "mode": "tube", 
+        "latitude": 51.50222, 
+        "atcocode": "9400ZZDLPDK"
+    }, 
+    {
+        "name": "Pudding Mill Lane DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "pml", 
+        "longitude": -0.01355, 
+        "mode": "tube", 
+        "latitude": 51.5342, 
+        "atcocode": "9400ZZDLPUD"
+    }, 
+    {
+        "name": "Poplar DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "pop", 
+        "longitude": -0.01741, 
+        "mode": "tube", 
+        "latitude": 51.50766, 
+        "atcocode": "9400ZZDLPOP"
+    }, 
+    {
+        "name": "Prince Regent DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "prr", 
+        "longitude": 0.03417, 
+        "mode": "tube", 
+        "latitude": 51.50927, 
+        "atcocode": "9400ZZDLPRE"
+    }, 
+    {
+        "name": "Royal Albert DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "roa", 
+        "longitude": 0.04594, 
+        "mode": "tube", 
+        "latitude": 51.50836, 
+        "atcocode": "9400ZZDLRAL"
+    }, 
+    {
+        "name": "Royal Victoria DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "rov", 
+        "longitude": 0.01854, 
+        "mode": "tube", 
+        "latitude": 51.50949, 
+        "atcocode": "9400ZZDLRVC"
+    }, 
+    {
+        "name": "Shadwell DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "sha", 
+        "longitude": -0.05664, 
+        "mode": "tube", 
+        "latitude": 51.5117, 
+        "atcocode": "9400ZZDLSHA"
+    }, 
+    {
+        "name": "South Quay DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "soq", 
+        "longitude": -0.01903, 
+        "mode": "tube", 
+        "latitude": 51.50056, 
+        "atcocode": "9400ZZDLSOQ"
+    }, 
+    {
+        "name": "Stratford DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "str", 
+        "longitude": -0.00452, 
+        "mode": "tube", 
+        "latitude": 51.54058, 
+        "atcocode": "9400ZZDLSTD"
+    }, 
+    {
+        "name": "Tower Gateway DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "tog", 
+        "longitude": -0.07481, 
+        "mode": "tube", 
+        "latitude": 51.51062, 
+        "atcocode": "9400ZZDLTWG"
+    }, 
+    {
+        "name": "Westferry DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "wes", 
+        "longitude": -0.0269, 
+        "mode": "tube", 
+        "latitude": 51.50974, 
+        "atcocode": "9400ZZDLWFE"
+    }, 
+    {
+        "name": "West India Quay DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "wiq", 
+        "longitude": -0.0203, 
+        "mode": "tube", 
+        "latitude": 51.50703, 
+        "atcocode": "9400ZZDLWIQ"
+    }, 
+    {
+        "name": "Woolwich Arsenal DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "woa", 
+        "longitude": 0.06914, 
+        "mode": "tube", 
+        "latitude": 51.49001, 
+        "atcocode": "9400ZZDLWLA"
+    }, 
+    {
+        "name": "West Silvertown DLR Station", 
+        "lines": [
+            "dlr"
+        ], 
+        "station_code": "wst", 
+        "longitude": 0.02259, 
+        "mode": "tube", 
+        "latitude": 51.50527, 
+        "atcocode": "9400ZZDLWSV"
+    }, 
+    {
+        "name": "Acton Town", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "station_code": "ACT", 
+        "longitude": -0.28046, 
+        "mode": "tube", 
+        "latitude": 51.50306, 
+        "atcocode": "9400ZZLUACT"
+    }, 
+    {
+        "name": "Arnos Grove", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "AGR", 
+        "longitude": -0.13306, 
+        "mode": "tube", 
+        "latitude": 51.61645, 
+        "atcocode": "9400ZZLUASG"
+    }, 
+    {
+        "name": "Aldgate", 
+        "lines": [
+            "circle", 
+            "metropolitan"
+        ], 
+        "station_code": "ALD", 
+        "longitude": -0.07586, 
+        "mode": "tube", 
+        "latitude": 51.51449, 
+        "atcocode": "9400ZZLUALD"
+    }, 
+    {
+        "name": "Aldgate East", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "ALE", 
+        "longitude": -0.07238, 
+        "mode": "tube", 
+        "latitude": 51.51504, 
+        "atcocode": "9400ZZLUADE"
+    }, 
+    {
+        "name": "Alperton", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "ALP", 
+        "longitude": -0.29961, 
+        "mode": "tube", 
+        "latitude": 51.54063, 
+        "atcocode": "9400ZZLUALP"
+    }, 
+    {
+        "name": "Amersham", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "AME", 
+        "longitude": -0.60771, 
+        "mode": "tube", 
+        "latitude": 51.67413, 
+        "atcocode": "9400ZZLUAMS"
+    }, 
+    {
+        "name": "Angel", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "ANG", 
+        "longitude": -0.10538, 
+        "mode": "tube", 
+        "latitude": 51.53177, 
+        "atcocode": "9400ZZLUAGL"
+    }, 
+    {
+        "name": "Archway", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "ARC", 
+        "longitude": -0.13481, 
+        "mode": "tube", 
+        "latitude": 51.56548, 
+        "atcocode": "9400ZZLUACY"
+    }, 
+    {
+        "name": "Arsenal", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "ARL", 
+        "longitude": -0.10745, 
+        "mode": "tube", 
+        "latitude": 51.55866, 
+        "atcocode": "9400ZZLUASL"
+    }, 
+    {
+        "name": "Balham", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "BAL", 
+        "longitude": -0.15299, 
+        "mode": "tube", 
+        "latitude": 51.44329, 
+        "atcocode": "9400ZZLUBLM"
+    }, 
+    {
+        "name": "Barbican", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "station_code": "BAR", 
+        "longitude": -0.09724, 
+        "mode": "tube", 
+        "latitude": 51.52031, 
+        "atcocode": "9400ZZLUBBN"
+    }, 
+    {
+        "name": "Bayswater", 
+        "lines": [
+            "circle"
+        ], 
+        "station_code": "BAY", 
+        "longitude": -0.18794, 
+        "mode": "tube", 
+        "latitude": 51.51229, 
+        "atcocode": "9400ZZLUBWT"
+    }, 
+    {
+        "name": "Bromley-by-Bow", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "BBB", 
+        "longitude": -0.01153, 
+        "mode": "tube", 
+        "latitude": 51.52484, 
+        "atcocode": "9400ZZLUBBB"
+    }, 
+    {
+        "name": "Barons Court", 
+        "lines": [
+            "piccadilly", 
+            "district"
+        ], 
+        "station_code": "BCT", 
+        "longitude": -0.21373, 
+        "mode": "tube", 
+        "latitude": 51.49028, 
+        "atcocode": "9400ZZLUBSC"
+    }, 
+    {
+        "name": "Barkingside", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "BDE", 
+        "longitude": 0.0886, 
+        "mode": "tube", 
+        "latitude": 51.58569, 
+        "atcocode": "9400ZZLUBKE"
+    }, 
+    {
+        "name": "Bond Street", 
+        "lines": [
+            "jubilee", 
+            "central"
+        ], 
+        "station_code": "BDS", 
+        "longitude": -0.14972, 
+        "mode": "tube", 
+        "latitude": 51.51431, 
+        "atcocode": "9400ZZLUBND"
+    }, 
+    {
+        "name": "Becontree", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "BEC", 
+        "longitude": 0.12739, 
+        "mode": "tube", 
+        "latitude": 51.54036, 
+        "atcocode": "9400ZZLUBEC"
+    }, 
+    {
+        "name": "Bermondsey", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "BER", 
+        "longitude": -0.06447, 
+        "mode": "tube", 
+        "latitude": 51.49764, 
+        "atcocode": "9400ZZLUBMY"
+    }, 
+    {
+        "name": "Bounds Green", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "BGR", 
+        "longitude": -0.12433, 
+        "mode": "tube", 
+        "latitude": 51.6071, 
+        "atcocode": "9400ZZLUBDS"
+    }, 
+    {
+        "name": "Buckhurst Hill", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "BHL", 
+        "longitude": 0.04677, 
+        "mode": "tube", 
+        "latitude": 51.62661, 
+        "atcocode": "9400ZZLUBKH"
+    }, 
+    {
+        "name": "Blackhorse Road", 
+        "lines": [
+            "victoria"
+        ], 
+        "station_code": "BHR", 
+        "longitude": -0.04068, 
+        "mode": "tube", 
+        "latitude": 51.58687, 
+        "atcocode": "9400ZZLUBLR"
+    }, 
+    {
+        "name": "Barking", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "BKG", 
+        "longitude": 0.08106, 
+        "mode": "tube", 
+        "latitude": 51.53933, 
+        "atcocode": "9400ZZLUBKG"
+    }, 
+    {
+        "name": "Blackfriars", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "station_code": "BLF", 
+        "longitude": -0.10365, 
+        "mode": "tube", 
+        "latitude": 51.51159, 
+        "atcocode": "9400ZZLUBKF"
+    }, 
+    {
+        "name": "Bethnal Green", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "BNG", 
+        "longitude": -0.0555, 
+        "mode": "tube", 
+        "latitude": 51.52723, 
+        "atcocode": "9400ZZLUBLG"
+    }, 
+    {
+        "name": "Bank", 
+        "lines": [
+            "central", 
+            "northern", 
+            "waterlooandcity"
+        ], 
+        "station_code": "BNK", 
+        "longitude": -0.08851, 
+        "mode": "tube", 
+        "latitude": 51.51324, 
+        "atcocode": "9400ZZLUBNK"
+    }, 
+    {
+        "name": "Borough", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "BOR", 
+        "longitude": -0.09348, 
+        "mode": "tube", 
+        "latitude": 51.50127, 
+        "atcocode": "9400ZZLUBOR"
+    }, 
+    {
+        "name": "Boston Manor", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "BOS", 
+        "longitude": -0.32557, 
+        "mode": "tube", 
+        "latitude": 51.49523, 
+        "atcocode": "9400ZZLUBOS"
+    }, 
+    {
+        "name": "Belsize Park", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "BPK", 
+        "longitude": -0.16464, 
+        "mode": "tube", 
+        "latitude": 51.55032, 
+        "atcocode": "9400ZZLUBZP"
+    }, 
+    {
+        "name": "Brixton", 
+        "lines": [
+            "victoria"
+        ], 
+        "station_code": "BRX", 
+        "longitude": -0.11488, 
+        "mode": "tube", 
+        "latitude": 51.46262, 
+        "atcocode": "9400ZZLUBXN"
+    }, 
+    {
+        "name": "Baker Street", 
+        "lines": [
+            "metropolitan", 
+            "jubilee", 
+            "bakerloo", 
+            "circle", 
+            "hammersmith"
+        ], 
+        "station_code": "BST", 
+        "longitude": -0.15653, 
+        "mode": "tube", 
+        "latitude": 51.52273, 
+        "atcocode": "9400ZZLUBST"
+    }, 
+    {
+        "name": "Brent Cross", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "BTX", 
+        "longitude": -0.21367, 
+        "mode": "tube", 
+        "latitude": 51.5767, 
+        "atcocode": "9400ZZLUBTX"
+    }, 
+    {
+        "name": "Burnt Oak", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "BUR", 
+        "longitude": -0.26388, 
+        "mode": "tube", 
+        "latitude": 51.60271, 
+        "atcocode": "9400ZZLUBTK"
+    }, 
+    {
+        "name": "Bow Road", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "BWR", 
+        "longitude": -0.0252, 
+        "mode": "tube", 
+        "latitude": 51.52673, 
+        "atcocode": "9400ZZLUBWR"
+    }, 
+    {
+        "name": "Cockfosters", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "CFS", 
+        "longitude": -0.14917, 
+        "mode": "tube", 
+        "latitude": 51.65152, 
+        "atcocode": "9400ZZLUCKS"
+    }, 
+    {
+        "name": "Chalk Farm", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "CHF", 
+        "longitude": -0.15338, 
+        "mode": "tube", 
+        "latitude": 51.54412, 
+        "atcocode": "9400ZZLUCFM"
+    }, 
+    {
+        "name": "Chigwell", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "CHG", 
+        "longitude": 0.07505, 
+        "mode": "tube", 
+        "latitude": 51.61792, 
+        "atcocode": "9400ZZLUCWL"
+    }, 
+    {
+        "name": "Chiswick Park", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "CHP", 
+        "longitude": -0.26788, 
+        "mode": "tube", 
+        "latitude": 51.4941, 
+        "atcocode": "9400ZZLUCWP"
+    }, 
+    {
+        "name": "Charing Cross", 
+        "lines": [
+            "northern", 
+            "bakerloo"
+        ], 
+        "station_code": "CHX", 
+        "longitude": -0.12727, 
+        "mode": "tube", 
+        "latitude": 51.50741, 
+        "atcocode": "9400ZZLUCHX"
+    }, 
+    {
+        "name": "Chalfont", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "CLF", 
+        "longitude": -0.56068, 
+        "mode": "tube", 
+        "latitude": 51.66799, 
+        "atcocode": "9400ZZLUCAL"
+    }, 
+    {
+        "name": "Colliers Wood", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "CLW", 
+        "longitude": -0.17808, 
+        "mode": "tube", 
+        "latitude": 51.41816, 
+        "atcocode": "9400ZZLUCSD"
+    }, 
+    {
+        "name": "Canning Town", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "CNT", 
+        "longitude": 0.00833, 
+        "mode": "tube", 
+        "latitude": 51.51359, 
+        "atcocode": "9400ZZLUCGT"
+    }, 
+    {
+        "name": "Colindale", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "COL", 
+        "longitude": -0.24992, 
+        "mode": "tube", 
+        "latitude": 51.59543, 
+        "atcocode": "9400ZZLUCND"
+    }, 
+    {
+        "name": "Covent Garden", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "COV", 
+        "longitude": -0.12443, 
+        "mode": "tube", 
+        "latitude": 51.5131, 
+        "atcocode": "9400ZZLUCGN"
+    }, 
+    {
+        "name": "Clapham Common", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "CPC", 
+        "longitude": -0.13831, 
+        "mode": "tube", 
+        "latitude": 51.46175, 
+        "atcocode": "9400ZZLUCPC"
+    }, 
+    {
+        "name": "Canons Park", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "CPK", 
+        "longitude": -0.29472, 
+        "mode": "tube", 
+        "latitude": 51.60775, 
+        "atcocode": "9400ZZLUCPK"
+    }, 
+    {
+        "name": "Clapham North", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "CPN", 
+        "longitude": -0.13001, 
+        "mode": "tube", 
+        "latitude": 51.46514, 
+        "atcocode": "9400ZZLUCPN"
+    }, 
+    {
+        "name": "Clapham South", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "CPS", 
+        "longitude": -0.14758, 
+        "mode": "tube", 
+        "latitude": 51.45266, 
+        "atcocode": "9400ZZLUCPS"
+    }, 
+    {
+        "name": "Caledonian Road", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "CRD", 
+        "longitude": -0.11849, 
+        "mode": "tube", 
+        "latitude": 51.54852, 
+        "atcocode": "9400ZZLUCAR"
+    }, 
+    {
+        "name": "Croxley", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "CRX", 
+        "longitude": -0.44171, 
+        "mode": "tube", 
+        "latitude": 51.64704, 
+        "atcocode": "9400ZZLUCXY"
+    }, 
+    {
+        "name": "Cannon Street", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "station_code": "CST", 
+        "longitude": -0.09043, 
+        "mode": "tube", 
+        "latitude": 51.51151, 
+        "atcocode": "9400ZZLUCST"
+    }, 
+    {
+        "name": "Camden Town", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "CTN", 
+        "longitude": -0.14274, 
+        "mode": "tube", 
+        "latitude": 51.5393, 
+        "atcocode": "9400ZZLUCTN"
+    }, 
+    {
+        "name": "Chorleywood", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "CWD", 
+        "longitude": -0.51845, 
+        "mode": "tube", 
+        "latitude": 51.65436, 
+        "atcocode": "9400ZZLUCYD"
+    }, 
+    {
+        "name": "Canary Wharf", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "CWF", 
+        "longitude": -0.01604, 
+        "mode": "tube", 
+        "latitude": 51.50329, 
+        "atcocode": "9400ZZLUCYF"
+    }, 
+    {
+        "name": "Canada Water", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "CWR", 
+        "longitude": -0.04908, 
+        "mode": "tube", 
+        "latitude": 51.49794, 
+        "atcocode": "9400ZZLUCWR"
+    }, 
+    {
+        "name": "Chancery Lane", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "CYL", 
+        "longitude": -0.11158, 
+        "mode": "tube", 
+        "latitude": 51.51825, 
+        "atcocode": "9400ZZLUCHL"
+    }, 
+    {
+        "name": "Debden", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "DEB", 
+        "longitude": 0.08379, 
+        "mode": "tube", 
+        "latitude": 51.64539, 
+        "atcocode": "9400ZZLUDBN"
+    }, 
+    {
+        "name": "Dagenham East", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "DGE", 
+        "longitude": 0.16603, 
+        "mode": "tube", 
+        "latitude": 51.5441, 
+        "atcocode": "9400ZZLUDGE"
+    }, 
+    {
+        "name": "Dagenham Heathway", 
+        "lines": [], 
+        "station_code": "DGH", 
+        "longitude": 0.14754, 
+        "mode": "tube", 
+        "latitude": 51.54164, 
+        "atcocode": "9400ZZLUDGY"
+    }, 
+    {
+        "name": "Dollis Hill", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "DHL", 
+        "longitude": -0.23907, 
+        "mode": "tube", 
+        "latitude": 51.55196, 
+        "atcocode": "9400ZZLUDOH"
+    }, 
+    {
+        "name": "East Action", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "EAC", 
+        "longitude": -0.24725, 
+        "mode": "tube", 
+        "latitude": 51.51662, 
+        "atcocode": "9400ZZLUEAN"
+    }, 
+    {
+        "name": "Ealing Broadway", 
+        "lines": [
+            "district", 
+            "central"
+        ], 
+        "station_code": "EBY", 
+        "longitude": -0.30146, 
+        "mode": "tube", 
+        "latitude": 51.51502, 
+        "atcocode": "9400ZZLUEBY"
+    }, 
+    {
+        "name": "Ealing Common", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "station_code": "ECM", 
+        "longitude": -0.28827, 
+        "mode": "tube", 
+        "latitude": 51.51015, 
+        "atcocode": "9400ZZLUECM"
+    }, 
+    {
+        "name": "Earls Court", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "station_code": "ECT", 
+        "longitude": -0.1931, 
+        "mode": "tube", 
+        "latitude": 51.49204, 
+        "atcocode": "9400ZZLUECT"
+    }, 
+    {
+        "name": "Edgware", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "EDG", 
+        "longitude": -0.27473, 
+        "mode": "tube", 
+        "latitude": 51.61364, 
+        "atcocode": "9400ZZLUEGW"
+    }, 
+    {
+        "name": "East Finchley", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "EFY", 
+        "longitude": -0.16501, 
+        "mode": "tube", 
+        "latitude": 51.58714, 
+        "atcocode": "9400ZZLUEFY"
+    }, 
+    {
+        "name": "East Ham", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "EHM", 
+        "longitude": 0.0512, 
+        "mode": "tube", 
+        "latitude": 51.53895, 
+        "atcocode": "9400ZZLUEHM"
+    }, 
+    {
+        "name": "Elephant & Castle", 
+        "lines": [
+            "bakerloo", 
+            "northern"
+        ], 
+        "station_code": "ELE", 
+        "longitude": -0.1006, 
+        "mode": "tube", 
+        "latitude": 51.49454, 
+        "atcocode": "9400ZZLUEAC"
+    }, 
+    {
+        "name": "Embankment", 
+        "lines": [
+            "northern", 
+            "bakerloo", 
+            "circle", 
+            "district"
+        ], 
+        "station_code": "EMB", 
+        "longitude": -0.12266, 
+        "mode": "tube", 
+        "latitude": 51.50706, 
+        "atcocode": "9400ZZLUEMB"
+    }, 
+    {
+        "name": "Elm Park", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "EPK", 
+        "longitude": 0.19868, 
+        "mode": "tube", 
+        "latitude": 51.54971, 
+        "atcocode": "9400ZZLUEPK"
+    }, 
+    {
+        "name": "Epping", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "EPP", 
+        "longitude": 0.11378, 
+        "mode": "tube", 
+        "latitude": 51.69369, 
+        "atcocode": "9400ZZLUEPG"
+    }, 
+    {
+        "name": "East Putney", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "EPY", 
+        "longitude": -0.21103, 
+        "mode": "tube", 
+        "latitude": 51.45915, 
+        "atcocode": "9400ZZLUEPY"
+    }, 
+    {
+        "name": "Edgware Road (Bakerloo)", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "ERB", 
+        "longitude": -0.16911, 
+        "mode": "tube", 
+        "latitude": 51.52058, 
+        "atcocode": "9400ZZLUERB"
+    }, 
+    {
+        "name": "Edgware Road (Cir)", 
+        "lines": [
+            "circle", 
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "ERD", 
+        "longitude": -0.16783, 
+        "mode": "tube", 
+        "latitude": 51.51986, 
+        "atcocode": "9400ZZLUERC"
+    }, 
+    {
+        "name": "Euston Square", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "station_code": "ESQ", 
+        "longitude": -0.13582, 
+        "mode": "tube", 
+        "latitude": 51.52561, 
+        "atcocode": "9400ZZLUESQ"
+    }, 
+    {
+        "name": "Eastcote", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "station_code": "ETE", 
+        "longitude": -0.39738, 
+        "mode": "tube", 
+        "latitude": 51.5765, 
+        "atcocode": "9400ZZLUEAE"
+    }, 
+    {
+        "name": "Euston", 
+        "lines": [
+            "northern", 
+            "victoria"
+        ], 
+        "station_code": "EUS", 
+        "longitude": -0.13378, 
+        "mode": "tube", 
+        "latitude": 51.528, 
+        "atcocode": "9400ZZLUEUS"
+    }, 
+    {
+        "name": "Farringdon", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "station_code": "FAR", 
+        "longitude": -0.10516, 
+        "mode": "tube", 
+        "latitude": 51.52043, 
+        "atcocode": "9400ZZLUFCN"
+    }, 
+    {
+        "name": "Fulham Broadway", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "FBY", 
+        "longitude": -0.19542, 
+        "mode": "tube", 
+        "latitude": 51.48008, 
+        "atcocode": "9400ZZLUFBY"
+    }, 
+    {
+        "name": "Fairlop", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "FLP", 
+        "longitude": 0.09101, 
+        "mode": "tube", 
+        "latitude": 51.59562, 
+        "atcocode": "9400ZZLUFLP"
+    }, 
+    {
+        "name": "Finsbury Park", 
+        "lines": [
+            "victoria", 
+            "piccadilly"
+        ], 
+        "station_code": "FPK", 
+        "longitude": -0.10682, 
+        "mode": "tube", 
+        "latitude": 51.56416, 
+        "atcocode": "9400ZZLUFPK"
+    }, 
+    {
+        "name": "Finchley Road", 
+        "lines": [
+            "jubilee", 
+            "metropolitan"
+        ], 
+        "station_code": "FRD", 
+        "longitude": -0.17984, 
+        "mode": "tube", 
+        "latitude": 51.54683, 
+        "atcocode": "9400ZZLUFYR"
+    }, 
+    {
+        "name": "Finchley Central", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "FYC", 
+        "longitude": -0.19252, 
+        "mode": "tube", 
+        "latitude": 51.60093, 
+        "atcocode": "9400ZZLUFYC"
+    }, 
+    {
+        "name": "Greenford", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "GFD", 
+        "longitude": -0.34652, 
+        "mode": "tube", 
+        "latitude": 51.54257, 
+        "atcocode": "9400ZZLUGFD"
+    }, 
+    {
+        "name": "Golders Green", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "GGR", 
+        "longitude": -0.19404, 
+        "mode": "tube", 
+        "latitude": 51.57227, 
+        "atcocode": "9400ZZLUGGN"
+    }, 
+    {
+        "name": "Gants Hill", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "GHL", 
+        "longitude": 0.06619, 
+        "mode": "tube", 
+        "latitude": 51.57655, 
+        "atcocode": "9400ZZLUGTH"
+    }, 
+    {
+        "name": "Green Park", 
+        "lines": [
+            "piccadilly", 
+            "jubilee", 
+            "victoria"
+        ], 
+        "station_code": "GPK", 
+        "longitude": -0.14278, 
+        "mode": "tube", 
+        "latitude": 51.50695, 
+        "atcocode": "9400ZZLUGPK"
+    }, 
+    {
+        "name": "Great Portland Street", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "station_code": "GPS", 
+        "longitude": -0.14426, 
+        "mode": "tube", 
+        "latitude": 51.52384, 
+        "atcocode": "9400ZZLUGPS"
+    }, 
+    {
+        "name": "Gloucester Road", 
+        "lines": [
+            "circle", 
+            "district", 
+            "piccadilly"
+        ], 
+        "station_code": "GRD", 
+        "longitude": -0.18265, 
+        "mode": "tube", 
+        "latitude": 51.49432, 
+        "atcocode": "9400ZZLUGTR"
+    }, 
+    {
+        "name": "Grange Hill", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "GRH", 
+        "longitude": 0.09208, 
+        "mode": "tube", 
+        "latitude": 51.61338, 
+        "atcocode": "9400ZZLUGGH"
+    }, 
+    {
+        "name": "Goodge Street", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "GST", 
+        "longitude": -0.13436, 
+        "mode": "tube", 
+        "latitude": 51.5206, 
+        "atcocode": "9400ZZLUGDG"
+    }, 
+    {
+        "name": "Gunnersbury", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "GUN", 
+        "longitude": -0.27527, 
+        "mode": "tube", 
+        "latitude": 51.49181, 
+        "atcocode": "9400ZZLUGBY"
+    }, 
+    {
+        "name": "Hainault", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "HAI", 
+        "longitude": 0.09342, 
+        "mode": "tube", 
+        "latitude": 51.60362, 
+        "atcocode": "9400ZZLUHLT"
+    }, 
+    {
+        "name": "Harrow & Wealdstone", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "HAW", 
+        "longitude": -0.33522, 
+        "mode": "tube", 
+        "latitude": 51.59227, 
+        "atcocode": "9400ZZLUHAW"
+    }, 
+    {
+        "name": "High Barnet", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "HBT", 
+        "longitude": -0.19429, 
+        "mode": "tube", 
+        "latitude": 51.65054, 
+        "atcocode": "9400ZZLUHBT"
+    }, 
+    {
+        "name": "Highbury", 
+        "lines": [
+            "victoria"
+        ], 
+        "station_code": "HBY", 
+        "longitude": -0.10332, 
+        "mode": "tube", 
+        "latitude": 51.54636, 
+        "atcocode": "9400ZZLUHAI"
+    }, 
+    {
+        "name": "Hornchurch", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "HCH", 
+        "longitude": 0.21913, 
+        "mode": "tube", 
+        "latitude": 51.5541, 
+        "atcocode": "9400ZZLUHCH"
+    }, 
+    {
+        "name": "Hillingdon", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "station_code": "HDN", 
+        "longitude": -0.44932, 
+        "mode": "tube", 
+        "latitude": 51.55384, 
+        "atcocode": "9400ZZLUHGD"
+    }, 
+    {
+        "name": "Highgate", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "HIG", 
+        "longitude": -0.14585, 
+        "mode": "tube", 
+        "latitude": 51.57754, 
+        "atcocode": "9400ZZLUHGT"
+    }, 
+    {
+        "name": "Hanger Lane", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "HLN", 
+        "longitude": -0.2927, 
+        "mode": "tube", 
+        "latitude": 51.53018, 
+        "atcocode": "9400ZZLUHGR"
+    }, 
+    {
+        "name": "Hammersmith (District and Picc)", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "station_code": "HMD", 
+        "longitude": -0.22362, 
+        "mode": "tube", 
+        "latitude": 51.4923, 
+        "atcocode": "9400ZZLUHSD"
+    }, 
+    {
+        "name": "Hampstead", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "HMP", 
+        "longitude": -0.17848, 
+        "mode": "tube", 
+        "latitude": 51.55664, 
+        "atcocode": "9400ZZLUHTD"
+    }, 
+    {
+        "name": "Hammersmith (Circle and H)", 
+        "lines": [
+            "hammersmith"
+        ], 
+        "station_code": "HMS", 
+        "longitude": -0.22501, 
+        "mode": "tube", 
+        "latitude": 51.49354, 
+        "atcocode": "9400ZZLUHSC"
+    }, 
+    {
+        "name": "Hounslow Central", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "HNC", 
+        "longitude": -0.36632, 
+        "mode": "tube", 
+        "latitude": 51.47128, 
+        "atcocode": "9400ZZLUHWC"
+    }, 
+    {
+        "name": "Hendon Central", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "HND", 
+        "longitude": -0.22639, 
+        "mode": "tube", 
+        "latitude": 51.58315, 
+        "atcocode": "9400ZZLUHCL"
+    }, 
+    {
+        "name": "Hounslow East", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "HNE", 
+        "longitude": -0.3571, 
+        "mode": "tube", 
+        "latitude": 51.47306, 
+        "atcocode": "9400ZZLUHWE"
+    }, 
+    {
+        "name": "Hounslow West", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "HNW", 
+        "longitude": -0.38653, 
+        "mode": "tube", 
+        "latitude": 51.47347, 
+        "atcocode": "9400ZZLUHWT"
+    }, 
+    {
+        "name": "Harrow on the Hill", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "HOH", 
+        "longitude": -0.33677, 
+        "mode": "tube", 
+        "latitude": 51.57939, 
+        "atcocode": "9400ZZLUHOH"
+    }, 
+    {
+        "name": "Holborn", 
+        "lines": [
+            "piccadilly", 
+            "central"
+        ], 
+        "station_code": "HOL", 
+        "longitude": -0.12047, 
+        "mode": "tube", 
+        "latitude": 51.51758, 
+        "atcocode": "9400ZZLUHBN"
+    }, 
+    {
+        "name": "Hyde Park Corner", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "HPC", 
+        "longitude": -0.15244, 
+        "mode": "tube", 
+        "latitude": 51.50304, 
+        "atcocode": "9400ZZLUHPC"
+    }, 
+    {
+        "name": "Holland Park", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "HPK", 
+        "longitude": -0.20568, 
+        "mode": "tube", 
+        "latitude": 51.50715, 
+        "atcocode": "9400ZZLUHPK"
+    }, 
+    {
+        "name": "Heathrow Terminal 123", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "HRC", 
+        "longitude": -0.45226, 
+        "mode": "tube", 
+        "latitude": 51.47124, 
+        "atcocode": "9400ZZLUHRC"
+    }, 
+    {
+        "name": "Holloway Road", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "HRD", 
+        "longitude": -0.11324, 
+        "mode": "tube", 
+        "latitude": 51.5527, 
+        "atcocode": "9400ZZLUHWY"
+    }, 
+    {
+        "name": "Heathrow Terminal 4", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "HRF", 
+        "longitude": -0.44576, 
+        "mode": "tube", 
+        "latitude": 51.45853, 
+        "atcocode": "9400ZZLUHR4"
+    }, 
+    {
+        "name": "Heathrow Terminal 5", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "HRV", 
+        "longitude": -0.49055, 
+        "mode": "tube", 
+        "latitude": 51.47006, 
+        "atcocode": "9400ZZLUHR5"
+    }, 
+    {
+        "name": "Harlesden", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "HSD", 
+        "longitude": -0.25788, 
+        "mode": "tube", 
+        "latitude": 51.53632, 
+        "atcocode": "9400ZZLUHSN"
+    }, 
+    {
+        "name": "High Street Kensington", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "station_code": "HST", 
+        "longitude": -0.19279, 
+        "mode": "tube", 
+        "latitude": 51.50106, 
+        "atcocode": "9400ZZLUHSK"
+    }, 
+    {
+        "name": "Hatton Cross", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "HTX", 
+        "longitude": -0.42318, 
+        "mode": "tube", 
+        "latitude": 51.46675, 
+        "atcocode": "9400ZZLUHNX"
+    }, 
+    {
+        "name": "Ickenham", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "station_code": "ICK", 
+        "longitude": -0.44199, 
+        "mode": "tube", 
+        "latitude": 51.56199, 
+        "atcocode": "9400ZZLUICK"
+    }, 
+    {
+        "name": "Kingsbury", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "KBY", 
+        "longitude": -0.27879, 
+        "mode": "tube", 
+        "latitude": 51.58485, 
+        "atcocode": "9400ZZLUKBY"
+    }, 
+    {
+        "name": "Kennington", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "KEN", 
+        "longitude": -0.10596, 
+        "mode": "tube", 
+        "latitude": 51.48834, 
+        "atcocode": "9400ZZLUKNG"
+    }, 
+    {
+        "name": "Kew Gardens", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "KEW", 
+        "longitude": -0.28524, 
+        "mode": "tube", 
+        "latitude": 51.47706, 
+        "atcocode": "9400ZZLUKWG"
+    }, 
+    {
+        "name": "Kensal Green", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "KGN", 
+        "longitude": -0.22455, 
+        "mode": "tube", 
+        "latitude": 51.53056, 
+        "atcocode": "9400ZZLUKSL"
+    }, 
+    {
+        "name": "Kilburn", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "KIL", 
+        "longitude": -0.2041, 
+        "mode": "tube", 
+        "latitude": 51.54681, 
+        "atcocode": "9400ZZLUKBN"
+    }, 
+    {
+        "name": "Knightsbridge", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "KNB", 
+        "longitude": -0.1605, 
+        "mode": "tube", 
+        "latitude": 51.50167, 
+        "atcocode": "9400ZZLUKNB"
+    }, 
+    {
+        "name": "Kenton", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "KNT", 
+        "longitude": -0.31632, 
+        "mode": "tube", 
+        "latitude": 51.58165, 
+        "atcocode": "9400ZZLUKEN"
+    }, 
+    {
+        "name": "Kilburn Park", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "KPK", 
+        "longitude": -0.19423, 
+        "mode": "tube", 
+        "latitude": 51.53498, 
+        "atcocode": "9400ZZLUKPK"
+    }, 
+    {
+        "name": "Kentish Town", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "KTN", 
+        "longitude": -0.14073, 
+        "mode": "tube", 
+        "latitude": 51.55032, 
+        "atcocode": "9400ZZLUKSH"
+    }, 
+    {
+        "name": "King's Cross St. Pancras", 
+        "lines": [
+            "victoria", 
+            "northern", 
+            "circle", 
+            "hammersmith", 
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "station_code": "KXX", 
+        "longitude": -0.12319, 
+        "mode": "tube", 
+        "latitude": 51.53067, 
+        "atcocode": "9400ZZLUKSX"
+    }, 
+    {
+        "name": "Lambeth North", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "LAM", 
+        "longitude": -0.11231, 
+        "mode": "tube", 
+        "latitude": 51.49881, 
+        "atcocode": "9400ZZLULBN"
+    }, 
+    {
+        "name": "Lancaster Gate", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "LAN", 
+        "longitude": -0.17549, 
+        "mode": "tube", 
+        "latitude": 51.51173, 
+        "atcocode": "9400ZZLULGT"
+    }, 
+    {
+        "name": "Leyton", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "LEY", 
+        "longitude": -0.00553, 
+        "mode": "tube", 
+        "latitude": 51.55666, 
+        "atcocode": "9400ZZLULYN"
+    }, 
+    {
+        "name": "London Bridge", 
+        "lines": [
+            "northern", 
+            "jubilee"
+        ], 
+        "station_code": "LON", 
+        "longitude": -0.08887, 
+        "mode": "tube", 
+        "latitude": 51.50573, 
+        "atcocode": "9400ZZLULNB"
+    }, 
+    {
+        "name": "Leicester Square", 
+        "lines": [
+            "northern", 
+            "piccadilly"
+        ], 
+        "station_code": "LSQ", 
+        "longitude": -0.12842, 
+        "mode": "tube", 
+        "latitude": 51.51139, 
+        "atcocode": "9400ZZLULSQ"
+    }, 
+    {
+        "name": "Liverpool Street", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan", 
+            "central"
+        ], 
+        "station_code": "LST", 
+        "longitude": -0.08318, 
+        "mode": "tube", 
+        "latitude": 51.51738, 
+        "atcocode": "9400ZZLULVT"
+    }, 
+    {
+        "name": "Loughton", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "LTN", 
+        "longitude": 0.05549, 
+        "mode": "tube", 
+        "latitude": 51.64145, 
+        "atcocode": "9400ZZLULGN"
+    }, 
+    {
+        "name": "Leytonstone", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "LYS", 
+        "longitude": 0.00815, 
+        "mode": "tube", 
+        "latitude": 51.56835, 
+        "atcocode": "9400ZZLULYS"
+    }, 
+    {
+        "name": "Mansion House", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "station_code": "MAN", 
+        "longitude": -0.09409, 
+        "mode": "tube", 
+        "latitude": 51.51187, 
+        "atcocode": "9400ZZLUMSH"
+    }, 
+    {
+        "name": "Marble Arch", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "MAR", 
+        "longitude": -0.15895, 
+        "mode": "tube", 
+        "latitude": 51.51343, 
+        "atcocode": "9400ZZLUMBA"
+    }, 
+    {
+        "name": "Mornington Crescent", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "MCR", 
+        "longitude": -0.13878, 
+        "mode": "tube", 
+        "latitude": 51.53468, 
+        "atcocode": "9400ZZLUMTC"
+    }, 
+    {
+        "name": "Maida Vale", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "MDV", 
+        "longitude": -0.18576, 
+        "mode": "tube", 
+        "latitude": 51.52978, 
+        "atcocode": "9400ZZLUMVL"
+    }, 
+    {
+        "name": "Moorgate", 
+        "lines": [
+            "northern", 
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "station_code": "MGT", 
+        "longitude": -0.08832, 
+        "mode": "tube", 
+        "latitude": 51.51818, 
+        "atcocode": "9400ZZLUMGT"
+    }, 
+    {
+        "name": "Mill Hill East", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "MHE", 
+        "longitude": -0.20998, 
+        "mode": "tube", 
+        "latitude": 51.60824, 
+        "atcocode": "9400ZZLUMHL"
+    }, 
+    {
+        "name": "Mile End", 
+        "lines": [
+            "central", 
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "MLE", 
+        "longitude": -0.03372, 
+        "mode": "tube", 
+        "latitude": 51.52508, 
+        "atcocode": "9400ZZLUMED"
+    }, 
+    {
+        "name": "Manor House", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "MNR", 
+        "longitude": -0.09611, 
+        "mode": "tube", 
+        "latitude": 51.57074, 
+        "atcocode": "9400ZZLUMRH"
+    }, 
+    {
+        "name": "Monument", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "station_code": "MON", 
+        "longitude": -0.08596, 
+        "mode": "tube", 
+        "latitude": 51.5107, 
+        "atcocode": "9400ZZLUMMT"
+    }, 
+    {
+        "name": "Morden", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "MOR", 
+        "longitude": -0.19484, 
+        "mode": "tube", 
+        "latitude": 51.40214, 
+        "atcocode": "9400ZZLUMDN"
+    }, 
+    {
+        "name": "Moor Park", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "MPK", 
+        "longitude": -0.43231, 
+        "mode": "tube", 
+        "latitude": 51.6298, 
+        "atcocode": "9400ZZLUMPK"
+    }, 
+    {
+        "name": "Marylebone", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "MYB", 
+        "longitude": -0.1632, 
+        "mode": "tube", 
+        "latitude": 51.52233, 
+        "atcocode": "9400ZZLUMYB"
+    }, 
+    {
+        "name": "North Acton", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "NAC", 
+        "longitude": -0.25975, 
+        "mode": "tube", 
+        "latitude": 51.52353, 
+        "atcocode": "9400ZZLUNAN"
+    }, 
+    {
+        "name": "Neasden", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "NEA", 
+        "longitude": -0.24984, 
+        "mode": "tube", 
+        "latitude": 51.55399, 
+        "atcocode": "9400ZZLUNDN"
+    }, 
+    {
+        "name": "North Ealing", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "NEL", 
+        "longitude": -0.28887, 
+        "mode": "tube", 
+        "latitude": 51.51751, 
+        "atcocode": "9400ZZLUNEN"
+    }, 
+    {
+        "name": "Newbury Park", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "NEP", 
+        "longitude": 0.08991, 
+        "mode": "tube", 
+        "latitude": 51.57573, 
+        "atcocode": "9400ZZLUNBP"
+    }, 
+    {
+        "name": "Nothfields", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "NFD", 
+        "longitude": -0.31472, 
+        "mode": "tube", 
+        "latitude": 51.49932, 
+        "atcocode": "9400ZZLUNFD"
+    }, 
+    {
+        "name": "North Greenwich", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "NGW", 
+        "longitude": 0.0043, 
+        "mode": "tube", 
+        "latitude": 51.50047, 
+        "atcocode": "9400ZZLUNGW"
+    }, 
+    {
+        "name": "Notting Hill Gate", 
+        "lines": [
+            "central", 
+            "circle"
+        ], 
+        "station_code": "NHG", 
+        "longitude": -0.1961, 
+        "mode": "tube", 
+        "latitude": 51.50913, 
+        "atcocode": "9400ZZLUNHG"
+    }, 
+    {
+        "name": "North Harrow", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "NHR", 
+        "longitude": -0.36253, 
+        "mode": "tube", 
+        "latitude": 51.58502, 
+        "atcocode": "9400ZZLUNHA"
+    }, 
+    {
+        "name": "Northolt", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "NHT", 
+        "longitude": -0.3687, 
+        "mode": "tube", 
+        "latitude": 51.54824, 
+        "atcocode": "9400ZZLUNHT"
+    }, 
+    {
+        "name": "Northwood", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "NWD", 
+        "longitude": -0.42382, 
+        "mode": "tube", 
+        "latitude": 51.61105, 
+        "atcocode": "9400ZZLUNOW"
+    }, 
+    {
+        "name": "Northwood Hills", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "NWH", 
+        "longitude": -0.40945, 
+        "mode": "tube", 
+        "latitude": 51.60057, 
+        "atcocode": "9400ZZLUNWH"
+    }, 
+    {
+        "name": "North Wembley", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "NWM", 
+        "longitude": -0.304, 
+        "mode": "tube", 
+        "latitude": 51.56256, 
+        "atcocode": "9400ZZLUNWY"
+    }, 
+    {
+        "name": "Northwick Park", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "NWP", 
+        "longitude": -0.31806, 
+        "mode": "tube", 
+        "latitude": 51.57849, 
+        "atcocode": "9400ZZLUNKP"
+    }, 
+    {
+        "name": "Oakwood", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "OAK", 
+        "longitude": -0.13216, 
+        "mode": "tube", 
+        "latitude": 51.64773, 
+        "atcocode": "9400ZZLUOAK"
+    }, 
+    {
+        "name": "Old Street", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "OLD", 
+        "longitude": -0.08776, 
+        "mode": "tube", 
+        "latitude": 51.52587, 
+        "atcocode": "9400ZZLUODS"
+    }, 
+    {
+        "name": "Olympia", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "OLY", 
+        "longitude": -0.21049, 
+        "mode": "tube", 
+        "latitude": 51.49821, 
+        "atcocode": "9400ZZLUKOY"
+    }, 
+    {
+        "name": "Osterley", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "OST", 
+        "longitude": -0.35258, 
+        "mode": "tube", 
+        "latitude": 51.48112, 
+        "atcocode": "9400ZZLUOSY"
+    }, 
+    {
+        "name": "Oval", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "OVL", 
+        "longitude": -0.11243, 
+        "mode": "tube", 
+        "latitude": 51.48185, 
+        "atcocode": "9400ZZLUOVL"
+    }, 
+    {
+        "name": "Oxford Circus", 
+        "lines": [
+            "bakerloo", 
+            "central", 
+            "victoria"
+        ], 
+        "station_code": "OXC", 
+        "longitude": -0.14188, 
+        "mode": "tube", 
+        "latitude": 51.51525, 
+        "atcocode": "9400ZZLUOXC"
+    }, 
+    {
+        "name": "Paddington", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "PAD", 
+        "longitude": -0.17569, 
+        "mode": "tube", 
+        "latitude": 51.51659, 
+        "atcocode": "9400ZZLUPAC"
+    }, 
+    {
+        "name": "Paddington Circle", 
+        "lines": [
+            "circle"
+        ], 
+        "station_code": "PADc", 
+        "longitude": -0.1783, 
+        "mode": "tube", 
+        "latitude": 51.51819, 
+        "atcocode": "9400ZZLUPAH"
+    }, 
+    {
+        "name": "Paddington (H & C line)", 
+        "lines": [
+            "hammersmith"
+        ], 
+        "station_code": "PADs", 
+        "longitude": -0.17858, 
+        "mode": "tube", 
+        "latitude": 51.51847, 
+        "atcocode": "9400ZZLUPAH"
+    }, 
+    {
+        "name": "Perivale", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "PER", 
+        "longitude": -0.32345, 
+        "mode": "tube", 
+        "latitude": 51.53672, 
+        "atcocode": "9400ZZLUPVL"
+    }, 
+    {
+        "name": "Parsons Green", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "PGR", 
+        "longitude": -0.2018, 
+        "mode": "tube", 
+        "latitude": 51.47502, 
+        "atcocode": "9400ZZLUPSG"
+    }, 
+    {
+        "name": "Piccadilly Circus", 
+        "lines": [
+            "piccadilly", 
+            "bakerloo"
+        ], 
+        "station_code": "PIC", 
+        "longitude": -0.13379, 
+        "mode": "tube", 
+        "latitude": 51.51005, 
+        "atcocode": "9400ZZLUPCC"
+    }, 
+    {
+        "name": "Pimlico", 
+        "lines": [
+            "victoria"
+        ], 
+        "station_code": "PIM", 
+        "longitude": -0.13376, 
+        "mode": "tube", 
+        "latitude": 51.4891, 
+        "atcocode": "9400ZZLUPCO"
+    }, 
+    {
+        "name": "Pinner", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "PIN", 
+        "longitude": -0.38116, 
+        "mode": "tube", 
+        "latitude": 51.5929, 
+        "atcocode": "9400ZZLUPNR"
+    }, 
+    {
+        "name": "Plaistow", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "PLW", 
+        "longitude": 0.01701, 
+        "mode": "tube", 
+        "latitude": 51.5312, 
+        "atcocode": "9400ZZLUPLW"
+    }, 
+    {
+        "name": "Park Royal", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "PRY", 
+        "longitude": -0.28434, 
+        "mode": "tube", 
+        "latitude": 51.52713, 
+        "atcocode": "9400ZZLUPKR"
+    }, 
+    {
+        "name": "Putney Bridge", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "PUT", 
+        "longitude": -0.20873, 
+        "mode": "tube", 
+        "latitude": 51.46827, 
+        "atcocode": "9400ZZLUPYB"
+    }, 
+    {
+        "name": "Queensbury", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "QBY", 
+        "longitude": -0.28622, 
+        "mode": "tube", 
+        "latitude": 51.5942, 
+        "atcocode": "9400ZZLUQBY"
+    }, 
+    {
+        "name": "Queen's Park", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "QPK", 
+        "longitude": -0.20457, 
+        "mode": "tube", 
+        "latitude": 51.53416, 
+        "atcocode": "9400ZZLUQPS"
+    }, 
+    {
+        "name": "Queensway", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "QWY", 
+        "longitude": -0.18715, 
+        "mode": "tube", 
+        "latitude": 51.51032, 
+        "atcocode": "9400ZZLUQWY"
+    }, 
+    {
+        "name": "Ravenscourt Park", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "RCP", 
+        "longitude": -0.23588, 
+        "mode": "tube", 
+        "latitude": 51.49413, 
+        "atcocode": "9400ZZLURVP"
+    }, 
+    {
+        "name": "Redbridge", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "RED", 
+        "longitude": 0.04537, 
+        "mode": "tube", 
+        "latitude": 51.57625, 
+        "atcocode": "9400ZZLURBG"
+    }, 
+    {
+        "name": "Rickmansworth", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "RKY", 
+        "longitude": -0.47369, 
+        "mode": "tube", 
+        "latitude": 51.64021, 
+        "atcocode": "9400ZZLURKW"
+    }, 
+    {
+        "name": "Rayners Lane", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "station_code": "RLN", 
+        "longitude": -0.37154, 
+        "mode": "tube", 
+        "latitude": 51.57496, 
+        "atcocode": "9400ZZLURYL"
+    }, 
+    {
+        "name": "Richmond", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "RMD", 
+        "longitude": -0.30205, 
+        "mode": "tube", 
+        "latitude": 51.46334, 
+        "atcocode": "9400ZZLURMD"
+    }, 
+    {
+        "name": "Roding Valley", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "ROD", 
+        "longitude": 0.04366, 
+        "mode": "tube", 
+        "latitude": 51.61721, 
+        "atcocode": "9400ZZLURVY"
+    }, 
+    {
+        "name": "Regent's Park", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "RPK", 
+        "longitude": -0.14633, 
+        "mode": "tube", 
+        "latitude": 51.52328, 
+        "atcocode": "9400ZZLURGP"
+    }, 
+    {
+        "name": "Russell Square", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "RSQ", 
+        "longitude": -0.12428, 
+        "mode": "tube", 
+        "latitude": 51.52308, 
+        "atcocode": "9400ZZLURSQ"
+    }, 
+    {
+        "name": "Ruislip Gardens", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "RUG", 
+        "longitude": -0.4107, 
+        "mode": "tube", 
+        "latitude": 51.56074, 
+        "atcocode": "9400ZZLURSG"
+    }, 
+    {
+        "name": "Ruislip", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "station_code": "RUI", 
+        "longitude": -0.42189, 
+        "mode": "tube", 
+        "latitude": 51.57135, 
+        "atcocode": "9400ZZLURSP"
+    }, 
+    {
+        "name": "Ruislip Manor", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "station_code": "RUM", 
+        "longitude": -0.41296, 
+        "mode": "tube", 
+        "latitude": 51.5732, 
+        "atcocode": "9400ZZLURSM"
+    }, 
+    {
+        "name": "Shepherds Bush (Central Line)", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "SBC", 
+        "longitude": -0.21881, 
+        "mode": "tube", 
+        "latitude": 51.50438, 
+        "atcocode": "9400ZZLUSBC"
+    }, 
+    {
+        "name": "South Ealing", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "SEL", 
+        "longitude": -0.30876, 
+        "mode": "tube", 
+        "latitude": 51.50065, 
+        "atcocode": "9400ZZLUSEA"
+    }, 
+    {
+        "name": "Stratford", 
+        "lines": [
+            "jubilee", 
+            "central"
+        ], 
+        "station_code": "SFD", 
+        "longitude": -0.00345, 
+        "mode": "tube", 
+        "latitude": 51.54181, 
+        "atcocode": "9400ZZLUSTD"
+    }, 
+    {
+        "name": "Southfields", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "SFS", 
+        "longitude": -0.20667, 
+        "mode": "tube", 
+        "latitude": 51.44509, 
+        "atcocode": "9400ZZLUSFS"
+    }, 
+    {
+        "name": "Southgate", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "SGT", 
+        "longitude": -0.12781, 
+        "mode": "tube", 
+        "latitude": 51.63232, 
+        "atcocode": "9400ZZLUSGT"
+    }, 
+    {
+        "name": "Sudbury Hill", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "SHL", 
+        "longitude": -0.33607, 
+        "mode": "tube", 
+        "latitude": 51.55684, 
+        "atcocode": "9400ZZLUSUH"
+    }, 
+    {
+        "name": "South Harrow", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "SHR", 
+        "longitude": -0.35249, 
+        "mode": "tube", 
+        "latitude": 51.56489, 
+        "atcocode": "9400ZZLUSHH"
+    }, 
+    {
+        "name": "St. Jame's Park", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "station_code": "SJP", 
+        "longitude": -0.1336, 
+        "mode": "tube", 
+        "latitude": 51.49955, 
+        "atcocode": "9400ZZLUSJP"
+    }, 
+    {
+        "name": "St. John's Wood", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "SJW", 
+        "longitude": -0.17395, 
+        "mode": "tube", 
+        "latitude": 51.53453, 
+        "atcocode": "9400ZZLUSJW"
+    }, 
+    {
+        "name": "South Kensington", 
+        "lines": [
+            "circle", 
+            "district", 
+            "piccadilly"
+        ], 
+        "station_code": "SKN", 
+        "longitude": -0.17414, 
+        "mode": "tube", 
+        "latitude": 51.4941, 
+        "atcocode": "9400ZZLUSKS"
+    }, 
+    {
+        "name": "South Kenton", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "SKT", 
+        "longitude": -0.30843, 
+        "mode": "tube", 
+        "latitude": 51.57024, 
+        "atcocode": "9400ZZLUSKT"
+    }, 
+    {
+        "name": "Snaresbrook", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "SNB", 
+        "longitude": 0.02145, 
+        "mode": "tube", 
+        "latitude": 51.58068, 
+        "atcocode": "9400ZZLUSNB"
+    }, 
+    {
+        "name": "Stonebridge Park", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "SPK", 
+        "longitude": -0.27589, 
+        "mode": "tube", 
+        "latitude": 51.54396, 
+        "atcocode": "9400ZZLUSGP"
+    }, 
+    {
+        "name": "South Ruislip", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "SRP", 
+        "longitude": -0.3989, 
+        "mode": "tube", 
+        "latitude": 51.55686, 
+        "atcocode": "9400ZZLUSRP"
+    }, 
+    {
+        "name": "Sloane Square", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "station_code": "SSQ", 
+        "longitude": -0.15637, 
+        "mode": "tube", 
+        "latitude": 51.49227, 
+        "atcocode": "9400ZZLUSSQ"
+    }, 
+    {
+        "name": "Stanmore", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "STA", 
+        "longitude": -0.30323, 
+        "mode": "tube", 
+        "latitude": 51.61976, 
+        "atcocode": "9400ZZLUSTM"
+    }, 
+    {
+        "name": "Stamford Brook", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "STB", 
+        "longitude": -0.24575, 
+        "mode": "tube", 
+        "latitude": 51.49492, 
+        "atcocode": "9400ZZLUSFB"
+    }, 
+    {
+        "name": "Stepney Green", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "STG", 
+        "longitude": -0.04659, 
+        "mode": "tube", 
+        "latitude": 51.52186, 
+        "atcocode": "9400ZZLUSGN"
+    }, 
+    {
+        "name": "Stockwell", 
+        "lines": [
+            "victoria", 
+            "northern"
+        ], 
+        "station_code": "STK", 
+        "longitude": -0.12264, 
+        "mode": "tube", 
+        "latitude": 51.47219, 
+        "atcocode": "9400ZZLUSKW"
+    }, 
+    {
+        "name": "Sudbury Town", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "STN", 
+        "longitude": -0.31575, 
+        "mode": "tube", 
+        "latitude": 51.55082, 
+        "atcocode": "9400ZZLUSUT"
+    }, 
+    {
+        "name": "St. Pauls's", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "STP", 
+        "longitude": -0.09756, 
+        "mode": "tube", 
+        "latitude": 51.51494, 
+        "atcocode": "9400ZZLUSPU"
+    }, 
+    {
+        "name": "Seven Sisters", 
+        "lines": [
+            "victoria"
+        ], 
+        "station_code": "SVS", 
+        "longitude": -0.07258, 
+        "mode": "tube", 
+        "latitude": 51.58334, 
+        "atcocode": "9400ZZLUSVS"
+    }, 
+    {
+        "name": "Swiss Cottage", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "SWC", 
+        "longitude": -0.17489, 
+        "mode": "tube", 
+        "latitude": 51.54369, 
+        "atcocode": "9400ZZLUSWC"
+    }, 
+    {
+        "name": "South Woodford", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "SWF", 
+        "longitude": 0.02735, 
+        "mode": "tube", 
+        "latitude": 51.59191, 
+        "atcocode": "9400ZZLUSWF"
+    }, 
+    {
+        "name": "Southwark", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "SWK", 
+        "longitude": -0.1054, 
+        "mode": "tube", 
+        "latitude": 51.50429, 
+        "atcocode": "9400ZZLUSWK"
+    }, 
+    {
+        "name": "South Wimbledon", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "SWM", 
+        "longitude": -0.192, 
+        "mode": "tube", 
+        "latitude": 51.41531, 
+        "atcocode": "9400ZZLUSWN"
+    }, 
+    {
+        "name": "Tooting Bec", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "TBE", 
+        "longitude": -0.15973, 
+        "mode": "tube", 
+        "latitude": 51.43568, 
+        "atcocode": "9400ZZLUTBC"
+    }, 
+    {
+        "name": "Tooting Broadway", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "TBY", 
+        "longitude": -0.16837, 
+        "mode": "tube", 
+        "latitude": 51.42763, 
+        "atcocode": "9400ZZLUTBY"
+    }, 
+    {
+        "name": "Tottenham Court Road", 
+        "lines": [
+            "central", 
+            "northern"
+        ], 
+        "station_code": "TCR", 
+        "longitude": -0.13041, 
+        "mode": "tube", 
+        "latitude": 51.51643, 
+        "atcocode": "9400ZZLUTCR"
+    }, 
+    {
+        "name": "Temple", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "station_code": "TEM", 
+        "longitude": -0.11426, 
+        "mode": "tube", 
+        "latitude": 51.51101, 
+        "atcocode": "9400ZZLUTMP"
+    }, 
+    {
+        "name": "Turnham Green", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "station_code": "TGR", 
+        "longitude": -0.25451, 
+        "mode": "tube", 
+        "latitude": 51.49513, 
+        "atcocode": "9400ZZLUTNG"
+    }, 
+    {
+        "name": "Theydon Bois", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "THB", 
+        "longitude": 0.1031, 
+        "mode": "tube", 
+        "latitude": 51.67177, 
+        "atcocode": "9400ZZLUTHB"
+    }, 
+    {
+        "name": "Tower Hill", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "station_code": "THL", 
+        "longitude": -0.07654, 
+        "mode": "tube", 
+        "latitude": 51.50998, 
+        "atcocode": "9400ZZLUTWH"
+    }, 
+    {
+        "name": "Totteridge and Whetstone", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "TOT", 
+        "longitude": -0.17921, 
+        "mode": "tube", 
+        "latitude": 51.6306, 
+        "atcocode": "9400ZZLUTAW"
+    }, 
+    {
+        "name": "Tufnell Park", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "TPK", 
+        "longitude": -0.13843, 
+        "mode": "tube", 
+        "latitude": 51.55683, 
+        "atcocode": "9400ZZLUTFP"
+    }, 
+    {
+        "name": "Turnpike Lane", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "TPL", 
+        "longitude": -0.10295, 
+        "mode": "tube", 
+        "latitude": 51.59028, 
+        "atcocode": "9400ZZLUTPN"
+    }, 
+    {
+        "name": "Tottenham Hale", 
+        "lines": [
+            "victoria"
+        ], 
+        "station_code": "TTH", 
+        "longitude": -0.06023, 
+        "mode": "tube", 
+        "latitude": 51.58811, 
+        "atcocode": "9400ZZLUTMH"
+    }, 
+    {
+        "name": "Upminster Bridge", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "UPB", 
+        "longitude": 0.23582, 
+        "mode": "tube", 
+        "latitude": 51.55857, 
+        "atcocode": "9400ZZLUUPB"
+    }, 
+    {
+        "name": "Upton Park", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "UPK", 
+        "longitude": 0.03527, 
+        "mode": "tube", 
+        "latitude": 51.53535, 
+        "atcocode": "9400ZZLUUPK"
+    }, 
+    {
+        "name": "Upminster", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "UPM", 
+        "longitude": 0.25112, 
+        "mode": "tube", 
+        "latitude": 51.55885, 
+        "atcocode": "9400ZZLUUPM"
+    }, 
+    {
+        "name": "Upney", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "UPY", 
+        "longitude": 0.10154, 
+        "mode": "tube", 
+        "latitude": 51.53838, 
+        "atcocode": "9400ZZLUUPY"
+    }, 
+    {
+        "name": "Uxbridge", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "station_code": "UXB", 
+        "longitude": -0.47794, 
+        "mode": "tube", 
+        "latitude": 51.54656, 
+        "atcocode": "9400ZZLUUXB"
+    }, 
+    {
+        "name": "Victoria", 
+        "lines": [
+            "circle", 
+            "district", 
+            "victoria"
+        ], 
+        "station_code": "VIC", 
+        "longitude": -0.1431, 
+        "mode": "tube", 
+        "latitude": 51.49636, 
+        "atcocode": "9400ZZLUVIC"
+    }, 
+    {
+        "name": "Vauxhall", 
+        "lines": [
+            "victoria"
+        ], 
+        "station_code": "VUX", 
+        "longitude": -0.1242, 
+        "mode": "tube", 
+        "latitude": 51.48575, 
+        "atcocode": "9400ZZLUVXL"
+    }, 
+    {
+        "name": "West Action", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "WAC", 
+        "longitude": -0.28098, 
+        "mode": "tube", 
+        "latitude": 51.51801, 
+        "atcocode": "9400ZZLUWTA"
+    }, 
+    {
+        "name": "Walthamstow Central", 
+        "lines": [
+            "victoria"
+        ], 
+        "station_code": "WAL", 
+        "longitude": -0.02007, 
+        "mode": "tube", 
+        "latitude": 51.58258, 
+        "atcocode": "9400ZZLUWWL"
+    }, 
+    {
+        "name": "Wanstead", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "WAN", 
+        "longitude": 0.02867, 
+        "mode": "tube", 
+        "latitude": 51.57563, 
+        "atcocode": "9400ZZLUWSD"
+    }, 
+    {
+        "name": "Warwick Avenue", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "WAR", 
+        "longitude": -0.18371, 
+        "mode": "tube", 
+        "latitude": 51.52323, 
+        "atcocode": "9400ZZLUWKA"
+    }, 
+    {
+        "name": "Watford", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "WAT", 
+        "longitude": -0.41738, 
+        "mode": "tube", 
+        "latitude": 51.65745, 
+        "atcocode": "9400ZZLUWAF"
+    }, 
+    {
+        "name": "West Brompton", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "WBT", 
+        "longitude": -0.1956, 
+        "mode": "tube", 
+        "latitude": 51.48727, 
+        "atcocode": "9400ZZLUWBN"
+    }, 
+    {
+        "name": "Whitechapel", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "WCL", 
+        "longitude": -0.05937, 
+        "mode": "tube", 
+        "latitude": 51.51927, 
+        "atcocode": "9400ZZLUWPL"
+    }, 
+    {
+        "name": "White City", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "WCT", 
+        "longitude": -0.22443, 
+        "mode": "tube", 
+        "latitude": 51.51223, 
+        "atcocode": "9400ZZLUWCY"
+    }, 
+    {
+        "name": "Wimbledon", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "WDN", 
+        "longitude": -0.20652, 
+        "mode": "tube", 
+        "latitude": 51.42136, 
+        "atcocode": "9400ZZLUWIM"
+    }, 
+    {
+        "name": "Wembley Central", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "WEM", 
+        "longitude": -0.29685, 
+        "mode": "tube", 
+        "latitude": 51.55231, 
+        "atcocode": "9400ZZLUWYC"
+    }, 
+    {
+        "name": "Woodford", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "WFD", 
+        "longitude": 0.03398, 
+        "mode": "tube", 
+        "latitude": 51.60691, 
+        "atcocode": "9400ZZLUWOF"
+    }, 
+    {
+        "name": "West Finchely", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "WFY", 
+        "longitude": -0.18836, 
+        "mode": "tube", 
+        "latitude": 51.60949, 
+        "atcocode": "9400ZZLUWFN"
+    }, 
+    {
+        "name": "Woodgreen", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "station_code": "WGN", 
+        "longitude": -0.10988, 
+        "mode": "tube", 
+        "latitude": 51.59749, 
+        "atcocode": "9400ZZLUWOG"
+    }, 
+    {
+        "name": "West Hampstead", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "WHD", 
+        "longitude": -0.19106, 
+        "mode": "tube", 
+        "latitude": 51.54664, 
+        "atcocode": "9400ZZLUWHP"
+    }, 
+    {
+        "name": "West Ham", 
+        "lines": [
+            "jubilee", 
+            "district", 
+            "hammersmith"
+        ], 
+        "station_code": "WHM", 
+        "longitude": 0.00511, 
+        "mode": "tube", 
+        "latitude": 51.52849, 
+        "atcocode": "9400ZZLUWHM"
+    }, 
+    {
+        "name": "West Harrow", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "station_code": "WHR", 
+        "longitude": -0.3534, 
+        "mode": "tube", 
+        "latitude": 51.57972, 
+        "atcocode": "9400ZZLUWHW"
+    }, 
+    {
+        "name": "Willesden Junction", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "station_code": "WJN", 
+        "longitude": -0.24428, 
+        "mode": "tube", 
+        "latitude": 51.53226, 
+        "atcocode": "9400ZZLUWJN"
+    }, 
+    {
+        "name": "West Kensington", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "WKN", 
+        "longitude": -0.20663, 
+        "mode": "tube", 
+        "latitude": 51.49046, 
+        "atcocode": "9400ZZLUWKN"
+    }, 
+    {
+        "name": "Willesden Green", 
+        "lines": [
+            "jubilee"
+        ], 
+        "station_code": "WLG", 
+        "longitude": -0.22271, 
+        "mode": "tube", 
+        "latitude": 51.54939, 
+        "atcocode": "9400ZZLUWIG"
+    }, 
+    {
+        "name": "Waterloo", 
+        "lines": [
+            "northern", 
+            "jubilee", 
+            "bakerloo", 
+            "waterlooandcity"
+        ], 
+        "station_code": "WLO", 
+        "longitude": -0.11478, 
+        "mode": "tube", 
+        "latitude": 51.5033, 
+        "atcocode": "9400ZZLUWLO"
+    }, 
+    {
+        "name": "Wimbledon Park", 
+        "lines": [
+            "district"
+        ], 
+        "station_code": "WMP", 
+        "longitude": -0.19972, 
+        "mode": "tube", 
+        "latitude": 51.43458, 
+        "atcocode": "9400ZZLUWIP"
+    }, 
+    {
+        "name": "Westminster", 
+        "lines": [
+            "circle", 
+            "district", 
+            "jubilee"
+        ], 
+        "station_code": "WMS", 
+        "longitude": -0.12486, 
+        "mode": "tube", 
+        "latitude": 51.50132, 
+        "atcocode": "9400ZZLUWSM"
+    }, 
+    {
+        "name": "Wembley Park", 
+        "lines": [
+            "metropolitan", 
+            "jubilee"
+        ], 
+        "station_code": "WPK", 
+        "longitude": -0.27926, 
+        "mode": "tube", 
+        "latitude": 51.5632, 
+        "atcocode": "9400ZZLUWYP"
+    }, 
+    {
+        "name": "West Ruislip", 
+        "lines": [
+            "central"
+        ], 
+        "station_code": "WRP", 
+        "longitude": -0.43788, 
+        "mode": "tube", 
+        "latitude": 51.56969, 
+        "atcocode": "9400ZZLUWRP"
+    }, 
+    {
+        "name": "Woodside Park", 
+        "lines": [
+            "northern"
+        ], 
+        "station_code": "WSP", 
+        "longitude": -0.18553, 
+        "mode": "tube", 
+        "latitude": 51.61802, 
+        "atcocode": "9400ZZLUWOP"
+    }, 
+    {
+        "name": "Warren Street", 
+        "lines": [
+            "victoria", 
+            "northern"
+        ], 
+        "station_code": "WST", 
+        "longitude": -0.13832, 
+        "mode": "tube", 
+        "latitude": 51.52496, 
+        "atcocode": "9400ZZLUWRR"
+    }
+]

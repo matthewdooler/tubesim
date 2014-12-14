@@ -1,0 +1,5514 @@
+[
+    {
+        "primary_code": "DLR:als:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:als:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:ban:P10", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 10"
+    }, 
+    {
+        "primary_code": "DLR:ban:P9", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 9"
+    }, 
+    {
+        "primary_code": "DLR:bec:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:bec:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:bep:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:bep:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:bla:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:bla:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:boc:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:boc:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:cat:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:cat:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:cat:P3", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 3"
+    }, 
+    {
+        "primary_code": "DLR:cat:P4", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 4"
+    }, 
+    {
+        "primary_code": "DLR:caw:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:caw:P3", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 3"
+    }, 
+    {
+        "primary_code": "DLR:caw:P5", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 5"
+    }, 
+    {
+        "primary_code": "DLR:cro:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:cro:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:cuh:P3", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 3"
+    }, 
+    {
+        "primary_code": "DLR:cuh:P4", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 4"
+    }, 
+    {
+        "primary_code": "DLR:cus:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:cus:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:cyp:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:cyp:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:deb:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:deb:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:der:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:der:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:eai:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:eai:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:elr:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:elr:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:gar:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:gar:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:gre:P3", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 3"
+    }, 
+    {
+        "primary_code": "DLR:gre:P4", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 4"
+    }, 
+    {
+        "primary_code": "DLR:heq:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:heq:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:isg:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:isg:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:kgv:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:kgv:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:lap:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:lap:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:lca:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:lca:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:lew:P5", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 5"
+    }, 
+    {
+        "primary_code": "DLR:lew:P6", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 6"
+    }, 
+    {
+        "primary_code": "DLR:lim:P3", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 3"
+    }, 
+    {
+        "primary_code": "DLR:lim:P4", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 4"
+    }, 
+    {
+        "primary_code": "DLR:mud:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:mud:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:pdk:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:pdk:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:pml:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:pml:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:pop:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:pop:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:pop:P3", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 3"
+    }, 
+    {
+        "primary_code": "DLR:pop:P4", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 4"
+    }, 
+    {
+        "primary_code": "DLR:prr:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:prr:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:roa:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:roa:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:rov:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:rov:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:sha:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:sha:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:soq:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:soq:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:str:P16", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 16"
+    }, 
+    {
+        "primary_code": "DLR:str:P17", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 17"
+    }, 
+    {
+        "primary_code": "DLR:str:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:str:P4", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 4b"
+    }, 
+    {
+        "primary_code": "DLR:tog:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:tog:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:wes:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:wes:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:wiq:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:wiq:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "DLR:wiq:P3", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 3"
+    }, 
+    {
+        "primary_code": "DLR:wiq:P4", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 4"
+    }, 
+    {
+        "primary_code": "DLR:woa:P3", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 3"
+    }, 
+    {
+        "primary_code": "DLR:woa:P4", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 4"
+    }, 
+    {
+        "primary_code": "DLR:wst:P1", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 1"
+    }, 
+    {
+        "primary_code": "DLR:wst:P2", 
+        "lines": [
+            "dlr"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ACT:P1", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ACT:P2", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ACT:P3", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:ACT:P4", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:AGR:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:AGR:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound/Westbound - Platform 2/3"
+    }, 
+    {
+        "primary_code": "TFL:AGR:P4", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:ALD:P1", 
+        "lines": [
+            "circle", 
+            "metropolitan"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ALD:P2", 
+        "lines": [
+            "circle", 
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ALD:P3", 
+        "lines": [
+            "circle", 
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:ALD:P4", 
+        "lines": [
+            "circle", 
+            "metropolitan"
+        ], 
+        "name": "Inner Rail - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:ALE:P1", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ALE:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ALP:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ALP:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:AME:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:AME:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:AME:P3", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:ANG:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ANG:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ARC:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ARC:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ARL:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ARL:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BAL:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BAL:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BAR:P1", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BAR:P2", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BAY:P1", 
+        "lines": [
+            "circle"
+        ], 
+        "name": "Inner Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BAY:P2", 
+        "lines": [
+            "circle"
+        ], 
+        "name": "Outer Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BBB:P1", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BBB:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BCT:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BCT:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BCT:P3", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:BCT:P4", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:BDE:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BDE:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BDS:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BDS:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BDS:P3", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:BDS:P4", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:BEC:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BER:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BER:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BGR:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "EastBound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BGR:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "WestBound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BHL:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BHL:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BHR:P1", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BHR:P2", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BKG:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BKG:P3", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:BKG:P6", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:BLF:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BLF:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BNG:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BNG:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BNK:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:BNK:P4", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:BNK:P5", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:BNK:P6", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:BNK:P7", 
+        "lines": [
+            "waterlooandcity"
+        ], 
+        "name": "Westbound - Platform 7"
+    }, 
+    {
+        "primary_code": "TFL:BNK:P8", 
+        "lines": [
+            "waterlooandcity"
+        ], 
+        "name": "Eastbound - Platform 8"
+    }, 
+    {
+        "primary_code": "TFL:BOR:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BOR:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BOS:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BOS:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BPK:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BPK:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BRX:P1", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BRX:P2", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BST:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BST:P10", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 10"
+    }, 
+    {
+        "primary_code": "TFL:BST:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BST:P3", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:BST:P4", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:BST:P5", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Outer Rail - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:BST:P6", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Inner Rail - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:BST:P7", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 7"
+    }, 
+    {
+        "primary_code": "TFL:BST:P8", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 8"
+    }, 
+    {
+        "primary_code": "TFL:BST:P9", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 9"
+    }, 
+    {
+        "primary_code": "TFL:BTX:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BTX:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BUR:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BUR:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:BWR:P1", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:BWR:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CFS:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CFS:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CFS:P4", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:CHF:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CHF:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CHG:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CHG:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CHP:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CHP:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CHX:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CHX:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CHX:P5", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:CHX:P6", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:CLF:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CLF:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CLF:P3", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Chesham Branch - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:CLW:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CLW:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CNT:P5", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:CNT:P6", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:COL:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:COL:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:COV:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:COV:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CPC:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CPC:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CPK:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CPK:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CPN:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CPN:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CPS:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CPS:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CRD:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CRD:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CRX:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CRX:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CST:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CST:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CTN:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CTN:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CTN:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:CTN:P4", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:CWD:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CWD:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CWF:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CWF:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CWR:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CWR:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:CYL:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:CYL:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:DEB:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:DEB:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:DGE:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:DGE:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:DGE:P3", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:DHL:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:DHL:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:EAC:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:EAC:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:EBY:P5", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:EBY:P6", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:EBY:P7", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 7"
+    }, 
+    {
+        "primary_code": "TFL:EBY:P8", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 8"
+    }, 
+    {
+        "primary_code": "TFL:EBY:P9", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 9"
+    }, 
+    {
+        "primary_code": "TFL:ECM:P1", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ECM:P2", 
+        "lines": [
+            "district", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ECT:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ECT:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ECT:P3", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:ECT:P4", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:ECT:P5", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:ECT:P6", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:EDG:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:EDG:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:EDG:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:EFY:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:EFY:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:EFY:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:EFY:P4", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:EHM:P1", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:EHM:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ELE:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ELE:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ELE:P3", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:ELE:P4", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:EMB:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:EMB:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:EMB:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:EMB:P4", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:EMB:P5", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:EMB:P6", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:EPK:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:EPK:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:EPP:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:EPP:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:EPY:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:EPY:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ERB:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ERB:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ERD:P1", 
+        "lines": [
+            "circle", 
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Platform 1 - Eastbound / Outer Rail"
+    }, 
+    {
+        "primary_code": "TFL:ERD:P2", 
+        "lines": [
+            "circle", 
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ERD:P3", 
+        "lines": [
+            "circle", 
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:ERD:P4", 
+        "lines": [
+            "circle", 
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Platform 4 - Westbound / Inner Rail"
+    }, 
+    {
+        "primary_code": "TFL:ESQ:P1", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Inner Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ESQ:P2", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Outer Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ETE:P1", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ETE:P2", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:EUS:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:EUS:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:EUS:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:EUS:P4", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:EUS:P5", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:EUS:P6", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:FAR:P1", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:FAR:P2", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:FBY:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:FBY:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:FLP:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:FLP:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:FPK:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:FPK:P2", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:FPK:P3", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:FPK:P4", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:FRD:P1", 
+        "lines": [
+            "jubilee", 
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:FRD:P2", 
+        "lines": [
+            "jubilee", 
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:FRD:P3", 
+        "lines": [
+            "jubilee", 
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:FRD:P4", 
+        "lines": [
+            "jubilee", 
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:FYC:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:FYC:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:FYC:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:GFD:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:GFD:P3", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:GGR:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:GGR:P4", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:GGR:P5", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:GHL:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:GHL:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:GPK:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:GPK:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:GPK:P3", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:GPK:P4", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:GPK:P5", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:GPK:P6", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:GPS:P1", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Inner Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:GPS:P2", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Outer Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:GRD:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:GRD:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:GRD:P3", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:GRD:P4", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:GRD:P5", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 5 "
+    }, 
+    {
+        "primary_code": "TFL:GRH:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:GRH:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:GST:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:GST:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:GUN:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:GUN:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HAI:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HAI:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HAI:P3", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:HAW:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HAW:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HBT:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HBT:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HBT:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:HBY:P3", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:HBY:P5", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:HCH:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HCH:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HDN:P1", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HDN:P2", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HIG:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HIG:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HLN:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HLN:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HMD:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HMD:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HMD:P3", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:HMD:P4", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:HMP:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HMP:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HMS:P1", 
+        "lines": [
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HMS:P2", 
+        "lines": [
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HMS:P3", 
+        "lines": [
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:HNC:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HNC:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HND:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HND:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HNE:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HNE:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HNW:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HNW:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HOH:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound Main - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HOH:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound Main - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HOH:P3", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound Fast - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:HOH:P4", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:HOH:P5", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:HOH:P6", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound Fast - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:HOL:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HOL:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HOL:P3", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:HOL:P4", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:HPC:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HPC:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HPK:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HPK:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HRC:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HRC:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HRD:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HRD:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HRF:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HRV:P5", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:HRV:P6", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:HSD:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HSD:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HST:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HST:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:HST:P3", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:HST:P4", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:HTX:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:HTX:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:ICK:P1", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ICK:P2", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KBY:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KBY:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KEN:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KEN:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KEN:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:KEN:P4", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:KEW:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KEW:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KGN:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KGN:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KIL:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KIL:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KNB:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KNB:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KNT:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KNT:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KPK:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KPK:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KTN:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KTN:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KXX:P1", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Inner Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:KXX:P2", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Outer Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:KXX:P3", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:KXX:P4", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:KXX:P5", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:KXX:P6", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:KXX:P7", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 7"
+    }, 
+    {
+        "primary_code": "TFL:KXX:P8", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 8"
+    }, 
+    {
+        "primary_code": "TFL:LAM:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:LAM:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:LAN:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:LAN:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:LEY:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:LEY:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:LON:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:LON:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:LON:P3", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:LON:P4", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:LSQ:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:LSQ:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:LSQ:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:LSQ:P4", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:LST:P1", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:LST:P2", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:LST:P4", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:LST:P5", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:LTN:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:LTN:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Platform 2/3"
+    }, 
+    {
+        "primary_code": "TFL:LTN:P4", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:LYS:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:LYS:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:LYS:P3", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:MAN:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MAN:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MAN:P3", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:MAR:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MAR:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MCR:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MCR:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MDV:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MDV:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MGT:P1", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MGT:P2", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MGT:P3", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:MGT:P4", 
+        "lines": [
+            "circle", 
+            "hammersmith", 
+            "metropolitan"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:MGT:P7", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 7"
+    }, 
+    {
+        "primary_code": "TFL:MGT:P8", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 8"
+    }, 
+    {
+        "primary_code": "TFL:MHE:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MLE:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MLE:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MLE:P3", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:MLE:P4", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:MNR:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "EastBound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MNR:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "WestBound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MON:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MON:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MOR:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MOR:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MOR:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:MOR:P5", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:MPK:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MPK:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound Main - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:MPK:P3", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:MPK:P4", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:MYB:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:MYB:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NAC:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NAC:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NAC:P3", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:NEA:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NEA:P3", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:NEL:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NEL:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NEP:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NEP:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NFD:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NFD:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NFD:P3", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:NFD:P4", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:NGW:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NGW:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NGW:P3", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:NHG:P1", 
+        "lines": [
+            "circle"
+        ], 
+        "name": "Inner Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NHG:P2", 
+        "lines": [
+            "circle"
+        ], 
+        "name": "Outer Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NHG:P3", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:NHG:P4", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:NHR:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NHR:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NHT:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NHT:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NWD:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NWD:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NWH:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NWH:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NWM:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:NWM:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:NWP:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:OAK:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:OAK:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:OLD:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:OLD:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:OLY:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:OST:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:OST:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:OVL:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:OVL:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:OXC:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:OXC:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:OXC:P3", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:OXC:P4", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:OXC:P5", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:OXC:P6", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:PADc:P1", 
+        "lines": [
+            "circle"
+        ], 
+        "name": "Inner Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:PADc:P2", 
+        "lines": [
+            "circle"
+        ], 
+        "name": "Outer Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PAD:P3", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:PAD:P4", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:PADs:P2", 
+        "lines": [
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PER:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:PER:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PGR:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:PGR:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PIC:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:PIC:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PIC:P3", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:PIC:P4", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:PIM:P1", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:PIM:P2", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PIN:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:PIN:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PLW:P1", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:PLW:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PLW:P3", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:PRY:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:PRY:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PUT:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:PUT:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:PUT:P3", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:QBY:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:QBY:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:QPK:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:QPK:P3", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:QWY:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:QWY:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:RCP:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:RCP:P4", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:RED:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:RED:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:RKY:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:RKY:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:RLN:P1", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:RLN:P2", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:RMD:P3", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:RMD:P4", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:RMD:P5", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:RMD:P6", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:RMD:P7", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 7"
+    }, 
+    {
+        "primary_code": "TFL:ROD:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:ROD:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:RPK:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:RPK:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:RSQ:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:RSQ:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:RUG:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:RUG:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:RUI:P1", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:RUI:P2", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:RUM:P1", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:RUM:P2", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SBC:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SBC:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SEL:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SEL:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SEL:P3", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:SEL:P4", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:SFD:P13", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 13"
+    }, 
+    {
+        "primary_code": "TFL:SFD:P14", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 14"
+    }, 
+    {
+        "primary_code": "TFL:SFD:P15", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 15"
+    }, 
+    {
+        "primary_code": "TFL:SFD:P3", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:SFD:P6", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:SFS:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SFS:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SGT:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SGT:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SHL:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SHL:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SHR:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SHR:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SJP:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SJP:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SJW:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SJW:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SKN:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SKN:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SKN:P3", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:SKN:P4", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:SKT:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SKT:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SNB:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SNB:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SPK:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SPK:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SRP:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SRP:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SSQ:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SSQ:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:STA:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:STA:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:STA:P3", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:STB:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:STB:P3", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:STG:P1", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:STG:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:STK:P1", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:STK:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:STK:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:STK:P4", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:STN:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:STN:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:STP:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:STP:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SVS:P3", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:SVS:P4", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:SVS:P5", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:SWC:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SWC:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SWF:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SWF:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SWK:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SWK:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:SWM:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:SWM:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:TBE:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:TBE:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:TBY:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:TBY:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:TCR:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:TCR:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:TCR:P3", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:TCR:P4", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:TEM:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:TEM:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:TGR:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:TGR:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:TGR:P3", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:TGR:P4", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:THB:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:THB:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:THL:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:THL:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:THL:P3", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:TOT:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:TOT:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:TPK:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:TPK:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:TPL:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "EastBound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:TPL:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "WestBound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:TTH:P1", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:TTH:P2", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:UPB:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:UPB:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:UPK:P1", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:UPK:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:UPM:P3", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:UPM:P4", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:UPM:P5", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:UPY:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:UPY:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:UXB:P1", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:UXB:P2", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:UXB:P4", 
+        "lines": [
+            "metropolitan", 
+            "piccadilly"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:VIC:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:VIC:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2 "
+    }, 
+    {
+        "primary_code": "TFL:VIC:P3", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:VIC:P4", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:VUX:P1", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:VUX:P2", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WAC:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WAC:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WAL:P1", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WAL:P2", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WAN:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Outer Rail - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WAN:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Inner Rail - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WAR:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WAR:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WAT:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WAT:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WBT:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WBT:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WCL:P1", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WCL:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WCL:P3", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:WCL:P4", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:WCT:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WCT:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Platform 2/3"
+    }, 
+    {
+        "primary_code": "TFL:WCT:P4", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:WDN:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WDN:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WDN:P3", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:WDN:P4", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:WEM:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WEM:P2", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WFD:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WFD:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WFD:P3", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:WFY:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WFY:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WGN:P1", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "EastBound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WGN:P2", 
+        "lines": [
+            "piccadilly"
+        ], 
+        "name": "WestBound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WHD:P1", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WHD:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WHM:P1", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WHM:P2", 
+        "lines": [
+            "district", 
+            "hammersmith"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WHM:P5", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:WHM:P6", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:WHR:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WHR:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WJN:P1", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WJN:P3", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:WKN:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WKN:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WLG:P2", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WLG:P3", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:WLO:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WLO:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WLO:P25", 
+        "lines": [
+            "waterlooandcity"
+        ], 
+        "name": "Eastbound Platform 25"
+    }, 
+    {
+        "primary_code": "TFL:WLO:P26", 
+        "lines": [
+            "waterlooandcity"
+        ], 
+        "name": "Westbound Platform 26"
+    }, 
+    {
+        "primary_code": "TFL:WLO:P3", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:WLO:P4", 
+        "lines": [
+            "bakerloo"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:WLO:P5", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:WLO:P6", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:WMP:P1", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WMP:P2", 
+        "lines": [
+            "district"
+        ], 
+        "name": "Westbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WMS:P1", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Westbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WMS:P2", 
+        "lines": [
+            "circle", 
+            "district"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WMS:P3", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Eastbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:WMS:P4", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Westbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:WPK:P1", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WPK:P2", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Northbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WPK:P3", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:WPK:P4", 
+        "lines": [
+            "jubilee"
+        ], 
+        "name": "Southbound - Platform 4"
+    }, 
+    {
+        "primary_code": "TFL:WPK:P5", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 5"
+    }, 
+    {
+        "primary_code": "TFL:WPK:P6", 
+        "lines": [
+            "metropolitan"
+        ], 
+        "name": "Southbound - Platform 6"
+    }, 
+    {
+        "primary_code": "TFL:WRP:P1", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WRP:P2", 
+        "lines": [
+            "central"
+        ], 
+        "name": "Eastbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WSP:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WSP:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WST:P1", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Northbound - Platform 1"
+    }, 
+    {
+        "primary_code": "TFL:WST:P2", 
+        "lines": [
+            "northern"
+        ], 
+        "name": "Southbound - Platform 2"
+    }, 
+    {
+        "primary_code": "TFL:WST:P3", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Northbound - Platform 3"
+    }, 
+    {
+        "primary_code": "TFL:WST:P4", 
+        "lines": [
+            "victoria"
+        ], 
+        "name": "Southbound - Platform 4"
+    }
+]
