@@ -8,7 +8,7 @@
         "lines": [
             "bakerloo"
         ], 
-        "name": "Harrow & Wealdstone", 
+        "name": "Harrow & Wealdstone Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUKEN1", 
@@ -794,7 +794,7 @@
             "hammersmith", 
             "circle"
         ], 
-        "name": "King's Cross St. Pancras", 
+        "name": "King's Cross St.Pancras", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUFCN1", 
@@ -1302,7 +1302,7 @@
         "lines": [
             "metropolitan"
         ], 
-        "name": "Watford", 
+        "name": "Watford Underground Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUCXY1", 
@@ -2087,7 +2087,7 @@
         "lines": [
             "piccadilly"
         ], 
-        "name": "Wood Green", 
+        "name": "Wood Green Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUBDS1", 
@@ -2230,7 +2230,7 @@
         "lines": [
             "piccadilly"
         ], 
-        "name": "King's Cross St. Pancras", 
+        "name": "King's Cross St.Pancras", 
         "outboundLinks": [
             {
                 "to": "9400ZZLURSQ2", 
@@ -3391,7 +3391,7 @@
         "lines": [
             "piccadilly"
         ], 
-        "name": "King's Cross St. Pancras", 
+        "name": "King's Cross St.Pancras", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUCAR1", 
@@ -3535,7 +3535,7 @@
         "lines": [
             "victoria"
         ], 
-        "name": "King's Cross St. Pancras", 
+        "name": "King's Cross St.Pancras", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUEUS6", 
@@ -3815,7 +3815,7 @@
         "lines": [
             "victoria"
         ], 
-        "name": "King's Cross St. Pancras", 
+        "name": "King's Cross St.Pancras", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUHAI1", 
@@ -4056,7 +4056,7 @@
             "district", 
             "circle"
         ], 
-        "name": "Bromley-by-Bow", 
+        "name": "Bromley-By-Bow", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUBWR2", 
@@ -4279,7 +4279,7 @@
             "hammersmith", 
             "circle"
         ], 
-        "name": "Paddington", 
+        "name": "Paddington (H&C Line)", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUERC1", 
@@ -4471,7 +4471,7 @@
             "hammersmith", 
             "circle"
         ], 
-        "name": "Hammersmith", 
+        "name": "Hammersmith (Ham & City Line)", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUGHK1", 
@@ -4823,7 +4823,7 @@
             "district", 
             "circle"
         ], 
-        "name": "Bromley-by-Bow", 
+        "name": "Bromley-By-Bow", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUWHM1", 
@@ -5091,7 +5091,7 @@
         "lines": [
             "jubilee"
         ], 
-        "name": "London Bridge", 
+        "name": "London Bridge Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUBMY1", 
@@ -5222,7 +5222,7 @@
         "lines": [
             "jubilee"
         ], 
-        "name": "St. John's Wood", 
+        "name": "St.John's Wood", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUBST5", 
@@ -6348,7 +6348,7 @@
         "lines": [
             "central"
         ], 
-        "name": "Shepherd's Bush", 
+        "name": "Shepherd's Bush (Central Line)", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUHPK1", 
@@ -7322,7 +7322,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "Brent Cross", 
+        "name": "Brent Cross Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUHCL1", 
@@ -7364,7 +7364,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "Hampstead", 
+        "name": "Hampstead Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUGGN1", 
@@ -7634,7 +7634,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "King's Cross St. Pancras", 
+        "name": "King's Cross St.Pancras", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUAGL1", 
@@ -7727,7 +7727,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "London Bridge", 
+        "name": "London Bridge Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUBNK4", 
@@ -7748,7 +7748,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "Borough", 
+        "name": "Borough Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUEAC4", 
@@ -7782,7 +7782,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "Kennington", 
+        "name": "Kennington Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUOVL2", 
@@ -7917,7 +7917,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "Tooting Bec", 
+        "name": "Tooting Bec Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUBLM1", 
@@ -8052,7 +8052,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "Kennington", 
+        "name": "Kennington Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUEAC3", 
@@ -8090,7 +8090,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "Borough", 
+        "name": "Borough Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZLULNB1", 
@@ -8141,7 +8141,7 @@
         "lines": [
             "northern"
         ], 
-        "name": "King's Cross St. Pancras", 
+        "name": "King's Cross St.Pancras", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUEUS2", 
@@ -9334,7 +9334,7 @@
         "lines": [
             "district"
         ], 
-        "name": "Richmond", 
+        "name": "Richmond (London)", 
         "outboundLinks": [
             {
                 "to": "9400ZZLUKWG1", 
@@ -10055,7 +10055,7 @@
         "lines": [
             "dlr"
         ], 
-        "name": "Greenwich", 
+        "name": "Greenwich Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZDLDEP1", 
@@ -10202,7 +10202,7 @@
         "lines": [
             "dlr"
         ], 
-        "name": "Canary Wharf", 
+        "name": "Canary Wharf DLR Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZDLHEQ1", 
@@ -10352,7 +10352,7 @@
         "lines": [
             "dlr"
         ], 
-        "name": "West Silvertown", 
+        "name": "West Silvertown DLR Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZDLPDK1", 
@@ -10436,7 +10436,7 @@
         "lines": [
             "dlr"
         ], 
-        "name": "Woolwich Arsenal", 
+        "name": "Woolwich Arsenal DLR", 
         "outboundLinks": [
             {
                 "to": "9400ZZDLKGV1", 
@@ -10659,7 +10659,7 @@
         "lines": [
             "dlr"
         ], 
-        "name": "Abbey Road", 
+        "name": "Abbey Road DLR Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZDLSHS2", 
@@ -10739,7 +10739,7 @@
         "lines": [
             "dlr"
         ], 
-        "name": "Bow Church", 
+        "name": "Bow Church DLR", 
         "outboundLinks": [
             {
                 "to": "9400ZZDLDEV1", 
@@ -10823,7 +10823,7 @@
         "lines": [
             "dlr"
         ], 
-        "name": "Stratford International", 
+        "name": "Stratford International DLR", 
         "outboundLinks": [
             {
                 "to": "9400ZZDLSTD4", 
@@ -10907,7 +10907,7 @@
         "lines": [
             "dlr"
         ], 
-        "name": "Shadwell", 
+        "name": "Shadwell DLR", 
         "outboundLinks": [
             {
                 "to": "9400ZZDLLIM1", 
@@ -11000,7 +11000,7 @@
         "lines": [
             "dlr"
         ], 
-        "name": "Abbey Road", 
+        "name": "Abbey Road DLR Station", 
         "outboundLinks": [
             {
                 "to": "9400ZZDLWHM1", 
