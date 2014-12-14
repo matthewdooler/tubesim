@@ -1,0 +1,1974 @@
+{
+    "bakerloo": [
+        {
+            "name": "Harrow & Wealdstone",
+            "groundLevel": 52,
+            "platform1": 154.2,
+            "platform2": 154.2
+        },
+        {
+            "name": "Kenton",
+            "groundLevel": 56,
+            "platform1": 149.4,
+            "platform2": 149.4
+        },
+        {
+            "name": "South Kenton",
+            "groundLevel": 43,
+            "platform1": 146.4,
+            "platform2": 146.4
+        },
+        {
+            "name": "North Wembley",
+            "groundLevel": 48,
+            "platform1": 142.0,
+            "platform2": 142.0
+        },
+        {
+            "name": "Wembley Central",
+            "groundLevel": 45,
+            "platform1": 138.5,
+            "platform2": 138.5
+        },
+        {
+            "name": "Stonebridge Park",
+            "groundLevel": 24,
+            "platform1": 131.5,
+            "platform2": 131.5
+        },
+        {
+            "name": "Harlesden",
+            "groundLevel": 38,
+            "platform1": 131.8,
+            "platform2": 131.8
+        },
+        {
+            "name": "Willesden Junction",
+            "groundLevel": 40,
+            "platform1": 134.5,
+            "platform2": 134.5
+        },
+        {
+            "name": "Kensal Green",
+            "groundLevel": 42,
+            "platform1": 135.4,
+            "platform2": 135.4
+        },
+        {
+            "name": "Queen's Park",
+            "groundLevel": 38,
+            "platform1": 132.4,
+            "platform2": 132.4
+        },
+        {
+            "name": "Baker Street",
+            "groundLevel": 27,
+            "platform1": 108.3,
+            "platform2": 105.1
+        },
+        {
+            "name": "Charing Cross",
+            "groundLevel": 12,
+            "platform1": 88.2,
+            "platform2": 88.2
+        },
+        {
+            "name": "Edgware Road",
+            "groundLevel": 32,
+            "platform1": 107.1,
+            "platform2": 107.1
+        },
+        {
+            "name": "Elephant & Castle",
+            "groundLevel": 3,
+            "platform1": 80.2,
+            "platform2": 80.2
+        },
+        {
+            "name": "Embankment",
+            "groundLevel": 5,
+            "platform1": 85.1,
+            "platform2": 85.1
+        },
+        {
+            "name": "Kilburn Park",
+            "groundLevel": 27,
+            "platform1": 119.5,
+            "platform2": 119.5
+        },
+        {
+            "name": "Lambeth North",
+            "groundLevel": 3,
+            "platform1": 86.7,
+            "platform2": 86.3
+        },
+        {
+            "name": "Maida Vale",
+            "groundLevel": 31,
+            "platform1": 116.6,
+            "platform2": 116.6
+        },
+        {
+            "name": "Marylebone",
+            "groundLevel": 29,
+            "platform1": 106.4,
+            "platform2": 106.4
+        },
+        {
+            "name": "Oxford Circus",
+            "groundLevel": 27,
+            "platform1": 104.7,
+            "platform2": 104.7
+        },
+        {
+            "name": "Paddington",
+            "groundLevel": 25,
+            "platform1": 109.3,
+            "platform2": 109.3
+        },
+        {
+            "name": "Piccadilly Circus",
+            "groundLevel": 19,
+            "platform1": 93.8,
+            "platform2": 93.8
+        },
+        {
+            "name": "Regent's Park",
+            "groundLevel": 28,
+            "platform1": 104.2,
+            "platform2": 102.2
+        },
+        {
+            "name": "Warwick Avenue",
+            "groundLevel": 27,
+            "platform1": 112.5,
+            "platform2": 112.5
+        },
+        {
+            "name": "Waterloo",
+            "groundLevel": 4,
+            "platform1": 85.1,
+            "platform2": 88.2
+        }
+    ],
+    "central": [
+        {
+            "name": "Bank",
+            "groundLevel": 14,
+            "platform1": 93.5,
+            "platform2": 93.5
+        },
+        {
+            "name": "Barkingside",
+            "groundLevel": 25,
+            "platform1": 125.5,
+            "platform2": 125.5
+        },
+        {
+            "name": "Bethnal Green",
+            "groundLevel": 14,
+            "platform1": 98.0,
+            "platform2": 98.0
+        },
+        {
+            "name": "Bond Street",
+            "groundLevel": 22,
+            "platform1": 101.0,
+            "platform2": 101.0
+        },
+        {
+            "name": "Buckhurst Hill",
+            "groundLevel": 40,
+            "platform1": 134.9,
+            "platform2": 134.9
+        },
+        {
+            "name": "Chancery Lane",
+            "groundLevel": 20,
+            "platform1": 100.0,
+            "platform2": 95.6
+        },
+        {
+            "name": "Chigwell",
+            "groundLevel": 44,
+            "platform1": 139.0,
+            "platform2": 139.0
+        },
+        {
+            "name": "Debden",
+            "groundLevel": 37,
+            "platform1": 136.4,
+            "platform2": 136.4
+        },
+        {
+            "name": "Ealing Broadway",
+            "groundLevel": 33,
+            "platform1": 127.9,
+            "platform2": 127.9
+        },
+        {
+            "name": "East Acton",
+            "groundLevel": 12,
+            "platform1": 117.9,
+            "platform2": 117.9
+        },
+        {
+            "name": "Epping",
+            "groundLevel": 81,
+            "platform1": 179.5,
+            "platform2": 179.5
+        },
+        {
+            "name": "Fairlop",
+            "groundLevel": 30,
+            "platform1": 135.2,
+            "platform2": 135.2
+        },
+        {
+            "name": "Gants Hill",
+            "groundLevel": 25,
+            "platform1": 107.0,
+            "platform2": 110.1
+        },
+        {
+            "name": "Grange Hill",
+            "groundLevel": 55,
+            "platform1": 148.8,
+            "platform2": 148.8
+        },
+        {
+            "name": "Greenford",
+            "groundLevel": 22,
+            "platform1": 132.2,
+            "platform2": 132.2
+        },
+        {
+            "name": "Hainault",
+            "groundLevel": 36,
+            "platform1": 141.2,
+            "platform2": 141.2
+        },
+        {
+            "name": "Hanger Lane",
+            "groundLevel": 40,
+            "platform1": 131.9,
+            "platform2": 131.9
+        },
+        {
+            "name": "Holborn",
+            "groundLevel": 23,
+            "platform1": 96.8,
+            "platform2": 96.7
+        },
+        {
+            "name": "Holland Park",
+            "groundLevel": 14,
+            "platform1": 95.2,
+            "platform2": 95.2
+        },
+        {
+            "name": "Lancaster Gate",
+            "groundLevel": 18,
+            "platform1": 102.5,
+            "platform2": 102.5
+        },
+        {
+            "name": "Leyton",
+            "groundLevel": 15,
+            "platform1": 110.0,
+            "platform2": 110.0
+        },
+        {
+            "name": "Leytonstone",
+            "groundLevel": 23.2,
+            "platform1": 123.1,
+            "platform2": 123.1
+        },
+        {
+            "name": "Liverpool Street",
+            "groundLevel": 14,
+            "platform1": 92.5,
+            "platform2": 92.5
+        },
+        {
+            "name": "Loughton",
+            "groundLevel": 27,
+            "platform1": 129.6,
+            "platform2": 129.6
+        },
+        {
+            "name": "Marble Arch",
+            "groundLevel": 27,
+            "platform1": 101.4,
+            "platform2": 101.4
+        },
+        {
+            "name": "Mile End",
+            "groundLevel": 12,
+            "platform1": 104.8,
+            "platform2": 104.9
+        },
+        {
+            "name": "Newbury Park",
+            "groundLevel": 19,
+            "platform1": 117.0,
+            "platform2": 117.0
+        },
+        {
+            "name": "North Acton",
+            "groundLevel": 33,
+            "platform1": 124.4,
+            "platform2": 124.4
+        },
+        {
+            "name": "Northolt",
+            "groundLevel": 43,
+            "platform1": 137.8,
+            "platform2": 137.8
+        },
+        {
+            "name": "Notting Hill Gate",
+            "groundLevel": 28,
+            "platform1": 97.1,
+            "platform2": 102.6
+        },
+        {
+            "name": "Oxford Circus",
+            "groundLevel": 27,
+            "platform1": 100.6,
+            "platform2": 100.6
+        },
+        {
+            "name": "Perivale",
+            "groundLevel": 20,
+            "platform1": 126.6,
+            "platform2": 126.6
+        },
+        {
+            "name": "Queensway",
+            "groundLevel": 27,
+            "platform1": 103.1,
+            "platform2": 103.1
+        },
+        {
+            "name": "Redbridge",
+            "groundLevel": 12,
+            "platform1": 106.7,
+            "platform2": 106.9
+        },
+        {
+            "name": "Roding Valley",
+            "groundLevel": 31,
+            "platform1": 131.2,
+            "platform2": 131.2
+        },
+        {
+            "name": "Ruislip Gardens",
+            "groundLevel": 37,
+            "platform1": 141.5,
+            "platform2": 141.5
+        },
+        {
+            "name": "Snaresbrook",
+            "groundLevel": 22,
+            "platform1": 127.4,
+            "platform2": 127.4
+        },
+        {
+            "name": "South Ruislip",
+            "groundLevel": 37,
+            "platform1": 141.4,
+            "platform2": 141.4
+        },
+        {
+            "name": "South Woodford",
+            "groundLevel": 28,
+            "platform1": 128.8,
+            "platform2": 128.8
+        },
+        {
+            "name": "Shepherd's Bush",
+            "groundLevel": 6,
+            "platform1": 89.8,
+            "platform2": 89.8
+        },
+        {
+            "name": "St. Paul's",
+            "groundLevel": 17,
+            "platform1": 89.9,
+            "platform2": 95.3
+        },
+        {
+            "name": "Stratford",
+            "groundLevel": 4,
+            "platform1": 107.2,
+            "platform2": 107.2
+        },
+        {
+            "name": "Theydon Bois",
+            "groundLevel": 54,
+            "platform1": 153.1,
+            "platform2": 153.1
+        },
+        {
+            "name": "Tottenham Court Road",
+            "groundLevel": 25,
+            "platform1": 100.2,
+            "platform2": 100.2
+        },
+        {
+            "name": "Wanstead",
+            "groundLevel": 29,
+            "platform1": 109.7,
+            "platform2": 109.6
+        },
+        {
+            "name": "West Acton",
+            "groundLevel": 33,
+            "platform1": 127.4,
+            "platform2": 127.4
+        },
+        {
+            "name": "West Ruislip",
+            "groundLevel": 51,
+            "platform1": 145.1,
+            "platform2": 145.1
+        },
+        {
+            "name": "White City",
+            "groundLevel": 7,
+            "platform1": 105.0,
+            "platform2": 105.0
+        },
+        {
+            "name": "Woodford",
+            "groundLevel": 32,
+            "platform1": 131.1,
+            "platform2": 131.1
+        }
+    ],
+    "district": [
+        {
+            "name": "Ealing Broadway",
+            "groundLevel": 33,
+            "platform1": 127.9,
+            "platform2": 127.9
+        },
+        {
+            "name": "East Putney",
+            "groundLevel": 17,
+            "platform1": 125.0,
+            "platform2": 125.0
+        },
+        {
+            "name": "Edgware Road",
+            "groundLevel": 30,
+            "platform1": 124.8,
+            "platform2": 124.8
+        },
+        {
+            "name": "Ealing Common",
+            "groundLevel": 29,
+            "platform1": 124.0,
+            "platform2": 124.0
+        },
+        {
+            "name": "Notting Hill Gate",
+            "groundLevel": 28,
+            "platform1": 119.4,
+            "platform2": 119.4
+        },
+        {
+            "name": "Upminster Bridge",
+            "groundLevel": 15,
+            "platform1": 119.3,
+            "platform2": 119.3
+        },
+        {
+            "name": "Wimbledon",
+            "groundLevel": 23,
+            "platform1": 119.3,
+            "platform2": 119.3
+        },
+        {
+            "name": "Upminster",
+            "groundLevel": 28,
+            "platform1": 119.2,
+            "platform2": 119.2
+        },
+        {
+            "name": "Paddington",
+            "groundLevel": 25,
+            "platform1": 118.8,
+            "platform2": 118.8
+        },
+        {
+            "name": "Wimbledon Park",
+            "groundLevel": 23,
+            "platform1": 118.4,
+            "platform2": 118.4
+        },
+        {
+            "name": "Hornchurch",
+            "groundLevel": 24,
+            "platform1": 118.2,
+            "platform2": 118.2
+        },
+        {
+            "name": "Bayswater",
+            "groundLevel": 25,
+            "platform1": 118.0,
+            "platform2": 118.0
+        },
+        {
+            "name": "Southfields",
+            "groundLevel": 23,
+            "platform1": 117.0,
+            "platform2": 117.0
+        },
+        {
+            "name": "Acton Town",
+            "groundLevel": 21,
+            "platform1": 115.5,
+            "platform2": 115.5
+        },
+        {
+            "name": "Chiswick Park",
+            "groundLevel": 10,
+            "platform1": 113.0,
+            "platform2": 113.0
+        },
+        {
+            "name": "Elm Park",
+            "groundLevel": 18,
+            "platform1": 112.3,
+            "platform2": 112.3
+        },
+        {
+            "name": "Bromley-by-Bow",
+            "groundLevel": 15,
+            "platform1": 112.2,
+            "platform2": 112.2
+        },
+        {
+            "name": "Stamford Brook",
+            "groundLevel": 5,
+            "platform1": 111.4,
+            "platform2": 111.4
+        },
+        {
+            "name": "Putney Bridge",
+            "groundLevel": 4,
+            "platform1": 111.0,
+            "platform2": 111.0
+        },
+        {
+            "name": "Ravenscourt Park",
+            "groundLevel": 5,
+            "platform1": 111.0,
+            "platform2": 111.0
+        },
+        {
+            "name": "Turnham Green",
+            "groundLevel": 5,
+            "platform1": 110.9,
+            "platform2": 110.9
+        },
+        {
+            "name": "Whitechapel",
+            "groundLevel": 12,
+            "platform1": 109.1,
+            "platform2": 109.1
+        },
+        {
+            "name": "Parsons Green",
+            "groundLevel": 3,
+            "platform1": 108.0,
+            "platform2": 108.0
+        },
+        {
+            "name": "High Street Kensington",
+            "groundLevel": 13,
+            "platform1": 107.3,
+            "platform2": 107.3
+        },
+        {
+            "name": "Tower Hill",
+            "groundLevel": 14,
+            "platform1": 106.9,
+            "platform2": 107.0
+        },
+        {
+            "name": "Bow Road",
+            "groundLevel": 12,
+            "platform1": 106.8,
+            "platform2": 106.8
+        },
+        {
+            "name": "Barking",
+            "groundLevel": 9,
+            "platform1": 106.4,
+            "platform2": 106.4
+        },
+        {
+            "name": "Dagenham East",
+            "groundLevel": 10,
+            "platform1": 106.4,
+            "platform2": 106.4
+        },
+        {
+            "name": "Upney",
+            "groundLevel": 12,
+            "platform1": 106.3,
+            "platform2": 106.3
+        },
+        {
+            "name": "Dagenham Heathway",
+            "groundLevel": 11,
+            "platform1": 106.2,
+            "platform2": 106.2
+        },
+        {
+            "name": "Monument",
+            "groundLevel": 14.3,
+            "platform1": 106.2,
+            "platform2": 106.2
+        },
+        {
+            "name": "Becontree",
+            "groundLevel": 11,
+            "platform1": 106.1,
+            "platform2": 106.1
+        },
+        {
+            "name": "Gunnersbury",
+            "groundLevel": 10,
+            "platform1": 106.0,
+            "platform2": 106.0
+        },
+        {
+            "name": "Kew Gardens",
+            "groundLevel": 8,
+            "platform1": 106.0,
+            "platform2": 106.0
+        },
+        {
+            "name": "Richmond",
+            "groundLevel": 8,
+            "platform1": 107.0,
+            "platform2": 107.0
+        },
+        {
+            "name": "East Ham",
+            "groundLevel": 11,
+            "platform1": 105.7,
+            "platform2": 105.7
+        },
+        {
+            "name": "Upton Park",
+            "groundLevel": 11,
+            "platform1": 105.3,
+            "platform2": 105.3
+        },
+        {
+            "name": "Aldgate East",
+            "groundLevel": 14,
+            "platform1": 105.0,
+            "platform2": 105.0
+        },
+        {
+            "name": "Mansion House",
+            "groundLevel": 14,
+            "platform1": 105.0,
+            "platform2": 105.0
+        },
+        {
+            "name": "Mile End",
+            "groundLevel": 12,
+            "platform1": 104.7,
+            "platform2": 104.7
+        },
+        {
+            "name": "West Ham",
+            "groundLevel": 1,
+            "platform1": 104.7,
+            "platform2": 104.7
+        },
+        {
+            "name": "Cannon Street",
+            "groundLevel": 11,
+            "platform1": 104.4,
+            "platform2": 104.4
+        },
+        {
+            "name": "Stepney Green",
+            "groundLevel": 10,
+            "platform1": 102.8,
+            "platform2": 102.8
+        },
+        {
+            "name": "Plaistow",
+            "groundLevel": 9,
+            "platform1": 102.4,
+            "platform2": 102.4
+        },
+        {
+            "name": "Earl's Court",
+            "groundLevel": 8,
+            "platform1": 102.2,
+            "platform2": 102.2
+        },
+        {
+            "name": "Kensington (Olympia)",
+            "groundLevel": 4,
+            "platform1": 102.1,
+            "platform2": 102.1
+        },
+        {
+            "name": "West Brompton",
+            "groundLevel": 7,
+            "platform1": 102.0,
+            "platform2": 102.1
+        },
+        {
+            "name": "Barons Court",
+            "groundLevel": 4.6,
+            "platform1": 101.9,
+            "platform2": 101.9
+        },
+        {
+            "name": "Blackfriars",
+            "groundLevel": 8,
+            "platform1": 100.7,
+            "platform2": 100.7
+        },
+        {
+            "name": "Hammersmith",
+            "groundLevel": 5,
+            "platform1": 100.4,
+            "platform2": 100.4
+        },
+        {
+            "name": "Gloucester Road",
+            "groundLevel": 7,
+            "platform1": 100.0,
+            "platform2": 100.0
+        },
+        {
+            "name": "South Kensington",
+            "groundLevel": 7,
+            "platform1": 100.0,
+            "platform2": 100.0
+        },
+        {
+            "name": "Embankment",
+            "groundLevel": 5,
+            "platform1": 99.6,
+            "platform2": 99.6
+        },
+        {
+            "name": "West Kensington",
+            "groundLevel": 5,
+            "platform1": 99.4,
+            "platform2": 99.3
+        },
+        {
+            "name": "Temple",
+            "groundLevel": 5,
+            "platform1": 99.2,
+            "platform2": 99.2
+        },
+        {
+            "name": "Westminster",
+            "groundLevel": 6,
+            "platform1": 99.0,
+            "platform2": 99.0
+        },
+        {
+            "name": "Fulham Broadway",
+            "groundLevel": 4,
+            "platform1": 98.7,
+            "platform2": 98.7
+        },
+        {
+            "name": "St James's Park",
+            "groundLevel": 4,
+            "platform1": 98.2,
+            "platform2": 98.2
+        },
+        {
+            "name": "Sloane Square",
+            "groundLevel": 6,
+            "platform1": 97.6,
+            "platform2": 97.6
+        },
+        {
+            "name": "Victoria",
+            "groundLevel": 4.6,
+            "platform1": 97.0,
+            "platform2": 97.0
+        }
+    ],
+    "circle": [
+        {
+            "name": "Aldgate",
+            "groundLevel": 16,
+            "platform1": 108.8,
+            "platform2": 108.8
+        },
+        {
+            "name": "Blackfriars",
+            "groundLevel": 8,
+            "platform1": 100.7,
+            "platform2": 100.7
+        },
+        {
+            "name": "Gloucester Road",
+            "groundLevel": 7,
+            "platform1": 100.0,
+            "platform2": 100.0
+        },
+    ],
+    "hammersmith": [
+        {
+            "name": "Barking",
+            "groundLevel": 9,
+            "platform1": 106.4,
+            "platform2": 106.4
+        },
+        {
+            "name": "Baker Street",
+            "groundLevel": 27,
+            "platform1": 118.8,
+            "platform2": 118.9
+        },
+        {
+            "name": "Edgware Road",
+            "groundLevel": 30,
+            "platform1": 124.8,
+            "platform2": 124.8
+        },
+        {
+            "name": "Euston Square",
+            "groundLevel": 25,
+            "platform1": 118.1,
+            "platform2": 118.1
+        },
+        {
+            "name": "Goldhawk Road",
+            "groundLevel": 5,
+            "platform1": 111.0,
+            "platform2": 111.0
+        },
+        {
+            "name": "Hammersmith",
+            "groundLevel": 5,
+            "platform1": 104.4,
+            "platform2": 104.4
+        },
+        {
+            "name": "Ladbroke Grove",
+            "groundLevel": 14,
+            "platform1": 119.4,
+            "platform2": 119.4
+        },
+        {
+            "name": "Latimer Road",
+            "groundLevel": 8,
+            "platform1": 114.0,
+            "platform2": 114.0
+        },
+        {
+            "name": "Paddington",
+            "groundLevel": 25,
+            "platform1": 122.4,
+            "platform2": 122.4
+        },
+        {
+            "name": "Royal Oak",
+            "groundLevel": 27,
+            "platform1": 121.0,
+            "platform2": 121.0
+        },
+        {
+            "name": "Shepherd's Bush Market",
+            "groundLevel": 6,
+            "platform1": 111.9,
+            "platform2": 111.9
+        },
+        {
+            "name": "Westbourne Park",
+            "groundLevel": 28,
+            "platform1": 122.5,
+            "platform2": 122.5
+        },
+        {
+            "name": "Wood Lane",
+            "groundLevel": 6.7,
+            "platform1": 113.1,
+            "platform2": 113.1
+        }
+    ],
+    "jubilee": [
+        {
+            "name": "Baker Street",
+            "groundLevel": 27,
+            "platform1": 104.3,
+            "platform2": 107.4
+        },
+        {
+            "name": "Bermondsey",
+            "groundLevel": 2,
+            "platform1": 87.5,
+            "platform2": 87.5
+        },
+        {
+            "name": "Bond Street",
+            "groundLevel": 22,
+            "platform1": 91.0,
+            "platform2": 91.0
+        },
+        {
+            "name": "Canada Water",
+            "groundLevel": 5,
+            "platform1": 86.7,
+            "platform2": 86.7
+        },
+        {
+            "name": "Canary Wharf",
+            "groundLevel": 3,
+            "platform1": 84.4,
+            "platform2": 84.4
+        },
+        {
+            "name": "Canning Town",
+            "groundLevel": 2,
+            "platform1": 100.0,
+            "platform2": 100.0
+        },
+        {
+            "name": "Canons Park",
+            "groundLevel": 65,
+            "platform1": 170.1,
+            "platform2": 170.1
+        },
+        {
+            "name": "Charing Cross",
+            "groundLevel": 12,
+            "platform1": 81.9,
+            "platform2": 81.9
+        },
+        {
+            "name": "Dollis Hill",
+            "groundLevel": 37,
+            "platform1": 139.4,
+            "platform2": 139.4
+        },
+        {
+            "name": "Finchley Road",
+            "groundLevel": 52,
+            "platform1": 148.7,
+            "platform2": 148.7
+        },
+        {
+            "name": "Green Park",
+            "groundLevel": 18,
+            "platform1": 87.0,
+            "platform2": 87.0
+        },
+        {
+            "name": "Kilburn",
+            "groundLevel": 45,
+            "platform1": 152.2,
+            "platform2": 152.2
+        },
+        {
+            "name": "Kingsbury",
+            "groundLevel": 43,
+            "platform1": 138.3,
+            "platform2": 138.3
+        },
+        {
+            "name": "London Bridge",
+            "groundLevel": 4,
+            "platform1": 76.8,
+            "platform2": 76.8
+        },
+        {
+            "name": "Neasden",
+            "groundLevel": 38,
+            "platform1": 132.2,
+            "platform2": 132.2
+        },
+        {
+            "name": "North Greenwich",
+            "groundLevel": 2,
+            "platform1": 86.5,
+            "platform2": 86.5
+        },
+        {
+            "name": "Queensbury",
+            "groundLevel": 48,
+            "platform1": 151.2,
+            "platform2": 151.2
+        },
+        {
+            "name": "Southwark",
+            "groundLevel": 4,
+            "platform1": 79.5,
+            "platform2": 79.5
+        },
+        {
+            "name": "St. John's Wood",
+            "groundLevel": 49,
+            "platform1": 131.7,
+            "platform2": 131.2
+        },
+        {
+            "name": "Stanmore",
+            "groundLevel": 85,
+            "platform1": 176.8,
+            "platform2": 176.8
+        },
+        {
+            "name": "Stratford",
+            "groundLevel": 4,
+            "platform1": 104.0,
+            "platform2": 104.0
+        },
+        {
+            "name": "Swiss Cottage",
+            "groundLevel": 57,
+            "platform1": 140.1,
+            "platform2": 140.1
+        },
+        {
+            "name": "Waterloo",
+            "groundLevel": 4,
+            "platform1": 74.0,
+            "platform2": 74.0
+        },
+        {
+            "name": "Wembley Park",
+            "groundLevel": 41,
+            "platform1": 136.7,
+            "platform2": 136.7
+        },
+        {
+            "name": "West Ham",
+            "groundLevel": 1,
+            "platform1": 101.2,
+            "platform2": 101.2
+        },
+        {
+            "name": "West Hampstead",
+            "groundLevel": 56,
+            "platform1": 150.5,
+            "platform2": 150.5
+        },
+        {
+            "name": "Westminster",
+            "groundLevel": 6,
+            "platform1": 84.0,
+            "platform2": 74.6
+        },
+        {
+            "name": "Willesden Green",
+            "groundLevel": 56,
+            "platform1": 150.3,
+            "platform2": 150.3
+        }
+    ],
+    "metropolitan": [
+        {
+            "name": "Wembley Park",
+            "groundLevel": 41,
+            "platform1": 136.7,
+            "platform2": 136.7
+        },
+        {
+            "name": "Finchley Road",
+            "groundLevel": 52,
+            "platform1": 148.7,
+            "platform2": 148.7
+        },
+        {
+            "name": "Aldgate",
+            "groundLevel": 16,
+            "platform1": 108.8,
+            "platform2": 108.8
+        },
+        {
+            "name": "Amersham",
+            "groundLevel": 145,
+            "platform1": 249.3,
+            "platform2": 249.3
+        },
+        {
+            "name": "Baker Street",
+            "groundLevel": 27,
+            "platform1": 120.5,
+            "platform2": 120.5
+        },
+        {
+            "name": "Barbican",
+            "groundLevel": 18,
+            "platform1": 109.4,
+            "platform2": 109.4
+        },
+        {
+            "name": "Chalfont & Latimer",
+            "groundLevel": 122,
+            "platform1": 220.7,
+            "platform2": 220.7
+        },
+        {
+            "name": "Chesham",
+            "groundLevel": 110,
+            "platform1": 210.2,
+            "platform2": 210.2
+        },
+        {
+            "name": "Chorleywood",
+            "groundLevel": 89,
+            "platform1": 188.3,
+            "platform2": 188.3
+        },
+        {
+            "name": "Croxley",
+            "groundLevel": 72,
+            "platform1": 165.4,
+            "platform2": 165.4
+        },
+        {
+            "name": "Eastcote",
+            "groundLevel": 53,
+            "platform1": 148.1,
+            "platform2": 148.1
+        },
+        {
+            "name": "Euston Square",
+            "groundLevel": 25,
+            "platform1": 118.1,
+            "platform2": 118.1
+        },
+        {
+            "name": "Farringdon",
+            "groundLevel": 11,
+            "platform1": 106.5,
+            "platform2": 106.5
+        },
+        {
+            "name": "Great Portland Street",
+            "groundLevel": 29,
+            "platform1": 121.4,
+            "platform2": 121.4
+        },
+        {
+            "name": "Harrow-on-the-Hill",
+            "groundLevel": 69,
+            "platform1": 167.1,
+            "platform2": 167.1
+        },
+        {
+            "name": "Hillingdon",
+            "groundLevel": 36,
+            "platform1": 136.7,
+            "platform2": 136.7
+        },
+        {
+            "name": "Ickenham",
+            "groundLevel": 43,
+            "platform1": 138.1,
+            "platform2": 138.1
+        },
+        {
+            "name": "King's Cross St. Pancras",
+            "groundLevel": 17,
+            "platform1": 109.1,
+            "platform2": 109.1
+        },
+        {
+            "name": "Liverpool Street",
+            "groundLevel": 14,
+            "platform1": 107.4,
+            "platform2": 107.4
+        },
+        {
+            "name": "Moor Park",
+            "groundLevel": 57,
+            "platform1": 161.5,
+            "platform2": 161.5
+        },
+        {
+            "name": "Moorgate",
+            "groundLevel": 14,
+            "platform1": 108.5,
+            "platform2": 108.5
+        },
+        {
+            "name": "North Harrow",
+            "groundLevel": 51,
+            "platform1": 157.0,
+            "platform2": 157.0
+        },
+        {
+            "name": "Northwick Park",
+            "groundLevel": 56,
+            "platform1": 157.9,
+            "platform2": 157.9
+        },
+        {
+            "name": "Northwood",
+            "groundLevel": 77,
+            "platform1": 171.6,
+            "platform2": 171.6
+        },
+        {
+            "name": "Northwood Hills",
+            "groundLevel": 71,
+            "platform1": 165.0,
+            "platform2": 165.0
+        },
+        {
+            "name": "Pinner",
+            "groundLevel": 54,
+            "platform1": 153.5,
+            "platform2": 153.5
+        },
+        {
+            "name": "Preston Road",
+            "groundLevel": 45,
+            "platform1": 141.1,
+            "platform2": 141.1
+        },
+        {
+            "name": "Rayners Lane",
+            "groundLevel": 55,
+            "platform1": 148.8,
+            "platform2": 148.8
+        },
+        {
+            "name": "Rickmansworth",
+            "groundLevel": 58,
+            "platform1": 157.6,
+            "platform2": 157.6
+        },
+        {
+            "name": "Ruislip",
+            "groundLevel": 46,
+            "platform1": 145.6,
+            "platform2": 145.6
+        },
+        {
+            "name": "Ruislip Manor",
+            "groundLevel": 44,
+            "platform1": 149.6,
+            "platform2": 149.6
+        },
+        {
+            "name": "Uxbridge",
+            "groundLevel": 40,
+            "platform1": 140.1,
+            "platform2": 140.1
+        },
+        {
+            "name": "Watford",
+            "groundLevel": 70,
+            "platform1": 164.8,
+            "platform2": 164.8
+        },
+        {
+            "name": "West Harrow",
+            "groundLevel": 53,
+            "platform1": 157.5,
+            "platform2": 157.5
+        }
+    ],
+    "northern": [
+        {
+            "name": "Angel",
+            "groundLevel": 34,
+            "platform1": 98.4,
+            "platform2": 98.4
+        },
+        {
+            "name": "Archway",
+            "groundLevel": 56,
+            "platform1": 134.9,
+            "platform2": 134.6
+        },
+        {
+            "name": "Balham",
+            "groundLevel": 26,
+            "platform1": 112.6,
+            "platform2": 112.6
+        },
+        {
+            "name": "Bank",
+            "groundLevel": 14,
+            "platform1": 84.4,
+            "platform2": 84.4
+        },
+        {
+            "name": "Belsize Park",
+            "groundLevel": 68,
+            "platform1": 132.0,
+            "platform2": 132.8
+        },
+        {
+            "name": "Borough",
+            "groundLevel": 4,
+            "platform1": 87.9,
+            "platform2": 85.2
+        },
+        {
+            "name": "Brent Cross",
+            "groundLevel": 48,
+            "platform1": 151.9,
+            "platform2": 151.9
+        },
+        {
+            "name": "Burnt Oak",
+            "groundLevel": 51,
+            "platform1": 147.0,
+            "platform2": 147.0
+        },
+        {
+            "name": "Camden Town",
+            "groundLevel": 27,
+            "platform1": 111.8,
+            "platform2": 108.4
+        },
+        {
+            "name": "Chalk Farm",
+            "groundLevel": 32,
+            "platform1": 118.2,
+            "platform2": 119.0
+        },
+        {
+            "name": "Charing Cross",
+            "groundLevel": 12,
+            "platform1": 91.6,
+            "platform2": 91.6
+        },
+        {
+            "name": "Clapham Common",
+            "groundLevel": 21,
+            "platform1": 100.8,
+            "platform2": 100.8
+        },
+        {
+            "name": "Clapham North",
+            "groundLevel": 13,
+            "platform1": 98.7,
+            "platform2": 98.7
+        },
+        {
+            "name": "Clapham South",
+            "groundLevel": 28,
+            "platform1": 110.1,
+            "platform2": 110.1
+        },
+        {
+            "name": "Colindale",
+            "groundLevel": 49,
+            "platform1": 144.0,
+            "platform2": 144.0
+        },
+        {
+            "name": "Colliers Wood",
+            "groundLevel": 12,
+            "platform1": 98.9,
+            "platform2": 98.9
+        },
+        {
+            "name": "East Finchley",
+            "groundLevel": 83,
+            "platform1": 187.4,
+            "platform2": 187.4
+        },
+        {
+            "name": "Edgware",
+            "groundLevel": 59,
+            "platform1": 154.6,
+            "platform2": 154.6
+        },
+        {
+            "name": "Elephant & Castle",
+            "groundLevel": 3,
+            "platform1": 84.6,
+            "platform2": 84.7
+        },
+        {
+            "name": "Embankment",
+            "groundLevel": 5,
+            "platform1": 88.6,
+            "platform2": 88.8
+        },
+        {
+            "name": "Euston",
+            "groundLevel": 25,
+            "platform1": 91.9,
+            "platform2": 92.6
+        },
+        {
+            "name": "Finchley Central",
+            "groundLevel": 87,
+            "platform1": 178.5,
+            "platform2": 178.5
+        },
+        {
+            "name": "Golders Green",
+            "groundLevel": 70,
+            "platform1": 173.1,
+            "platform2": 173.1
+        },
+        {
+            "name": "Goodge Street",
+            "groundLevel": 27,
+            "platform1": 98.1,
+            "platform2": 98.1
+        },
+        {
+            "name": "Hampstead",
+            "groundLevel": 108,
+            "platform1": 149.1,
+            "platform2": 149.9
+        },
+        {
+            "name": "Hendon Central",
+            "groundLevel": 64,
+            "platform1": 161.5,
+            "platform2": 161.5
+        },
+        {
+            "name": "High Barnet",
+            "groundLevel": 111,
+            "platform1": 198.4,
+            "platform2": 198.4
+        },
+        {
+            "name": "Highgate",
+            "groundLevel": 100,
+            "platform1": 162.7,
+            "platform2": 162.7
+        },
+        {
+            "name": "Kennington",
+            "groundLevel": 3,
+            "platform1": 87.1,
+            "platform2": 84.4
+        },
+        {
+            "name": "Kentish Town",
+            "groundLevel": 37,
+            "platform1": 115.9,
+            "platform2": 112.9
+        },
+        {
+            "name": "King's Cross St. Pancras",
+            "groundLevel": 17,
+            "platform1": 88.9,
+            "platform2": 88.9
+        },
+        {
+            "name": "Leicester Square",
+            "groundLevel": 20,
+            "platform1": 93.5,
+            "platform2": 93.5
+        },
+        {
+            "name": "London Bridge",
+            "groundLevel": 4,
+            "platform1": 80.4,
+            "platform2": 80.4
+        },
+        {
+            "name": "Mill Hill East",
+            "groundLevel": 65,
+            "platform1": 170.8,
+            "platform2": 170.8
+        },
+        {
+            "name": "Moorgate",
+            "groundLevel": 14,
+            "platform1": 88.7,
+            "platform2": 88.8
+        },
+        {
+            "name": "Morden",
+            "groundLevel": 18,
+            "platform1": 113.6,
+            "platform2": 113.6
+        },
+        {
+            "name": "Mornington Crescent",
+            "groundLevel": 24,
+            "platform1": 108.7,
+            "platform2": 108.7
+        },
+        {
+            "name": "Old Street",
+            "groundLevel": 17,
+            "platform1": 92.0,
+            "platform2": 92.0
+        },
+        {
+            "name": "Oval",
+            "groundLevel": 4,
+            "platform1": 89.9,
+            "platform2": 86.7
+        },
+        {
+            "name": "South Wimbledon",
+            "groundLevel": 14,
+            "platform1": 101.3,
+            "platform2": 101.3
+        },
+        {
+            "name": "Stockwell",
+            "groundLevel": 6,
+            "platform1": 92.2,
+            "platform2": 92.4
+        },
+        {
+            "name": "Tooting Bec",
+            "groundLevel": 28,
+            "platform1": 111.6,
+            "platform2": 111.6
+        },
+        {
+            "name": "Tooting Broadway",
+            "groundLevel": 16,
+            "platform1": 103.2,
+            "platform2": 103.2
+        },
+        {
+            "name": "Tottenham Court Road",
+            "groundLevel": 25,
+            "platform1": 94.3,
+            "platform2": 94.3
+        },
+        {
+            "name": "Totteridge & Whetstone",
+            "groundLevel": 75,
+            "platform1": 173.8,
+            "platform2": 173.8
+        },
+        {
+            "name": "Tufnell Park",
+            "groundLevel": 44,
+            "platform1": 125.0,
+            "platform2": 121.6
+        },
+        {
+            "name": "Warren Street",
+            "groundLevel": 27,
+            "platform1": 101.7,
+            "platform2": 101.6
+        },
+        {
+            "name": "Waterloo",
+            "groundLevel": 4,
+            "platform1": 82.8,
+            "platform2": 82.8
+        },
+        {
+            "name": "West Finchley",
+            "groundLevel": 78,
+            "platform1": 177.3,
+            "platform2": 177.3
+        },
+        {
+            "name": "Woodside Park",
+            "groundLevel": 76,
+            "platform1": 174.3,
+            "platform2": 174.3
+        }
+    ],
+    "piccadilly": [
+        {
+            "name": "Turnham Green",
+            "groundLevel": 5,
+            "platform1": 110.9,
+            "platform2": 110.9
+        },
+        {
+            "name": "Acton Town",
+            "groundLevel": 21,
+            "platform1": 115.5,
+            "platform2": 115.5
+        },
+        {
+            "name": "Alperton",
+            "groundLevel": 33,
+            "platform1": 139.8,
+            "platform2": 139.8
+        },
+        {
+            "name": "Arnos Grove",
+            "groundLevel": 43,
+            "platform1": 137.6,
+            "platform2": 137.6
+        },
+        {
+            "name": "Arsenal",
+            "groundLevel": 25,
+            "platform1": 116.8,
+            "platform2": 116.8
+        },
+        {
+            "name": "Barons Court",
+            "groundLevel": 4.6,
+            "platform1": 102.1,
+            "platform2": 102.3
+        },
+        {
+            "name": "Boston Manor",
+            "groundLevel": 25,
+            "platform1": 119.4,
+            "platform2": 119.4
+        },
+        {
+            "name": "Bounds Green",
+            "groundLevel": 47,
+            "platform1": 130.8,
+            "platform2": 130.8
+        },
+        {
+            "name": "Caledonian Road",
+            "groundLevel": 36,
+            "platform1": 112.9,
+            "platform2": 112.9
+        },
+        {
+            "name": "Cockfosters",
+            "groundLevel": 98,
+            "platform1": 194.0,
+            "platform2": 194.0
+        },
+        {
+            "name": "Covent Garden",
+            "groundLevel": 23,
+            "platform1": 86.0,
+            "platform2": 86.0
+        },
+        {
+            "name": "Earl's Court",
+            "groundLevel": 8,
+            "platform1": 87.4,
+            "platform2": 87.4
+        },
+        {
+            "name": "Finsbury Park",
+            "groundLevel": 32,
+            "platform1": 123.9,
+            "platform2": 123.9
+        },
+        {
+            "name": "Gloucester Road",
+            "groundLevel": 7,
+            "platform1": 87.4,
+            "platform2": 87.4
+        },
+        {
+            "name": "Green Park",
+            "groundLevel": 18,
+            "platform1": 91.5,
+            "platform2": 91.5
+        },
+        {
+            "name": "Hammersmith",
+            "groundLevel": 5,
+            "platform1": 100.4,
+            "platform2": 100.4
+        },
+        {
+            "name": "Hatton Cross",
+            "groundLevel": 22,
+            "platform1": 113.4,
+            "platform2": 113.4
+        },
+        {
+            "name": "Heathrow Terminals 1-3",
+            "groundLevel": 23, 
+            "platform1": 109.6,
+            "platform2": 109.6
+        },
+        {
+            "name": "Heathrow Terminal 4",
+            "groundLevel": 23, 
+            "platform1": 112.9,
+            "platform2": 112.9
+        },
+        {
+            "name": "Heathrow Terminal 5",
+            "groundLevel": 23,
+            "platform1": 110.3,
+            "platform2": 110.3
+        },
+        {
+            "name": "Holborn",
+            "groundLevel": 23,
+            "platform1": 88.3,
+            "platform2": 81.9
+        },
+        {
+            "name": "Holloway Road",
+            "groundLevel": 29,
+            "platform1": 115.4,
+            "platform2": 115.4
+        },
+        {
+            "name": "Hounslow Central",
+            "groundLevel": 20,
+            "platform1": 124.9,
+            "platform2": 124.9
+        },
+        {
+            "name": "Hounslow East",
+            "groundLevel": 20,
+            "platform1": 125.8,
+            "platform2": 125.8
+        },
+        {
+            "name": "Hounslow West",
+            "groundLevel": 23,
+            "platform1": 117.7,
+            "platform2": 117.7
+        },
+        {
+            "name": "Hyde Park Corner",
+            "groundLevel": 16,
+            "platform1": 88.9,
+            "platform2": 88.9
+        },
+        {
+            "name": "King's Cross St. Pancras",
+            "groundLevel": 17,
+            "platform1": 94.4,
+            "platform2": 94.4
+        },
+        {
+            "name": "Knightsbridge",
+            "groundLevel": 9,
+            "platform1": 86.7,
+            "platform2": 86.7
+        },
+        {
+            "name": "Leicester Square",
+            "groundLevel": 20,
+            "platform1": 86.8,
+            "platform2": 86.8
+        },
+        {
+            "name": "Manor House",
+            "groundLevel": 38,
+            "platform1": 119.5,
+            "platform2": 119.5
+        },
+        {
+            "name": "North Ealing",
+            "groundLevel": 36,
+            "platform1": 132.5,
+            "platform2": 132.5
+        },
+        {
+            "name": "Northfields",
+            "groundLevel": 24,
+            "platform1": 119.3,
+            "platform2": 119.3
+        },
+        {
+            "name": "Oakwood",
+            "groundLevel": 88,
+            "platform1": 181.8,
+            "platform2": 181.8
+        },
+        {
+            "name": "Osterley",
+            "groundLevel": 30,
+            "platform1": 124.2,
+            "platform2": 124.2
+        },
+        {
+            "name": "Park Royal",
+            "groundLevel": 47,
+            "platform1": 142.2,
+            "platform2": 142.2
+        },
+        {
+            "name": "Piccadilly Circus",
+            "groundLevel": 19,
+            "platform1": 86.8,
+            "platform2": 86.8
+        },
+        {
+            "name": "Russell Square",
+            "groundLevel": 23,
+            "platform1": 89.8,
+            "platform2": 89.8
+        },
+        {
+            "name": "South Ealing",
+            "groundLevel": 24,
+            "platform1": 120.3,
+            "platform2": 120.3
+        },
+        {
+            "name": "South Harrow",
+            "groundLevel": 61,
+            "platform1": 166.8,
+            "platform2": 166.8
+        },
+        {
+            "name": "South Kensington",
+            "groundLevel": 7,
+            "platform1": 89.1,
+            "platform2": 83.5
+        },
+        {
+            "name": "Southgate",
+            "groundLevel": 71,
+            "platform1": 160.2,
+            "platform2": 160.2
+        },
+        {
+            "name": "Sudbury Hill",
+            "groundLevel": 60,
+            "platform1": 154.2,
+            "platform2": 154.2
+        },
+        {
+            "name": "Sudbury Town",
+            "groundLevel": 48,
+            "platform1": 147.6,
+            "platform2": 147.6
+        },
+        {
+            "name": "Turnpike Lane",
+            "groundLevel": 21,
+            "platform1": 106.3,
+            "platform2": 106.3
+        },
+        {
+            "name": "Wood Green",
+            "groundLevel": 25,
+            "platform1": 113.6,
+            "platform2": 113.6
+        }
+    ],
+    "victoria": [
+        {
+            "name": "Blackhorse Road",
+            "groundLevel": 12,
+            "platform1": 96.5,
+            "platform2": 96.4
+        },
+        {
+            "name": "Brixton",
+            "groundLevel": 14,
+            "platform1": 94.8,
+            "platform2": 94.8
+        },
+        {
+            "name": "Euston",
+            "groundLevel": 25,
+            "platform1": 92.5,
+            "platform2": 92.5
+        },
+        {
+            "name": "Finsbury Park",
+            "groundLevel": 32,
+            "platform1": 123.5,
+            "platform2": 123.4
+        },
+        {
+            "name": "Green Park",
+            "groundLevel": 18,
+            "platform1": 94.5,
+            "platform2": 95.3
+        },
+        {
+            "name": "Highbury & Islington",
+            "groundLevel": 34,
+            "platform1": 117.8,
+            "platform2": 117.9
+        },
+        {
+            "name": "King's Cross St. Pancras",
+            "groundLevel": 17,
+            "platform1": 99.9,
+            "platform2": 99.9
+        },
+        {
+            "name": "Oxford Circus",
+            "groundLevel": 27,
+            "platform1": 104.1,
+            "platform2": 104.1
+        },
+        {
+            "name": "Pimlico",
+            "groundLevel": 5,
+            "platform1": 83.9,
+            "platform2": 83.9
+        },
+        {
+            "name": "Seven Sisters",
+            "groundLevel": 11,
+            "platform1": 93.0,
+            "platform2": 93.0
+        },
+        {
+            "name": "Stockwell",
+            "groundLevel": 6,
+            "platform1": 92.2,
+            "platform2": 92.4
+        },
+        {
+            "name": "Tottenham Hale",
+            "groundLevel": 11,
+            "platform1": 91.8,
+            "platform2": 91.7
+        },
+        {
+            "name": "Vauxhall",
+            "groundLevel": 4,
+            "platform1": 86.3,
+            "platform2": 86.3
+        },
+        {
+            "name": "Victoria",
+            "groundLevel": 4.6,
+            "platform1": 85.2,
+            "platform2": 85.2
+        },
+        {
+            "name": "Walthamstow Central",
+            "groundLevel": 24,
+            "platform1": 106.9,
+            "platform2": 106.7
+        },
+        {
+            "name": "Warren Street",
+            "groundLevel": 27,
+            "platform1": 96.1,
+            "platform2": 96.1
+        }
+    ],
+    "waterlooandcity": [
+        {
+            "name": "Bank",
+            "groundLevel": 14,
+            "platform1": 94.0,
+            "platform2": 94.0
+        },
+        {
+            "name": "Waterloo",
+            "groundLevel": 4,
+            "platform1": 98.2,
+            "platform2": 98.2
+        }
+    ]
+}
